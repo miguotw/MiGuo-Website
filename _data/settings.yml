@@ -4,7 +4,7 @@ title: 米淉MiGuo
 logo: "/images/main/logo.png" # You can add own logo. For example '/images/logo.png'.
 logo_dark: "/images/main/logo.png"
 description: Baleon is a stylish and multifunctional theme for Jekyll
-color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------

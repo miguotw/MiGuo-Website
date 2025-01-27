@@ -1,77 +1,107 @@
 #-------------------------------
-# Site Settings
-title: Baleon
-logo: "/images/logo.svg" # You can add own logo. For example '/images/logo.png'.
-logo_dark: "/images/logo-dark.svg"
+# 網站設定 Site Settings
+title: 米淉MiGuo
+logo: "/images/main/logo.png" # You can add own logo. For example '/images/logo.png'.
+logo_dark: "/images/main/logo.png"
 description: Baleon is a stylish and multifunctional theme for Jekyll
-color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
 #-------------------------------
-# Navigation Settings
+# 導航設定 Navigation Settings
 menu_settings:
   menu_items:
-    - title: 'Home'
+    - title: '首頁'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Blog'
+
+    - title: '插畫作品'
       url: '/blog/'
-    - title: 'About'
-      url: '/about/'
-    - title: 'Elements'
-      url: '/elements/'
+
+    - title: '其他專案'
+      url: '/projects/'
 
 
-# Call to action button
+
+    #- title: '關於'
+    #  url: '/about/'
+    
+    #- title: '元素'
+    #  url: '/elements/'
+
+
+# 號召行動按鈕 Call to action button
 cta_button:
-  enable: true
+  enable: false
   cta_button_link: "/contact/"
   cta_button_text: Say Hello!
 
 
 #-------------------------------
-# Author Settings
+# 作者設定 Author Settings
 author:
-  author_intro: Hey, I’m Kevin Jones
-  author_name: Kevin Jones
-  author_role: Product Designer
-  author_avatar: /images/01.jpg
+  author_intro: #米淉 MiGuo
+  author_name: #米淉 MiGuo
+  author_role: # Illustrator
+  author_avatar: /images/main/avatar_150px.gif
 
 
 #-------------------------------
-# Sidebar Section Settings
+# 側邊欄部分設置 Sidebar Section Settings
 sidebar:
-  sidebar_title: One Stop Daily <em>News,</em> <em>Article,</em> <em>Inspiration</em>. # You can add an 'em' element to highlight text.
-  sidebar_description: Welcome to a unique world of creativity and innovation! Here you'll find engaging articles, helpful tips, and captivating stories from the realms of design.
+  sidebar_title: 米淉 MiGuo # You can add an 'em' element to highlight text.
+  sidebar_description: <p>喜歡畫可愛的女孩子～　ฅ^•ﻌ•^ฅ<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～</p>
 
 
-# Social Links
+# 社群連結 Social Links
 social:
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
-- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
-- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
-- {icon: "fa-brands fa-spotify", name: "Spotify", link: "https://spotify.com"}
-- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com"}
+- {icon: "fa-brands fa-pixiv", name: "pixiv", link: "https://www.pixiv.net/users/25343499"}
+- {icon: "fa-brands fa-twitter", name: "X", link: "https://x.com/miguo_tw"}
+- {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/miguo-art.bsky.social"}
+- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://www.facebook.com/miguotw"}
+- {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/miguotw"}
+- {icon: "fa-brands fa-youtube", name: "YouTube", link: "https://www.youtube.com/@miguo_tw"}
+- {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/invite/krSbg8ZrVx"}
+#- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
+#- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
+#- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
+#- {icon: "fa-brands fa-spotify", name: "Spotify", link: "https://spotify.com"}
+#- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
 # Other icons can be found at https://fontawesome.com/icons
 
+#-------------------------------
+# 畫廊設置 Gallery Settings
+gallery:
+  enable: true
+  gallery_title: 精選插畫作品 # You can add an 'em' element to highlight text.
+  gallery_description: 進入我的視覺世界，每張圖像都訴說著一個故事。
+  gallery_caption:
+
+gallery_images:
+  - alt: 'Together'
+    url: '/images/gallery/13_noise_A002.png'
+  - alt: 'Together'
+    url: '/images/gallery/109006777_p0.png'
 
 #-------------------------------
-# Projects Settings
+# 插畫作品 Blog Section Settings
+blog:
+  enable: true
+  blog_title: 插畫作品 # You can add an 'em' element to highlight text.
+  blog_description: 進入我的視覺世界，每張圖像都訴說著一個故事。
+
+#-------------------------------
+# 其他專案 Projects Settings
 projects:
   enable: true
-  projects_title: Product Design <em>Showcase</em> # You can add an 'em' element to highlight text.
-  projects_description: I present my top-tier projects, meticulously crafted with unwavering passion, simplicity, boundless creativity, and unparalleled attention to detail.
-
+  projects_title: 其他專案 # You can add an 'em' element to highlight text.
+  projects_description: 進入我的視覺世界，每張圖像都訴說著一個故事。
 
 #-------------------------------
 # Testimonials Settings
 testimonials:
-  enable: true
+  enable: false
   testimonials_title: Trusted by <em>Professionals</em> # You can add an 'em' element to highlight text.
   testimonials_description: Join our community of creative professionals where you can develop your talents and reach new heights in design.
 
@@ -91,19 +121,10 @@ testimonial-items:
     designation : IT Support Specialist
     content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
 
-
 #-------------------------------
-# Blog Section Settings
-blog:
-  enable: true
-  blog_title: Latest <em>Articles</em> & <em>Publications</em> # You can add an 'em' element to highlight text.
-  blog_description: Discover the latest industry news, insights, and trends in a few clicks.
-
-
-#-------------------------------
-# Faq (Frequently asked questions) Settings
+# 常見問題設定 Faq (Frequently asked questions) Settings
 faq:
-  enable: true
+  enable: false
   faq_title: Questions? <em>Answers</em>. # You can add an 'em' element to highlight text.
   faq_description: Find solutions to common queries here.
 
@@ -126,28 +147,10 @@ faq_items:
   - title: How can I contact you to discuss my project?
     description: You can contact me through the contact form on my website or directly via email. I'm always open to new projects and ready to discuss your idea.
 
-
 #-------------------------------
-# Gallery Settings
-gallery:
-  enable: true
-  gallery_title: A Visual Journey Through <em>My World</em> # You can add an 'em' element to highlight text.
-  gallery_description: Step into my visual world where each image tells a story. From the bustling streets of urban landscapes to the serene beauty of nature, explore the moments that inspire and define my journey.
-  gallery_caption:
-
-gallery_images:
-  - alt: 'Together'
-    url: '/images/100.jpg'
-  - alt: 'Lifestyle'
-    url: '/images/101.jpg'
-  - alt: 'Friends'
-    url: '/images/102.jpg'
-
-
-#-------------------------------
-# Newsletter Settings
+# 簡訊設定 Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_title: Subscribe to Our <em>Newsletter</em> # You can add an 'em' element to highlight text.
   mailchimp_description: Join now and never miss out on our stuff again. Because you are worth it!
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
@@ -156,7 +159,7 @@ mailchimp:
 
 
 #-------------------------------
-# Contact Settings
+# 聯絡方式 Contact Settings
 contact:
   email: your@email.com # Add your form_id
   description: Baleon comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form

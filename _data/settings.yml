@@ -20,8 +20,6 @@ menu_settings:
     - title: '其他專案'
       url: '/projects/'
 
-
-
     #- title: '關於'
     #  url: '/about/'
     
@@ -31,9 +29,9 @@ menu_settings:
 
 # 號召行動按鈕 Call to action button
 cta_button:
-  enable: false
-  cta_button_link: "/contact/"
-  cta_button_text: Say Hello!
+  enable: true
+  cta_button_link: "https://miguo.fanbox.cc/"
+  cta_button_text: pixiv FANBOX
 
 
 #-------------------------------

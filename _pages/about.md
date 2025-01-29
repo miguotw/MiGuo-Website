@@ -2,7 +2,7 @@
 layout: page
 title: 關於我 <em>About Me</em>
 permalink: /about/
-image: '/images/about/cover.jpg'
+image: '/images/main/cover.jpg'
 ---
 Hello there! Welcome to my corner of the digital world. My name is Kevin, and I am a passionate Product Designer with a flair for crafting exceptional user experiences. I believe that design is not just about aesthetics but a powerful tool to make a positive impact on people’s lives. Beyond just aesthetics, I am deeply committed to designing for impact. Whether it’s improving daily routines, enhancing productivity, or fostering connections.
 

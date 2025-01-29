@@ -62,7 +62,7 @@ layout: default
     {% if page.previous.url %}
     <div class="post__navigation">
       <a class="post__navigation__prev" href="{{ page.previous.url | relative_url }}">
-        <h3 class="post__navigation__info">Explore <em>Next</em></h3>
+        <h3 class="post__navigation__info">探索下一步 <em>Explore Next</em></h3>
         <h4 class="post__navigation__title">{{ page.previous.title }}</h4>
       </a>
     </div>
@@ -75,7 +75,7 @@ layout: default
   {% if filtered-projects.size > 0 %}
   <!-- begin post related -->
   <div class="post__related">
-    <h2 class="post__related__title">Other <em>Projects</em></h2>
+    <h2 class="post__related__title">其他專案 <em>Other Projects</em></h2>
     <div class="row">
     {% assign relatedCount = 0 %}
     {% for project in project-collection %}

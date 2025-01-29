@@ -1,7 +1,7 @@
 /* Color Scheme */
 // You can generate any color here - https://htmlcolorcodes.com
 
-:root {
+:root[dark] {
   --brand-color: #f8b745;
   --white: #fff;
   --light-gray: #e5e5e5;
@@ -40,7 +40,7 @@
   --syntax-highlighting-background: #f3f3f3;
 }
 
-:root[dark] {
+:root {
   --brand-color: #f8b745;
   --white: #fff;
   --light-gray: #f0f0f0;

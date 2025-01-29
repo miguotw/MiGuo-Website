@@ -34,9 +34,9 @@
         <span class="article__minutes">
           {% assign words = post.content | number_of_words %}
           {% if words < 360 %}
-            1 min read
-          {% else %}
-            {{ words | divided_by:180 }} min read
+            1 分鐘閱讀
+          {% else %}ㄋ
+            {{ words | divided_by:180 }} 分鐘閱讀
           {% endif %}
         </span>
       </div>

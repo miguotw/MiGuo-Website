@@ -9,7 +9,7 @@ layout: default
     <div class="post-info">
       <h1 class="post-title">{{ page.title }}</h1>
       <div class="post-meta">
-        Published in
+        發表於
         {% if page.tags.size >= 1 %}
         <div class="post-tags">
           {% for tag in page.tags %}
@@ -23,9 +23,9 @@ layout: default
         <div class="post-minutes">
           {% assign words = page.content | number_of_words %}
           {% if words < 360 %}
-            1 min read
+            1 分鐘閱讀
           {% else %}
-            {{ words | divided_by:180 }} min read
+            {{ words | divided_by:180 }} 分鐘閱讀
           {% endif %}
         </div>
       </div>
@@ -40,9 +40,10 @@ layout: default
     {% else %}
 
     {% if page.image %}
+    <!--
     <div class="post-image">
       <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-    </div>
+    </div>-->
     {% endif %}
     {% endif %}
   </div>
@@ -76,7 +77,7 @@ layout: default
     {% if page.previous.url %}
     <div class="post__navigation">
       <a class="post__navigation__prev" href="{{ page.previous.url | relative_url }}">
-        <h3 class="post__navigation__info">Explore <em>Next</em></h3>
+        <h3 class="post__navigation__info">探索下一步 <em>Explore Next</em></h3>
         <h4 class="post__navigation__title">{{ page.previous.title }}</h4>
       </a>
     </div>
@@ -110,7 +111,7 @@ layout: default
   {% if related == true %}
   <!-- begin post related -->
   <div class="post__related">
-    <h2 class="post__related__title">Related <em>Articles</em></h2>
+    <h2 class="post__related__title">插畫作品 <em>Illustration Works</em></h2>
     <div class="row">
       {% for post in site.posts %}
         {% assign sameTagCount = 0 %}

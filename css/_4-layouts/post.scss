@@ -192,6 +192,43 @@
       pointer-events: none;
       user-select: none;
     }
+
+    .note, .tip, .important, .warning, .caution {
+      position: relative;
+      padding: 32px 32px 32px 64px;
+      font-family: $base-font-family;
+      font-size: 18px;
+      border-radius: 8px;
+      color: var(--heading-font-color);
+
+      &::after {
+        content: "\1F4A1";
+        position: absolute;
+        top: 32px;
+        left: 32px;
+        display: block;
+      }
+    }
+
+    .note {
+      background: var(--callout-note);
+    }
+
+    .tip {
+      background: var(--callout-tip);
+    }
+
+    .important {
+      background: var(--callout-important);
+    }
+
+    .warning {
+      background: var(--callout-warning);
+    }
+
+    .caution {
+      background: var(--callout-caution);
+    }
   }
 
   @media (max-width: $desktop) {

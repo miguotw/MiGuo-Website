@@ -68,6 +68,7 @@ social:
 # Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
 # Other icons can be found at https://fontawesome.com/icons
 
+
 #-------------------------------
 # 畫廊設置 Gallery Settings
 gallery:
@@ -92,6 +93,7 @@ gallery_images:
   #- alt: 'あなたのプレゼント！🎀✨'
   #  url: '/images/gallery/127752279_p0.jpg'
 
+
 #-------------------------------
 # 插畫作品 Blog Section Settings
 blog:
@@ -99,12 +101,14 @@ blog:
   blog_title: 插畫作品　<em>Illustration Works</em> # You can add an 'em' element to highlight text.
   blog_description: 這裡收錄一些我的插畫作品，<br>這些作品通常也可以在 <a href="https://www.pixiv.net/users/25343499">pixiv (ピクシブ)</a> 上查看。
 
+
 #-------------------------------
 # 其他專案 Projects Settings
 projects:
   enable: true
   projects_title: 其他專案　<em>Other Projects</em> # You can add an 'em' element to highlight text.
   projects_description: 其他一些東東。好吧，我想不到了。
+
 
 #-------------------------------
 # Testimonials Settings
@@ -128,6 +132,7 @@ testimonial-items:
     image: "/images/client-3.jpg"
     designation : IT Support Specialist
     content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
+
 
 #-------------------------------
 # 常見問題設定 Faq (Frequently asked questions) Settings
@@ -154,6 +159,7 @@ faq_items:
 
   - title: How can I contact you to discuss my project?
     description: You can contact me through the contact form on my website or directly via email. I'm always open to new projects and ready to discuss your idea.
+
 
 #-------------------------------
 # 簡訊設定 Newsletter Settings

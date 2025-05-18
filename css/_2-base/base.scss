@@ -158,6 +158,47 @@ pre {
   word-wrap: break-word;
   word-break: break-all;
   color: var(--heading-font-color);
+
+  &.highlight {
+    &:hover {
+      button {
+        opacity: 1;
+      }
+    }
+  }
+
+  &.highlight>button {
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+      background: var(--button-background-hover);
+    }
+  }
+
+  &.highlight>button:active,
+  &.highlight>button:focus {
+    opacity: 1;
+  }
+
+  button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 8px 12px;
+    border-radius: 60px;
+    font-family: $base-font-family;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    color: var(--button-color);
+    background: var(--dark);
+    opacity: 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
 }
 
 img,

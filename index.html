@@ -21,15 +21,16 @@ image: '/images/main/cover.jpg'
 </div>
 
 <!-- 引入 OhMyLive2D -->
-<!--
 <script src="https://unpkg.com/oh-my-live2d@latest"></script>
 <script>
   OML2D.loadOml2d({
     dockedPosition: 'right',
     primaryColor: '#1a1a1a',
+    mobileDisplay: false,
     
     tips: {
-      messageLine: 2,
+      messageLine: 3,
+      style: { width: '60%', height: 100, marginLeft: '1%' },
       copyTips: {
         duration: 2000,
         message: ["複製了什麼內容呢？記得要註明出處喔～"],
@@ -61,13 +62,13 @@ image: '/images/main/cover.jpg'
     },
 
     models: [
-      {
-        path: 'https://model.hacxy.cn/HK416-1-normal/model.json',
-        position: [0, 60],
-        scale: 0.08,
-        stageStyle: { height: 400 }
+      { 
+        path: 'assets/MituruMiguoArt_43/MituruMiGuoArt_43.model3.json',
+        position: [0, 98],
+        scale: 0.12,
+        stageStyle: { width: 230, height: 450 },
+        rotation: 0,
       }
     ]
   });
 </script>
--->

@@ -3,7 +3,7 @@ title: 【Live2D】猫又みつる
 date: 2025-05-31 00:00:00 +0800
 subtitle: Live2D
 image: '/assets/images/project/【Live2D】猫又みつる/cover.gif'
-video_embed: https://www.youtube.com/embed/jDyK6E1Iuf4
+video_embed: https://www.youtube.com/embed/jDyK6E1Iuf4?autoplay=1
 ---
 
 ***

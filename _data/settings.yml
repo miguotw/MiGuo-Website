@@ -1,8 +1,8 @@
 #-------------------------------
 # 網站設定 Site Settings
 title: 米淉 MiGuo
-logo: "/images/main/logo_light.png" # You can add own logo. For example '/images/logo.png'.
-logo_dark: "/images/main/logo_dark.png"
+logo: "/assets/images/main/logo_light.png" # You can add own logo. For example '/assets/images/logo.png'.
+logo_dark: "/assets/images/main/logo_dark.png"
 description: 喜歡畫可愛的女孩子～如果有任何委託的需求，歡迎來信詢問～
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -40,7 +40,7 @@ author:
   author_intro: 米淉 MiGuo
   author_name: 米淉 MiGuo
   author_role: # Illustrator
-  author_avatar: /images/main/avatar_150px.gif
+  author_avatar: /assets/images/main/avatar_150px.gif
 
 
 #-------------------------------
@@ -79,19 +79,19 @@ gallery:
 
 gallery_images:
   - alt: '旧正月おめでとう！🪭✨'
-    url: '/images/gallery/126522361_p0.jpg'
+    url: '/assets/images/gallery/126522361_p0.jpg'
 
   - alt: '小悪魔常闇トワ👿✨💖'
-    url: '/images/gallery/126083127_p0.jpg'
+    url: '/assets/images/gallery/126083127_p0.jpg'
 
   - alt: '下江コハル'
-    url: '/images/gallery/111714463_p0.jpg'
+    url: '/assets/images/gallery/111714463_p0.jpg'
 
   #- alt: 'バレンタインミニゲーム！💖🖌️'
-  #  url: '/images/gallery/A0201@B5.jpg'
+  #  url: '/assets/images/gallery/A0201@B5.jpg'
 
   #- alt: 'あなたのプレゼント！🎀✨'
-  #  url: '/images/gallery/127752279_p0.jpg'
+  #  url: '/assets/images/gallery/127752279_p0.jpg'
 
 
 #-------------------------------
@@ -119,17 +119,17 @@ testimonials:
 
 testimonial-items:
   - name: Amelia Jones
-    image: "/images/client-1.jpg"
+    image: "/assets/images/client-1.jpg"
     designation : Network Engineer
     content : This product designer is an expert in his field. His ability to understand the needs of clients and create designs that satisfy them is astounding.
 
   - name: Ethan Robinson
-    image: "/images/client-2.jpg"
+    image: "/assets/images/client-2.jpg"
     designation : Blockchain Developer
     content : Kevin is a true visionary in the field of product design. His ability to think outside the box and push boundaries is what sets him apart from the rest.
 
   - name: Matthew Garcia
-    image: "/images/client-3.jpg"
+    image: "/assets/images/client-3.jpg"
     designation : IT Support Specialist
     content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
 

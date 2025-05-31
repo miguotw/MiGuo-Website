@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 permalink: /elements/
-image: '/images/15.jpg'
+image: '/assets/images/15.jpg'
 ---
 A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
 
@@ -151,25 +151,25 @@ li {
 
 ## Images
 
-![Mackbook](/images/15-1.jpg#wide)
+![Mackbook](/assets/images/15-1.jpg#wide)
 *Photo by [Andrea De Santis](https://unsplash.com/@santesson89) on [Unsplash](https://unsplash.com/photos/logo-KDWtCj_-Cwc)*
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/07-1.jpg" loading="lazy">
-    <img src="/images/04-3.jpg" loading="lazy">
-    <img src="/images/07-2.jpg" loading="lazy">
-    <img src="/images/02-1.jpg" loading="lazy">
-    <img src="/images/07-3.jpg" loading="lazy">
-    <img src="/images/02-3.jpg" loading="lazy">
-    <img src="/images/02-2.jpg" loading="lazy">
-    <img src="/images/04-2.jpg" loading="lazy">
-    <img src="/images/04-1.jpg" loading="lazy">
+    <img src="/assets/images/07-1.jpg" loading="lazy">
+    <img src="/assets/images/04-3.jpg" loading="lazy">
+    <img src="/assets/images/07-2.jpg" loading="lazy">
+    <img src="/assets/images/02-1.jpg" loading="lazy">
+    <img src="/assets/images/07-3.jpg" loading="lazy">
+    <img src="/assets/images/02-3.jpg" loading="lazy">
+    <img src="/assets/images/02-2.jpg" loading="lazy">
+    <img src="/assets/images/04-2.jpg" loading="lazy">
+    <img src="/assets/images/04-1.jpg" loading="lazy">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![iPhone](/images/03-1.jpg)
+![iPhone](/assets/images/03-1.jpg)
 *Photo by [ Anh Nhat](https://unsplash.com/@anhnhat1205) on [Unsplash](https://unsplash.com/photos/black-cat-figurine-beside-black-speaker-syrA30Aze2U)*
 
 ***

@@ -2,7 +2,7 @@
 title: 台北捷運站牌包【Minecraft】
 date: 2021-01-01 00:00:00 +0800
 subtitle: Minecraft
-image: '/images/project/台北捷運站牌包【Minecraft】/cover.jpg'
+image: '/assets/images/project/台北捷運站牌包【Minecraft】/cover.jpg'
 ---
 
 ***
@@ -28,13 +28,13 @@ image: '/images/project/台北捷運站牌包【Minecraft】/cover.jpg'
 ## 預覽 <em>Preview</em>
 更多內容，請下載後體驗！
 
-![image](/images/project/台北捷運站牌包【Minecraft】/001.jpg)
+![image](/assets/images/project/台北捷運站牌包【Minecraft】/001.jpg)
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/project/台北捷運站牌包【Minecraft】/002.jpg" loading="lazy">
-    <img src="/images/project/台北捷運站牌包【Minecraft】/003.jpg" loading="lazy">
-    <img src="/images/project/台北捷運站牌包【Minecraft】/004.jpg" loading="lazy">
+    <img src="/assets/images/project/台北捷運站牌包【Minecraft】/002.jpg" loading="lazy">
+    <img src="/assets/images/project/台北捷運站牌包【Minecraft】/003.jpg" loading="lazy">
+    <img src="/assets/images/project/台北捷運站牌包【Minecraft】/004.jpg" loading="lazy">
   </div>
 </div>
 

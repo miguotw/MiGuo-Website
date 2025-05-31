@@ -47,8 +47,8 @@ image: '/assets/images/project/【Minecraft】台北捷運站牌包/cover.jpg'
 - 允許透過此網站分享，但禁止二次上架於其他網站，包含但不限於:論壇、社團、個人網站、影片資訊欄、或其他類型的網站。
 
 <div class="button-group">
-    <a href="https://drive.google.com/file/d/1pOVHh4HK3qv0CKOjtEwl2SwZKWlTWSKX/view?usp=sharing" class="button" target="_blank">透過 Google Drive 下載　<i class="fa-brands fa-google-drive"></i></a>　
-    <a href="https://www.dropbox.com/scl/fi/hfmi7e2xii7at6xonepun/RTM-Taiwan_MRT_Signboard-v1.2.zip?rlkey=xz08n9k1xhs3wmpevefsd2oo4&st=k0c7h751&dl=1" class="button" target="_blank">透過 Dropbox 下載　<i class="fa-brands fa-dropbox"></i></a>　
+    <a class="button" href="https://drive.google.com/file/d/1pOVHh4HK3qv0CKOjtEwl2SwZKWlTWSKX/view?usp=sharing"><i class="fa-brands fa-google-drive"></i>　透過 Google Drive 下載</a>
+    <a class="button" href="https://www.dropbox.com/scl/fi/hfmi7e2xii7at6xonepun/RTM-Taiwan_MRT_Signboard-v1.2.zip?rlkey=xz08n9k1xhs3wmpevefsd2oo4&st=k0c7h751&dl=1"><i class="fa-brands fa-dropbox"></i>　透過 Dropbox 下載</a>
 </div>
 
 ***

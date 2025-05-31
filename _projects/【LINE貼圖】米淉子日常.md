@@ -10,7 +10,7 @@ image: '/assets/images/project/【LINE貼圖】米淉子日常/cover.jpg'
 ## LINE貼圖「米淉子日常」發售中！
 
 <div class="button-group">
-    <a href="https://line.me/S/sticker/27135771" class="button" target="_blank">前往 LINE STORE 購買！<i class="fa-solid fa-cart-shopping"></i></a>　
+    <a class="button" href="https://line.me/S/sticker/27135771" ><i class="fa-solid fa-cart-shopping"></i>　前往 LINE STORE 購買！</a>　
 </div>
 
 ***

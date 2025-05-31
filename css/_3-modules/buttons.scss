@@ -68,3 +68,10 @@
     width: 100%;
   }
 }
+
+.button-group {
+  display: flex;
+  gap: 1rem; // 按鈕之間的間距
+  flex-wrap: wrap; // 如果在小螢幕上超出會自動換行
+  margin-bottom: 2rem; // 調整與下方的間距
+}

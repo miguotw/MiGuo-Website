@@ -80,20 +80,14 @@ gallery:
   gallery_caption:
 
 gallery_images:
+  - alt: 'おやすみ〜💕🌙'
+    url: '/assets/images/gallery/5_noise_08_N01.jpg'
+
   - alt: '旧正月おめでとう！🪭✨'
     url: '/assets/images/gallery/126522361_p0.jpg'
 
-  - alt: '小悪魔常闇トワ👿✨💖'
-    url: '/assets/images/gallery/126083127_p0.jpg'
-
   - alt: '下江コハル'
     url: '/assets/images/gallery/111714463_p0.jpg'
-
-  #- alt: 'バレンタインミニゲーム！💖🖌️'
-  #  url: '/assets/images/gallery/A0201@B5.jpg'
-
-  #- alt: 'あなたのプレゼント！🎀✨'
-  #  url: '/assets/images/gallery/127752279_p0.jpg'
 
 
 #-------------------------------

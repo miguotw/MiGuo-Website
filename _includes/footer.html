@@ -30,7 +30,20 @@
       <div class="col col-12">
         <div class="footer__info">
 
-          <div class="copyright"><a href="mailto:creative@miguo.art">聯繫作者</a>  |  <a href="https://jekyllthemes.io/theme/baleon-portfolio-jekyll-theme">引用資源</a>  |  <a href="https://stats.uptimerobot.com/pXP0xIQNoE">服務狀態</a><br>Copyright &copy; {{site.time | date: '%Y'}} <a href="/">{{site.data.settings.title}}</a>. All rights reserved.</a></div>
+          <div class="copyright">  
+            <a href="mailto:creative@miguo.art">聯繫作者</a> |
+            <a href="https://jekyllthemes.io/theme/baleon-portfolio-jekyll-theme">引用資源</a> |
+            <a href="https://stats.uptimerobot.com/pXP0xIQNoE">服務狀態</a>
+            <br>
+
+            <span>
+              Copyright &copy; {{ site.time | date: '%Y' }}
+              <a href="/">{{ site.data.settings.title }}</a>. All rights reserved.
+            </span>
+            <br>
+
+            <p>Not authorized for AI training or generative use.</p>
+          </div>
 
           {% if page.url != '/' and site.data.settings.social %}
           <div class="social">

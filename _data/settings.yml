@@ -20,14 +20,17 @@ menu_settings:
     - title: '插畫作品'
       url: '/blog/'
 
+    - title: '限時賀卡'
+      url: '/greeting-card/'
+
     - title: '貼圖 | 米淉子日常'
       url: '/project/line貼圖-米淉子日常'
 
     - title: 'Live2D | 猫又みつる'
       url: '/project/live2d-猫又みつる'
 
-    - title: '其他專案'
-      url: '/projects/'
+    #- title: '其他專案'
+    #  url: '/projects/'
 
 # 號召行動按鈕 Call to action button
 cta_button:

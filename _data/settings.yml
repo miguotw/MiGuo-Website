@@ -18,10 +18,10 @@ menu_settings:
       url: '/tags/?tag=原創插畫'
     
     - title: '插畫作品'
-      url: '/blog'
+      url: '/blog/'
 
     - title: '限時賀卡'
-      url: '/greeting-card'
+      url: '/greeting-card/'
 
     - title: '貼圖 | 米淉子日常'
       url: '/project/line貼圖-米淉子日常'

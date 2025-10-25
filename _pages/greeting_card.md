@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 限時賀卡 <em>Seasonal Greeting Card</em>
-permalink: /greeting-card
+permalink: /greeting-card/
 ---
 
 中秋將至，我準備了一張賀卡，大家可以就近到超商列印，祝各位中秋節快樂！🌕✨

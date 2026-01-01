@@ -4,7 +4,7 @@ title: 限時賀卡 <em>Seasonal Greeting Card</em>
 permalink: /greeting-card/
 ---
 
-Happy Halloween！萬聖節快樂！🎃 👻
+來囉！來囉！聖誕賀卡來囉～！🎄
 
 送上這次的賀卡，歡迎到全台 7-ELEVEN 與 FamilyMart 雲端列印喔！🖨️ ✨
 

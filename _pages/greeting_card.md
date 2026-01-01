@@ -8,7 +8,7 @@ Happy Halloween！萬聖節快樂！🎃 👻
 
 送上這次的賀卡，歡迎到全台 7-ELEVEN 與 FamilyMart 雲端列印喔！🖨️ ✨
 
-![greeting_card](/assets/images/greeting_card/社群列印排版.jpg)
+![greeting_card](/assets/images/greeting_card/社群列印排版.png)
 
 ***
 
@@ -16,20 +16,11 @@ Happy Halloween！萬聖節快樂！🎃 👻
 
 <div class="gallery-box">
   <div class="gallery">
+    <img src="/assets/images/greeting_card/2025聖誕(RGB).jpg" loading="lazy">
     <img src="/assets/images/greeting_card/2025萬聖節.jpg" loading="lazy">
     <img src="/assets/images/greeting_card/2025中秋.jpg" loading="lazy">
-  </div>
-</div>
-
-<div class="gallery-box">
-  <div class="gallery">
     <img src="/assets/images/greeting_card/2025新年.jpg" loading="lazy">
     <img src="/assets/images/greeting_card/2024新年.jpg" loading="lazy">
-  </div>
-</div>
-
-<div class="gallery-box">
-  <div class="gallery">
     <img src="/assets/images/greeting_card/2023FF40.jpg" loading="lazy">
   </div>
 </div>

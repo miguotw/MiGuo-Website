@@ -83,15 +83,14 @@ gallery:
   gallery_caption:
 
 gallery_images:
-  - alt: 'おやすみ〜💕🌙'
+  - alt: '水色の夢🩵✨'
     url: '/assets/images/gallery/16_N202SP.jpg'
 
-  - alt: '浜辺で密会〜🏝️✨'
+  - alt: '新年あけましておめでとう‼️🎍'
+    url: '/assets/images/gallery/10_noise_18_N01.jpg'
+
+  - alt: '君のクリスマスプレゼント🎁🎄'
     url: '/assets/images/gallery/10_noise_17_N102.jpg'
-
-  - alt: '旧正月おめでとう！🪭✨'
-    url: '/assets/images/gallery/5_noise_12_N01.jpg'
-
 
 #-------------------------------
 # 插畫作品 Blog Section Settings

@@ -8,7 +8,7 @@ services:
   - title: 插畫委託
     description: 準備中...
     icon: "fa-solid fa-crop-simple"
-    price: NT$ 1,000 起
+    price: NT$ 0 起
     button_text: 開始聯繫
     button_link: '#'
 

@@ -2,8 +2,8 @@
 # Site Settings
 title: 米淉 MiGuo
 description: 喜歡畫可愛的女孩子～如果有任何委託的需求，歡迎來信詢問～
-logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
-logo_dark: '/images/logo-dark.svg'
+logo: '/assets/images/home/logo_dark.png' # You can add own logo. For example '/images/logo.png'.
+logo_dark: '/assets/images/home/logo_light.png'
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 

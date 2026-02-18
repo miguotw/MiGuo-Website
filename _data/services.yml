@@ -6,11 +6,11 @@ services_section_enable: true
 
 services:
   - title: 插畫委託
-    description: 準備中...
+    description: 正在籌備中，敬請期待！( •̀ ω •́ )✧
     icon: "fa-solid fa-crop-simple"
-    price: NT$ 0 起
-    button_text: 開始聯繫
-    button_link: '#'
+    price: NT$ ? 起
+    button_text: 透過 Email 開始聯繫
+    button_link: 'mailto:hi@miguo.art'
 
 #  - title: UI & Visual Design
 #    description: I design clean, modern, and accessible UI systems that not only look good but also enhance usability your brand’s identity.

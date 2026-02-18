@@ -17,28 +17,29 @@ menu_settings:
     - title: '插畫作品'
       url: '/projects/'
       
-    - title: '案例'
-      url: '/clients/'
+    - title: '委託'
+    - url: '/services/'
+      
     
       submenu:
-      - url: '/about/'
-        title: '關於我'
+      #- url: '/clients/'
+      #  title: '案例'
 
-      - url: '/videos/'
-        title: '影片'
+      #- url: '/about/'
+      #  title: '關於我'
 
-      - url: '/archive/'
-        title: '檔案館'
+      #- url: '/videos/'
+      #  title: '影片'
 
-      - url: '/elements/'
-        title: '元素'
+      #- url: '/archive/'
+      #  title: '檔案館'
+
+      #- url: '/elements/'
+      #  title: '元素'
 
       - url: '/latest/'
         title: '最新'
-
-      - url: '/services/'
-        title: '委託'
-
+        
       - url: '/faq/'
         title: '常見問題'
 

@@ -26,10 +26,10 @@ menu_settings:
     - title: '資源'
     
       submenu:
-      - url: '/posts/猫又みつる/'
+      - url: '/posts/猫又みつる'
         title: 'Live2D | 猫又みつる'
       
-      - url: '/posts/米淉子日常/'
+      - url: '/posts/米淉子日常'
         title: '貼圖 | 米淉子日常'
         
       #- url: '/about/'

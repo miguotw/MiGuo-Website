@@ -13,7 +13,7 @@
   --dark: #10141f;
   --rgb-color: 255, 255, 255;
 
-  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.5) 100%);
+  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.3) 100%);
 
   --background-rgba: rgba(var(--rgb-color), 0.9);
   --background-color: var(--white);
@@ -60,7 +60,7 @@
   --background-alt-color: #292b30;
   --background-alt-color-2: #32343a;
 
-  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.5) 100%);
+  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.3) 100%);
 
   --text-color: var(--gray);
   --text-alt-color: var(--gray);

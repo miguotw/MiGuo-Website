@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 
 {% include head.html %}
 
-<body {% if page.url == "/" %}class="home-page"{% endif %}>
-
-  {% if site.data.settings.google-analytics %}
+<body>
+  {% if site.data.settings.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
 
   <!-- begin global wrap -->
   <div class="global-wrap">
+
+    {% if site.data.settings.home_cover_image and page.url == '/' %}
+    <!-- begin home cover -->
+    <div class="home-cover">
+      <div class="home-cover__inner">
+        <img src="{{ site.data.settings.home_cover_image }}" alt="{{ site.data.settings.title }}">
+      </div>
+    </div>
+    <!-- end home cover -->
+    {% endif %}
 
     {% include header.html %}
 
@@ -20,15 +29,25 @@
     </main>
     <!-- end content -->
 
-    {% include footer.html %}
+    {% include footer-buttons.html %}
 
+    {% include footer.html %}
   </div>
   <!-- end global wrap -->
 
-  <div class="overlay"></div>
+  {% include bookmarks.html %}
 
   <script src="{{ '/js/scripts.js' | relative_url }}"></script>
   <script src="{{ '/js/common.js' | relative_url }}"></script>
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("js-search-input"),
+      resultsContainer: document.getElementById("js-results-container"),
+      json: "{{ '/search.json' | relative_url }}",
+      searchResultTemplate: '<a href="{url}" class="search-results__link"><div class="search-results-title">{title}</div><div class="search-results-description">{content}</div></a>',
+      noResultsText: '<div class="no-results">No results found...</div>'
+    });
+  </script>
 </body>
 
 </html>

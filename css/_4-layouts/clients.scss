@@ -1,0 +1,239 @@
+/* Logos */
+.logos {
+  will-change: transform;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  background: var(--background-color);
+
+  .logos__inner {
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .logos__image {
+    position: relative;
+    max-width: 100%;
+    height: 48px;
+    user-select: none;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .splide__sr {
+    display: none;
+  }
+
+  @media (max-width: $tablet) {
+    .logos__image {
+      height: 40px;
+    }
+  }
+}
+
+/* Clients */
+.clients-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.clients__head {
+  flex: 1;
+  padding: 24px;
+  border: 1.4px solid var(--border-alt-color);
+  border-radius: 12px;
+  background: var(--background-alt-color);
+}
+
+.clients__tabs {
+  @media (max-width: $mobile) {
+    padding: 24px;
+    border: 1.4px solid var(--border-color);
+    border-radius: 12px;
+  }
+}
+
+.clients__head__item {
+  font-size: 16px;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--heading-font-color);
+
+  p {
+    margin: 0;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.clients__tabs__item {
+  display: none;
+  font-size: 22px;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--heading-font-color);
+  transition: $global-transition;
+
+  &.active {
+    display: block;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  @media (max-width: $tablet) {
+    font-size: 18px;
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+  }
+}
+
+.clients__content__panel {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.clients__tabs__panel {
+  display: flex;
+  column-gap: 64px;
+  justify-content: center;
+  margin-top: 48px;
+
+  @media (max-width: $tablet) {
+    column-gap: 32px;
+    margin-top: 40px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 24px;
+  }
+}
+
+.clients__content__control {
+  .client-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .image-container {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin-bottom: 16px;
+      border-radius: 50%;
+      background: var(--background-alt-color);
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        user-select: none;
+      }
+    }
+  }
+
+  .client-name {
+    margin-bottom: 2px;
+    font-family: $base-font-family;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .client-designation {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-alt-color);
+  }
+}
+
+.clients__tabs__control {
+  opacity: .4;
+  transition: $global-transition;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .6;
+  }
+
+  &.active {
+    opacity: 1;
+  }
+
+  .client-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .image-container {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin-bottom: 16px;
+      border-radius: 50%;
+      background: var(--background-alt-color);
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        user-select: none;
+      }
+    }
+  }
+
+  .client-name {
+    margin-bottom: 4px;
+    font-family: $base-font-family;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .client-designation {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-alt-color);
+  }
+
+  @media (max-width: $mobile) {
+    display: none;
+
+    .client-name {
+      margin-bottom: 0;
+    }
+
+    .client-name,
+    .client-designation {
+      font-size: 16px;
+    }
+
+    &.active {
+      display: block;
+    }
+  }
+}

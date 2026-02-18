@@ -1,0 +1,124 @@
+/* Hero */
+.hero {
+  margin-bottom: 68px;
+
+  @media (max-width: $mobile) {
+    margin-bottom: 60px;
+  }
+}
+
+.hero__inner {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__avatar {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  overflow: hidden;
+  will-change: transform;
+  user-select: none;
+  background: var(--background-alt-color-2);
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--heading-font-color);
+
+  @media (max-width: $mobile) {
+    margin-bottom: 20px;
+  }
+}
+
+.hero__description {
+  font-size: 18px;
+  line-height: 1.6;
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  a:not([class]) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    font-weight: 600;
+    color: var(--heading-font-color);
+
+    &:hover {
+      opacity: .6;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+
+    p {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.hero__social {
+  margin-top: 24px;
+
+  .hero__social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+
+    .hero__social__item {
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 24px;
+
+      .hero__social__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+
+        &:hover {
+          i {
+            transform: scale(1.15);
+          }
+
+          span {
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+          }
+        }
+
+        i {
+          will-change: transform;
+          transition: $global-transition;
+        }
+
+        span {
+          text-underline-offset: 2px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 20px;
+
+    .hero__social__list {
+      gap: 4px 12px;
+
+      .hero__social__item {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+  }
+}

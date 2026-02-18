@@ -1,0 +1,34 @@
+{% assign pages_menu = site.data.settings.menu_settings.menu_items | where: "title", "Resources" | first %}
+{% if pages_menu and pages_menu.submenu %}
+<!-- begin section resources -->
+<section class="section section-resources">
+  <div class="container">
+
+    <div class="row">
+      <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+        <div class="section__head">
+          {% if pages_menu.title %}
+          <h2 class="section__title">{{ pages_menu.title }}</h2>
+          {% endif %}
+        </div>
+
+        <div class="row">
+          {% for item in pages_menu.submenu limit:4 %}
+          {% assign page_obj = site.pages | where: "url", item.url | first %}
+          <div class="resource col col-3 col-d-6 col-m-12">
+            <a href="{{ item.url }}" class="resource__image">
+              <span class="resource__name">{{ item.title }}</span>
+              <img class="lazy" data-src="{{ page_obj.image }}" alt="{{ item.title }}">
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- end section resources -->
+{% endif %}

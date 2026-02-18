@@ -1,23 +1,75 @@
 ---
 layout: page
-title: 關於我 <em>About Me</em>
+title: Hey friends 👋 I’m Marcus
+description: Product Designer with 8+ years of experience creating digital solutions that transform how millions of users interact with technology
 permalink: /about/
-image: '/assets/images/main/cover.jpg'
+image: '/images/01-2.jpg'
+toc: true
 ---
-Hello there! Welcome to my corner of the digital world. My name is Kevin, and I am a passionate Product Designer with a flair for crafting exceptional user experiences. I believe that design is not just about aesthetics but a powerful tool to make a positive impact on people’s lives. Beyond just aesthetics, I am deeply committed to designing for impact. Whether it’s improving daily routines, enhancing productivity, or fostering connections.
 
-> Design is not just what it looks like and feels like. Design is how it works.
-> <cite>Steve Jobs</cite>
+Design doesn't happen in isolation. Some of my best work has emerged from collaborative sessions with engineers, product managers, and stakeholders. I facilitate design sprints that bring diverse perspectives together, often leading to breakthrough solutions that no individual could have conceived alone.
 
-Curiosity drives me to explore the uncharted territories of design. I love pushing the boundaries and venturing into new design paradigms. As a perpetual learner, I stay updated with the latest industry trends, emerging technologies, and design methodologies, incorporating them into my work to deliver innovative and cutting-edge solutions.
+## My Design Philosophy
 
-I am a firm believer in giving back to the design community that has nurtured and supported me. I volunteer my time to mentor aspiring designers, participate in design forums, and contribute to open-source projects. Sharing knowledge and collaborating with fellow designers brings a sense of fulfillment and camaraderie.
+Design isn't just about making things look beautiful. It's about creating meaningful connections between human needs and technological possibilities. Throughout my career, I've discovered that exceptional design emerges at the intersection of empathy, data, and creative innovation.
 
-![Friends](/assets/images/102.jpg)
-*Photo by [Jessica Felicio](https://unsplash.com/@jekafe) on [Unsplash](https://unsplash.com/photos/grayscale-photo-of-woman-standing-between-two-men-CT6G8Mz4grs)*
+{: .note }
+Design creates culture. Culture shapes values. Values determine the future.
 
-Design has been an incredible journey of growth and self-discovery for me. I am deeply grateful for every opportunity that has come my way, every challenge that has shaped my skills, and every success that has inspired me to aim higher. With humility and enthusiasm, I look forward to the next chapter in my design adventure.
+Every project begins with deep user immersion. I spend countless hours observing behavior patterns, uncovering pain points, and discovering hidden desires that users themselves might not even recognize. This human-centered approach has become the cornerstone of my design methodology.
 
-As a Product Designer, I see design challenges as exciting opportunities to find elegant solutions. I enjoy breaking down complex problems into manageable components, collaborating with cross-functional teams, and iterating through multiple design cycles to arrive at the most effective and user-friendly outcomes.
+### Early Beginnings
 
-***
+My fascination with design began during my computer science studies at Stanford, where I first encountered human-computer interaction principles. I was captivated by the idea that technology could be made more accessible and enjoyable through thoughtful design decisions.
+
+![iPhone](/images/07.jpg)
+*Photo by [Luke McKeown](https://unsplash.com/photos/nlyWZtWTzCo) on [Unsplash](https://unsplash.com/)*
+
+After graduation, I joined a small startup in San Francisco, where I wore multiple hats — researcher, designer, and sometimes even front-end developer. This experience taught me the importance of understanding the entire product ecosystem, from business goals to technical constraints.
+
+- **2024 UX Design Excellence Award** - Universal Accessibility Framework
+- **2023 Digital Health Innovation Award** - AI Healthcare Interface Design
+- **2022 Startup Design Challenge Winner** - Mobile-First E-commerce Platform
+
+Over the years, I've had the privilege of working with companies ranging from emerging startups to Fortune 500 corporations. Each environment has shaped my perspective and expanded my toolkit. At TechFlow Solutions, I led the redesign of their flagship productivity app, resulting in a 40% increase in user engagement and a 25% reduction in support tickets.
+
+### Recent Projects
+
+UX design forms the foundation of product design. It involves understanding user behavior, conducting usability testing, creating user personas, and mapping out user journeys. A skilled Product Designer must be able to empathize with users and translate their needs into actionable design solutions.
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/09.jpg" loading="lazy" alt="Project">
+    <img src="/images/03.jpg" loading="lazy" alt="Project">
+    <img src="/images/05.jpg" loading="lazy" alt="Project">
+  </div>
+  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+</div>
+
+While UX focuses on the overall experience, UI design deals with the visual and interactive elements users directly engage with. This includes typography, color schemes, button styles, iconography, and layout principles. A strong UI designer understands visual hierarchy, accessibility standards, and design systems.
+
+UI design has evolved significantly with the introduction of design systems and component libraries. Modern Product Designers must be proficient in creating scalable design systems that maintain consistency across multiple platforms and touchpoints while allowing for flexibility and growth.
+
+### Beyond Design
+
+When I'm not pushing pixels, you'll find me mentoring emerging designers through the Design Futures Initiative, a program I co-founded to support underrepresented groups in the design industry. Teaching has become an integral part of my practice — it keeps me connected to fresh perspectives and emerging trends.
+
+{: .q-left }
+> The details are not the details. They make the design. — Charles Eames
+
+I'm also an avid photographer, which has significantly influenced my approach to visual composition and storytelling in digital interfaces. The principles of light, balance, and narrative that apply to photography translate beautifully to screen-based design.
+
+## Current Focus
+
+Today, I specialize in creating design systems that scale across multiple products and platforms. I'm passionate about accessibility, ensuring that beautiful design doesn't come at the cost of inclusivity. My recent work on the Universal Design Framework has been adopted by over 50 companies worldwide.
+
+{: .warning }
+The best way to predict the future is to design it.
+
+I'm always open to discussing new projects, especially those that challenge conventional thinking or have the potential for significant social impact. Whether you're a startup looking to establish your design foundation or an enterprise seeking to transform your user experience, I'd love to explore how we can work together.
+
+The best projects are those where everyone learns something new. I bring not just design expertise, but a genuine curiosity about your industry, users, and unique challenges. Let's create something extraordinary together.
+
+---
+
+*Ready to start your next project? Let's turn your vision into reality.*

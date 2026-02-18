@@ -1,67 +1,60 @@
 <!-- begin footer -->
 <footer class="footer">
-  <div class="container">
 
-    {% if page.url != '/' and site.data.settings.mailchimp.enable == true %}
-    <div class="row">
-      <div class="col col-12">
-        <div class="subscribe">
-          <div class="subscribe__content">
-          {% if site.data.settings.mailchimp.mailchimp_title %}
-            <h3 class="subscribe__title">{{ site.data.settings.mailchimp.mailchimp_title }}</h3>
-          {% endif %}
-          {% if site.data.settings.mailchimp.mailchimp_description %}
-            <p class="subscribe__description">{{ site.data.settings.mailchimp.mailchimp_description }}</p>
-          {% endif %}
+  {% if site.data.settings.mailchimp.enable == true %}
+  <!-- begin subscribe -->
+  <div class="subscribe{% if site.data.settings.mailchimp.mailchimp_image %} subscribe-with-image{% else %}{% endif %}">
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+          <div class="subscribe__inner">
+            <div class="subscribe__content">
+              {% if site.data.settings.mailchimp.mailchimp_image %}
+              <img class="subscribe__image lazy" data-src="{{ site.data.settings.mailchimp.mailchimp_image }}" alt="subscribe picture" >
+              {% endif %}
+              {% if site.data.settings.mailchimp.mailchimp_title %}
+              <h2 class="subscribe__title">{{ site.data.settings.mailchimp.mailchimp_title }}</h2>
+              {% endif %}
+              {% if site.data.settings.mailchimp.mailchimp_description %}
+              <p class="subscribe__description">{{ site.data.settings.mailchimp.mailchimp_description }}</p>
+              {% endif %}
+            </div>
+            <form class="subscribe__form validate" action="{% if site.data.settings.mailchimp.mailchimp_identifier %}//{{site.data.settings.mailchimp.mailchimp_identifier}}{% else %}#{% endif %}" method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+              <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+              <input class="subscribe__email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="{% if site.data.settings.mailchimp.mailchimp_input_text %}{{ site.data.settings.mailchimp.mailchimp_input_text }}{% else %}Email address{% endif %}">
+              <button class="button button--big button--accent subscribe__button" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.mailchimp.mailchimp_button_text }}</button>
+            </form>
           </div>
-          <form class="subscribe__form validate"
-            action="{% if site.data.settings.mailchimp.mailchimp_identifier %}//{{ site.data.settings.mailchimp.mailchimp_identifier }}{% else %}#{% endif %}"
-            method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-            <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-            <input class="subscribe__email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="{% if site.data.settings.mailchimp.mailchimp_input_text %}{{ site.data.settings.mailchimp.mailchimp_input_text }}{% else %}Email address{% endif %}">
-            <button class="button button--accent" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.mailchimp.mailchimp_button_text }}</button>
-          </form>
         </div>
       </div>
     </div>
-    {% endif %}
 
+  </div>
+  <!-- end subscribe -->
+  {% endif %}
+
+  <div class="container">
     <div class="row">
-      <div class="col col-12">
-        <div class="footer__info">
-
-          <div class="copyright">  
-            <a href="mailto:creative@miguo.art">聯繫作者</a> |
-            <a href="https://jekyllthemes.io/theme/baleon-portfolio-jekyll-theme">引用資源</a> |
-            <a href="https://stats.uptimerobot.com/pXP0xIQNoE">服務狀態</a>
-            <br>
-
-            <span>
-              Copyright &copy; {{ site.time | date: '%Y' }}
-              <a href="/">{{ site.data.settings.title }}</a>. All rights reserved.
-            </span>
-            <br>
-
-            <p>Not authorized for AI training or generative use.</p>
-          </div>
-
-          {% if page.url != '/' and site.data.settings.social %}
-          <div class="social">
-            <ul class="social__list list-reset">
+      <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+        <div class="footer__inner">
+          {% if site.data.settings.social %}
+          <div class="footer__social">
+            <ul class="footer__social__list list-reset">
               {% for social in site.data.settings.social %}
-              <li class="social__item">
-                <a class="social__link" href="{{ social.link }}" target="_blank" rel="noopener"
+              <li class="footer__social__item">
+                <a class="footer__social__link" href="{{ social.link }}" target="_blank" rel="noopener"
                   aria-label="{{ social.name }} link"><i class="{{ social.icon }}"></i></a>
               </li>
               {% endfor %}
             </ul>
           </div>
           {% endif %}
-
+          <div class="copyright">{{ site.time | date: '%Y' }} &copy; <a href="/">{{ site.data.settings.title }}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
         </div>
       </div>
     </div>
-
   </div>
+
 </footer>
 <!-- end footer -->

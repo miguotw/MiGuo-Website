@@ -2,125 +2,144 @@
 layout: default
 ---
 
-<div class="container">
+<!-- begin project-page -->
+<div class="project-page">
+  <div class="container">
+    <div class="section__inner">
+      <div class="row">
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
 
-  <!-- begin post head  -->
-  <div class="post-head{% if page.image == nil and page.video_embed == nil %} without-image{% endif %}">
-    <div class="post-info">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <div class="post-meta">
-        {% if page.subtitle %}
-          <p class="post-subtitle">{{ page.subtitle }}</p>
-        {% endif %}
-        <span>•</span>
-        <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-      </div>
-    </div>
+          <div class="page-hero">
 
-    {% if page.video_embed %}
-    <div class="post-video">
-      <div class="post-video__wrap">
-        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-    </div>
-    {% else %}
-
-    {% if page.image %}
-    <div class="post-image">
-      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
-    </div>
-    {% endif %}
-    {% endif %}
-  </div>
-  <!-- end post head -->
-
-  <!-- begin post -->
-  <article class="post">
-    <div class="post__content">
-      {{ content }}
-    </div>
-
-    <div class="post__bottom">
-      <div class="post__author">
-        {% if site.data.settings.author.author_avatar %}
-        <div class="post__author__avatar">
-          <img class="lazy" data-src="{{ site.data.settings.author.author_avatar }}" alt="{{ site.data.settings.author.author_name }}">
-        </div>
-        {% endif %}
-        <div class="post__author__info">
-          {% if site.data.settings.author.author_name %}
-            <div class="post__author__intro">{{ site.data.settings.author.author_name }}</div>
-          {% endif %}
-          {% if site.data.settings.author.author_role %}
-            <span class="post__author__role">{{ site.data.settings.author.author_role }}</span>
-          {% endif %}
-        </div>
-      </div>
-      {% include share-buttons.html %}
-    </div>
-
-    {% if page.previous.url %}
-    <div class="post__navigation">
-      <a class="post__navigation__prev" href="{{ page.previous.url | relative_url }}">
-        <h3 class="post__navigation__info">探索下一步 <em>Explore Next</em></h3>
-        <h4 class="post__navigation__title">{{ page.previous.title }}</h4>
-      </a>
-    </div>
-    {% endif %}
-  </article>
-  <!-- end post -->
-
-  {% assign project-collection = site[page.collection] | sample:5 %}
-  {% assign filtered-projects = project-collection | where_exp: "project", "project.url != page.url" %}
-  {% if filtered-projects.size > 0 %}
-  <!-- begin post related -->
-  <div class="post__related">
-    <h2 class="post__related__title">其他專案 <em>Other Projects</em></h2>
-    <div class="row">
-    {% assign relatedCount = 0 %}
-    {% for project in project-collection %}
-      {% if project.url != page.url %}
-      <article class="project col col-3 col-d-6 col-t-12">
-        <div class="project__content">
-
-          <div class="project__head">
-            {% if project.image and project.video_embed %}
-            <div class="video-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                <polygon points="40,30 65,50 40,70"></polygon>
-              </svg>
-            </div>
-            {% endif %}
-            {% if project.image %}
-            <a href="{{ project.url | relative_url }}" class="project__image">
-              <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-            </a>
-            {% endif %}
-          </div>
-
-          <div class="project__info">
-            <h2 class="project__title">
-              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-            </h2>
-            <div class="project__meta">
-              {% if project.subtitle %}
-                <div class="project__subtitle">{{ project.subtitle }}</div><span>•</span>
+            <div class="page-hero__inner">
+              {% if page.label %}
+              <div class="page-hero__label">{{ page.label }}</div>
               {% endif %}
-              <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date_to_string }}</time>
+              {% if page.title %}
+              <h1 class="page-hero__title">{{ page.title }}</h1>
+              {% endif %}
+              {% if page.description %}
+              <p class="page-hero__description">{{ page.description }}</p>
+              {% endif %}
             </div>
+
+            <div class="page-info">
+              <div class="page-meta">
+                <a href="{{ '/about/' |relative_url }}" class="page-meta__image">
+                  <img class="lazy" data-src="{{ site.data.settings.author.author_avatar | relative_url }}"
+                    alt="{{ site.data.settings.author.author_name }}">
+                </a>
+
+                <div class="page-meta__content">
+                  <a class="page-meta__author" href="{{ '/about/' |relative_url }}">{{ site.data.settings.author.author_name
+                    }}</a>
+                  <div class="page-meta__bottom">
+                    <time class="page-date" datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-b, %Y" %}{{ page.date | date: date_format }}</time> –
+                    <span class="page-minutes">
+                      {% assign words = page.content | number_of_words %}
+                      {% if words < 360 %} 閱讀時間約 1 分鐘 {% else %} 閱讀時間約 {{ words | divided_by:180 }} 分鐘 {% endif %} </span>
+                  </div>
+                </div>
+              </div>
+              {% include share-buttons.html %}
+            </div>
+
+          </div>
+
+          <div class="page-head">
+            {% if page.video_embed %}
+            <div class="page-video">
+              <div class="page-video__wrap">
+                <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0"
+                  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            </div>
+            {% endif %}
           </div>
 
         </div>
-      </article>
-      {% assign relatedCount = relatedCount | plus: 1 %}
-      {% if relatedCount >= 4 %}
+      </div>
+    </div>
+
+    <article class="page">
+      <div class="page__content">
+        {% if page.toc == true %}
+        <details class="page__toc">
+          <summary>目錄</summary>
+          {% include toc.html html=content ordered=true class="page__toc__list" h_min=2 %}
+        </details>
+        {% endif %}
+        {{ content }}
+      </div>
+
+      {% include page-navigation.html %}
+    </article>
+
+  </div>
+</div>
+<!-- end project-page -->
+
+<!-- begin section-related -->
+<section class="section section-related">
+  <div class="container">
+    <div class="section__inner">
+
+      <div class="section__head">
+        <h2 class="section__title">繼續閱讀</h2>
+      </div>
+
+      <div class="row">
+        {% assign project-collection = site[page.collection] | sample:4 %}
+        {% assign relatedCount = 0 %}
+        {% for project in project-collection %}
+        {% if project.url != page.url %}
+        <article class="project col col-4 col-w-6 col-t-12">
+          <div class="project__content">
+            {% if project.image %}
+            <div class="project__head">
+              <div class="bookmark-btn" data-id="{{ project.url }}" data-title="{{ project.title }}"
+                data-desc="{{ project.excerpt | strip_html | truncate: 100 }}" data-date="{{ project.date | date_to_long_string }}"
+                data-image="{{ project.image }}">
+                <i class="fa-regular fa-bookmark"></i>
+              </div>
+              <a href="{{ project.url }}" class="project__image">
+                {% if project.video_embed %}
+                <div class="video-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <polygon points="40,30 70,50 40,70"></polygon>
+                  </svg>
+                </div>
+                {% endif %}
+                <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+              </a>
+            </div>
+            {% endif %}
+            <div class="project__info">
+              {% if project.label %}
+              <div class="project__label">{{ project.label }}</div>
+              {% endif %}
+              {% if project.title %}
+              <h2 class="project__title"><a class="project__link" href="{{ project.url | relative_url }}">{{ project.title
+                  }}</a></h2>
+              {% endif %}
+              <p class="project__excerpt">{% if project.description %}{{ project.description }}{% else %}{{
+                project.content | strip_html | truncate: 160 }}{% endif %}</p>
+            </div>
+          </div>
+        </article>
+        {% assign relatedCount = relatedCount | plus: 1 %}
+        {% if relatedCount >= 3 %}
         {% break %}
-      {% endif %}
-      {% endif %}
-    {% endfor %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+
     </div>
   </div>
-  <!-- end post related -->
-  {% endif %}
+</section>
+<!-- end section-related -->
 
-</div>
+{% include section-clients.html %}
+
+{% include section-resources.html %}

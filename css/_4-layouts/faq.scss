@@ -1,0 +1,98 @@
+/* FAQ (Frequently asked questions) */
+.faq__inner {
+  max-width: 580px;
+  margin: 0 auto;
+
+  .faq__item {
+    padding: 0 20px;
+    border-radius: 12px;
+    outline: none;
+    transition: $global-transition;
+    cursor: pointer;
+
+    &:last-child {
+      margin-bottom: 0;
+
+      p {
+        margin-bottom: 12px;
+      }
+    }
+
+    &:nth-child(odd) {
+      background: var(--background-alt-color);
+    }
+
+    &[data-name='open'] {
+      .faq__item__arrow {
+        transform: rotate(90deg) translateZ(0px);
+        color: var(--heading-font-color);
+      }
+
+      .faq__description {
+        max-height: 400px;
+        opacity: 1;
+        transition: $global-transition;
+      }
+    }
+  }
+
+  .faq__item__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .faq__title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 0;
+    font-family: $base-font-family;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    transition: $global-transition;
+  }
+
+  .faq__item__arrow {
+    font-size: 13px;
+    color: var(--text-alt-color);
+    transition: $global-transition;
+  }
+
+  .faq__description {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: $global-transition;
+    will-change: opacity, max-height;
+
+    p {
+      margin-bottom: 24px;
+      color: var(--text-alt-color);
+    }
+
+    b, strong {
+      font-weight: 500;
+      color: var(--heading-font-color);
+    }
+
+    a {
+      text-decoration: underline;
+      color: var(--heading-font-color);
+
+      &:hover {
+        text-decoration-color: transparent;
+      }
+    }
+  }
+}
+
+.section-faq {
+  .faq__inner {
+    max-width: 100%;
+  }
+}

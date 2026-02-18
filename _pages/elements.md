@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Elements
+description: The style guide ensures design consistency and provides a clear overview of the template’s building blocks. Use it as a foundation when creating new pages or customizing existing ones.
 permalink: /elements/
-image: '/assets/images/15.jpg'
+image: '/images/01-5.jpg'
 ---
-A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
+
+This page serves as a reference for the visual and functional elements used throughout the template. Here you can explore typography, buttons, forms, lists, tables, quotes, and other components to see how they are styled and displayed.
 
 ***
 
@@ -59,11 +61,23 @@ A paragraph looks like this — Globally incubate standards compliant channels b
 
 ## Quotes
 
-#### A quote looks like this:
+{: .q-left }
+> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+
+```html
+{: .q-left }
+> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+```
 
 > Design is not just what it looks like and feels like. Design is how it works.
 >
-> <cite>Steve Jobs</cite>
+> <cite>– Steve Jobs</cite>
+
+```html
+> Design is not just what it looks like and feels like. Design is how it works.
+>
+> <cite>– Steve Jobs</cite>
+```
 
 ***
 
@@ -135,53 +149,48 @@ li {
 ```
 
 ```js
-  $('.top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
-  });
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > $(window).height()) {
-      $('.top').addClass("top-active");
-    } else {
-      $('.top').removeClass("top-active");
-    };
-  });
+$('.top').click(function () {
+  $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
+});
+$(window).scroll(function () {
+  if ($(this).scrollTop() > $(window).height()) {
+    $('.top').addClass("top-active");
+  } else {
+    $('.top').removeClass("top-active");
+  };
+});
 ```
 
 ***
 
 ## Images
 
-![Mackbook](/assets/images/15-1.jpg#wide)
-*Photo by [Andrea De Santis](https://unsplash.com/@santesson89) on [Unsplash](https://unsplash.com/photos/logo-KDWtCj_-Cwc)*
+![iPhone](/images/07.jpg#wide)
+*Photo by [Anh Nhat](https://unsplash.com/@anhnhat1205) on [Unsplash](https://unsplash.com/)*
 
 <div class="gallery-box">
-  <div class="gallery">
-    <img src="/assets/images/07-1.jpg" loading="lazy">
-    <img src="/assets/images/04-3.jpg" loading="lazy">
-    <img src="/assets/images/07-2.jpg" loading="lazy">
-    <img src="/assets/images/02-1.jpg" loading="lazy">
-    <img src="/assets/images/07-3.jpg" loading="lazy">
-    <img src="/assets/images/02-3.jpg" loading="lazy">
-    <img src="/assets/images/02-2.jpg" loading="lazy">
-    <img src="/assets/images/04-2.jpg" loading="lazy">
-    <img src="/assets/images/04-1.jpg" loading="lazy">
+  <div class="gallery gallery-columns-3">
+    <img src="/images/09.jpg" loading="lazy">
+    <img src="/images/03.jpg" loading="lazy">
+    <img src="/images/05.jpg" loading="lazy">
+    <img src="/images/project-6.jpg" loading="lazy">
+    <img src="/images/project-8.jpg" loading="lazy">
+    <img src="/images/project-4.jpg" loading="lazy">
   </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
+  <em>Gallery</em>
 </div>
 
-![iPhone](/assets/images/03-1.jpg)
-*Photo by [ Anh Nhat](https://unsplash.com/@anhnhat1205) on [Unsplash](https://unsplash.com/photos/black-cat-figurine-beside-black-speaker-syrA30Aze2U)*
+![Friends]({{site.baseurl}}/images/04.jpg)
+*Always enjoy your life*
 
 ***
 
 ## Youtube Embed
 
-<p><iframe src="https://www.youtube.com/embed/phiMxtqlFIY" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/eItOR9tLfuM?si=pcgT1w0hTfvm5mM9" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 ***
 
 ## Vimeo Embed
 
 <p><iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-***

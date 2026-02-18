@@ -13,35 +13,37 @@ menu_settings:
   menu_items:
     - title: '首頁'
       url: '/'
-
+    
     - title: '插畫作品'
       url: '/projects/'
       
+    - title: '其他專案'
+      url: '/posts/'
+    
     - title: '發起委託'
       url: '/services/'
-      
-    - title: '其他專案'
-      url: '/latest/'
-
+    
+    - title: '資源'
+    
       submenu:
-      #- url: '/latest/'
-      #  title: '其他專案'
-
-      #- url: '/clients/'
-      #  title: '案例'
-
+      - url: '/posts/猫又みつる/'
+        title: 'Live2D | 猫又みつる'
+      
+      - url: '/posts/米淉子日常/'
+        title: '貼圖 | 米淉子日常'
+        
       #- url: '/about/'
       #  title: '關於我'
-
+      
       #- url: '/videos/'
       #  title: '影片'
-
+      
       #- url: '/archive/'
       #  title: '檔案館'
-
+      
       #- url: '/elements/'
       #  title: '元素'
-
+      
       #- url: '/faq/'
       #  title: '常見問題'
 

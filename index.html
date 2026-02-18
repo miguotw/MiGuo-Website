@@ -1,74 +1,72 @@
 ---
 layout: default
 title: 首頁 Home
-image: '/assets/images/main/cover.jpg'
+image: '/images/01.jpg'
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col col-5 col-d-12">
-      {% include sidebar.html %}
-    </div>
-    <div class="col col-7 col-d-12">
-      {% include section-gallery.html %}
-      {% include section-blog.html %}
-      {% include section-projects.html %}
-      {% include section-testimonials.html %}
-      {% include section-faq.html %}
-      {% include section-subscribe.html %}
-    </div>
-  </div>
-</div>
+{% include hero.html %}
+
+{% include section-featured-projects.html %}
+
+{% include section-projects.html %}
+
+{% include section-clients.html %}
+
+{% include section-blog.html %}
+
+{% include section-services.html %}
+
+{% include section-resources.html %}
 
 <!-- 引入 OhMyLive2D -->
 <script src="https://unpkg.com/oh-my-live2d@latest"></script>
 <script>
-  OML2D.loadOml2d({
-    dockedPosition: 'right',
+    OML2D.loadOml2d({
+    dockedPosition: 'left',
     primaryColor: '#1a1a1a',
     mobileDisplay: false,
     
     tips: {
-      messageLine: 3,
-      style: { width: '60%', height: 100, marginLeft: '1%' },
-      copyTips: {
-        duration: 2000,
-        message: ["複製了什麼內容呢？記得要註明出處喔～"],
-      },
-      idleTips: {
-        message: []
-      },
-      welcomeTips: {
-        duration: 2000,
-        message: {
-          afternoon: ["午後很容易就犯困呢，來杯咖啡吧~"],
-          daybreak: ["早安!一日之計在於晨，美好的一天就要開始了。"],
-          dusk: ["傍晚了！工作一天幸苦~"],
-          lateNight: ["已經這麼晚了呀，早點休息吧，晚安~"],
-          morning: ["上午好！工作順利嘛，不要久坐，多起來走動走動哦！"],
-          night: ["晚上好，今天過得怎麼樣呢？"],
-          noon: ["中午了，工作了一個上午，現在是午餐時間！"],
-          weeHours: ["這麼晚還不睡嗎？當心熬夜禿頭哦！"],
+        messageLine: 3,
+        style: { width: '60%', height: 100, marginLeft: '1%' },
+        copyTips: {
+            duration: 2000,
+            message: ["複製了什麼內容呢？記得要註明出處喔～"],
+        },
+        idleTips: {
+            message: []
+        },
+        welcomeTips: {
+            duration: 2000,
+            message: {
+                afternoon: ["午後很容易就犯困呢，來杯咖啡吧~"],
+                daybreak: ["早安!一日之計在於晨，美好的一天就要開始了。"],
+                dusk: ["傍晚了！工作一天幸苦~"],
+                lateNight: ["已經這麼晚了呀，早點休息吧，晚安~"],
+                morning: ["上午好！工作順利嘛，不要久坐，多起來走動走動哦！"],
+                night: ["晚上好，今天過得怎麼樣呢？"],
+                noon: ["中午了，工作了一個上午，現在是午餐時間！"],
+                weeHours: ["這麼晚還不睡嗎？當心熬夜禿頭哦！"],
+            }
         }
-      }
     },
 
     menus: {
-      disable: true
+        disable: true
     },
 
     statusBar: {
-      disable: true
+        disable: true
     },
 
     models: [
-      { 
-        path: 'assets/Live2D/MituruMiguoArt_43/MituruMiGuoArt_43.model3.json',
-        position: [0, 98],
-        scale: 0.12,
-        stageStyle: { width: 230, height: 450 },
-        rotation: 0,
-      }
-    ]
-  });
+            { 
+                path: 'assets/Live2D/MituruMiguoArt_43/MituruMiGuoArt_43.model3.json',
+                position: [0, 98],
+                scale: 0.12,
+                stageStyle: { width: 230, height: 450 },
+                rotation: 0,
+            }
+        ]
+    });
 </script>

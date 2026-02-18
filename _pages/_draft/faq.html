@@ -1,0 +1,44 @@
+---
+layout: default
+title: FAQ
+description: Detailed answers to the most common questions about design process, project timelines, collaboration, and pricing.
+permalink: /faq/
+image: '/images/01.jpg'
+---
+
+<!-- begin faq page -->
+<section class="section faq-page">
+  <div class="container">
+
+    <div class="section__hero">
+      {% if site.data.faq.faq_title %}
+      <h1 class="section__hero__title">{{ site.data.faq.faq_title }}</h1>
+      {% else page.title %}
+      <h1 class="section__hero__title">{{ page.title }}</h1>
+      {% endif %}
+      {% if site.data.faq.faq_description %}
+      <p class="section__hero__description">{{ site.data.faq.faq_description }}</p>
+      {% else page.description %}
+      <p class="section__hero__description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="faq__inner">
+      {% for faq_item in site.data.faq.faq_items %}
+      <div class="faq__item" tabindex="0" data-name="closed">
+        <div class="faq__item__head">
+          <h3 class="faq__title">{{ faq_item.title }}</h3>
+          <i class="faq__item__arrow fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="faq__description">
+          <p>{{ faq_item.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+<!-- end faq page -->
+
+{% include section-resources.html %}

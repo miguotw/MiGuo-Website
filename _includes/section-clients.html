@@ -1,0 +1,84 @@
+{% if site.data.clients.clients_section_enable == true %}
+<!-- begin clients -->
+<section class="section clients">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="row">
+          <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+            <div class="section__head">
+              {% if site.data.clients.clients_title %}
+              <h2 class="section__title">{{ site.data.clients.clients_title }}</h2>
+              {% endif %}
+            </div>
+
+            {% if site.data.clients.logos.logo_image and site.data.clients.logos.enable == true %}
+            <!-- begin logos -->
+            <div class="section logos">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-12">
+                    {% if site.data.clients.logos.logos_title %}
+                    <h2 class="logos-title">{{ site.data.clients.logos.logos_title }}</h2>
+                    {% endif %}
+                    <div class="logos__slider splide">
+                      <div class="splide__track">
+                        <div class="logos__inner splide__list">
+                          {% for logo_image in site.data.clients.logos.logo_image %}
+                          <div class="logos__image splide__slide">
+                            <img src="{{ logo_image.image | relative_url }}" alt="{{ logo_image.alt }}" loading="eager">
+                          </div>
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end logos -->
+            {% endif %}
+          </div>
+
+          {% assign client_count = site.data.clients.client_items | size %}
+          <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+            <div class="clients__tabs">
+              <div class="clients__tabs__list">
+                {% for client_item in site.data.clients.client_items limit:3 %}
+                <div id="{{ client_item.name | downcase | slugify }}" class="clients__tabs__item{% if client_count == 1 or forloop.index == 2 %} active{% endif %}">
+                  {% if client_item.content %}
+                  <p class="client-content">"{{ client_item.content }}"</p>
+                  {% endif %}
+                </div>
+                {% endfor %}
+              </div>
+              <div class="clients__tabs__panel">
+                {% for client_item in site.data.clients.client_items limit:3 %}
+                <div class="clients__tabs__control{% if client_count == 1 or forloop.index == 2 %} active{% endif %}" data-id="{{ client_item.name | downcase | slugify }}">
+                  <div class="client-meta">
+                    {% if client_item.image %}
+                    <div class="image-container">
+                      <img class="client-avatar lazy" data-src="{{ client_item.image | relative_url }}" alt="{{ client_item.name }}">
+                    </div>
+                    {% endif %}
+                    {% if client_item.name %}
+                    <h3 class="client-name">{{ client_item.name }}</h3>
+                    {% endif %}
+                    {% if client_item.designation %}
+                    <p class="client-designation">{{ client_item.designation }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end clients -->
+{% endif %}

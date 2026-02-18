@@ -1,0 +1,64 @@
+---
+layout: default
+title: Archive
+description: The archive serves as a timeline of growth, creativity, and exploration — a place where nothing is lost and every piece finds its place.
+permalink: /archive/
+image: '/images/01-4.jpg'
+---
+
+<!-- begin archive-page -->
+<section class="section archive-page">
+  <div class="container">
+    <div class="section__inner">
+      <div class="row">
+
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+          <div class="section__hero">
+            <div class="section__hero__inner">
+              {% if page.title %}
+              <h1 class="section__hero__title">{{ page.title }}</h1>
+              {% endif %}
+              {% if page.description %}
+              <p class="section__hero__description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="archive-page__inner">
+            {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+            {% for year_group in posts_by_year %}
+            <div class="archive-page__group">
+              <h2 class="archive-page__year">{{ year_group.name }} <sup>({{ year_group.items | size }})</sup></h2>
+              <div class="archive-page__list">
+                {% assign posts_by_month = year_group.items | group_by_exp: "post", "post.date | date: '%B'" %}
+                {% for month_group in posts_by_month %}
+                <h3 class="archive-page__month">{{ month_group.name }} <sup>{{ month_group.items | size }}</sup></h3>
+                <div class="archive-page__collection">
+                  {% for post in month_group.items %}
+                  <div class="archive-article">
+                    <div class="archive-article__head">
+                      <h3 class="archive-article__title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                      </h3>
+                      <p class="archive-article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 160 }}{% endif %}</p>
+                    </div>
+                    <div class="archive-article__meta">
+                      <time class="archive-article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%d %-b, %Y" %}{{ post.date | date: date_format }}</time>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end archive-page -->

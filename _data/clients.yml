@@ -1,0 +1,40 @@
+#-------------------------------
+# 用戶端設定 Clients Settings
+clients_title: 案例 Clients
+clients_description: Discover what clients and collaborators say about working together. Real stories of trust, creativity, and meaningful results that highlight the value of each partnership.
+clients_section_enable: false
+
+# 客户 Logos
+logos:
+  enable: true
+  logo_image:
+    - alt: "Nintendo"
+      image: "/images/nintendo.svg"
+    - alt: "Gears"
+      image: "/images/gears.svg"
+    - alt: "Twitch"
+      image: "/images/twitch.svg"
+    - alt: "Hulu"
+      image: "/images/hulu.svg"
+
+
+client_items:
+  - name: "Martin Edwards"
+    image: "/images/client-1.jpg"
+    designation: "Data Scientist"
+    content : "The incredible attention to detail displayed by this team is commendable. Every aspect of our project, no matter how small, was handled with precision and care. The result is a product that reflects their commitment to excellence."
+
+  - name: "David Roberts"
+    image: "/images/client-2.jpg"
+    designation: "Designer"
+    content : "Our partnership with this team was characterized by open communication and collaborative efforts. They took the time to understand our goals and delivered a solution that perfectly aligns with our business objectives. Looking forward to future collaborations."
+
+  - name: "Daniel Carter"
+    image: "/images/client-3.jpg"
+    designation: "DevOps Engineer"
+    content : "Working with this creative powerhouse was an enlightening experience. Their brilliance in design thinking and creative solutions brought our project to life in ways we hadn't imagined. The team's passion for innovation is truly infectious."
+
+  - name: "Emily Bennett"
+    image: "/images/client-4.jpg"
+    designation: "Product Manager"
+    content : "I was impressed by how seamlessly Marcus integrated into our workflow. His designs improved not just the aesthetics but also the usability of our product. He listens carefully and provides thoughtful solutions that make a real difference."

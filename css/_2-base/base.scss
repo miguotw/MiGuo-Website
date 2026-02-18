@@ -1,4 +1,7 @@
-*, *::after, *::before {
+/* Base */
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -6,13 +9,14 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  letter-spacing: $base-letter-spacing;
   overflow-x: hidden;
   color: var(--text-color);
   background-color: var(--background-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  &.search-is-visible {
+  &.is-fixed {
     overflow: hidden;
     -webkit-overflow-scrolling: auto;
   }
@@ -21,10 +25,6 @@ body {
     *, *::after, *::before {
       transition: none !important;
     }
-  }
-
-  @media (max-width: $mobile) {
-    font-size: 16px;
   }
 }
 
@@ -35,11 +35,37 @@ body {
   }
 }
 
-.content {
-  margin: 60px 0;
+.home-cover {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 460px;
+  width: 100%;
+  overflow: hidden;
 
-  @media (max-width: $mobile) {
-    margin: 40px 0;
+  .home-cover__inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      content: "";
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      will-change: transform;
+      background: linear-gradient(180deg, rgba(var(--rgb-color), 0.10), rgba(var(--rgb-color), 1));
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 }
 
@@ -49,18 +75,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-family: $heading-font-family;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   letter-spacing: $heading-letter-spacing;
   color: var(--heading-font-color);
-
-  em {
-    font-family: $highlighted-font;
-    font-style: italic;
-    font-weight: normal;
-  }
 }
 
 h1 {
@@ -89,25 +109,32 @@ h6 {
 
 blockquote {
   position: relative;
-  margin: 96px 0 48px;
-  font-family: $highlighted-font;
-  font-size: 40px;
-  line-height: 1.6;
-  font-style: italic;
-  font-weight: 700;
+  margin: 68px 0 40px;
+  font-family: $heading-font-family;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
   text-align: center;
   color: var(--heading-font-color);
 
   &::before {
-    content: '\201C';
-    position: absolute;
-    top: -0.2em;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: $base-font-family;
-    font-size: 2em;
-    line-height: 0;
-    color: var(--heading-font-color);
+    font-size: 300%;
+    line-height: .3;
+    display: block;
+    content: "\201C";
+    color: var(--primary-color);
+  }
+
+  &.q-left {
+    padding: 0 24px;
+    margin: 40px 0;
+    font-size: 24px;
+    text-align: left;
+    border-left: 4px solid var(--primary-color);
+
+    &::before {
+      content: none;
+    }
   }
 
   p {
@@ -115,43 +142,25 @@ blockquote {
   }
 
   cite {
-    display: block;
-    margin-top: 20px;
+    display: inline-block;
+    margin-top: 12px;
     font-family: $base-font-family;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1;
     color: var(--heading-font-color);
   }
 
-  @media (max-width: $tablet) {
-    font-size: 32px;
-
-    cite {
-      margin-top: 12px;
-      font-size: 14px;
-    }
-  }
-
   @media (max-width: $mobile) {
-    margin: 80px 0 40px;
-
-    &::before {
-      top: -0.1em;
-    }
-
-    cite {
-      margin-top: 8px;
+    &.q-left {
+      font-size: 20px;
     }
   }
 }
 
 pre {
   overflow: auto;
-  padding: 15px;
+  padding: 12px;
   margin-bottom: 0;
   font-size: 14px;
   white-space: pre-wrap;
@@ -171,8 +180,7 @@ pre {
     opacity: 0;
 
     &:hover {
-      opacity: 1;
-      background: var(--button-background-hover);
+      opacity: .9;
     }
   }
 
@@ -183,21 +191,22 @@ pre {
 
   button {
     position: absolute;
-    right: 15px;
-    top: 15px;
+    top: 6px;
+    right: 6px;
     padding: 8px 12px;
-    border-radius: 60px;
-    font-family: $base-font-family;
+    border-radius: 12px;
+    font-family: $heading-font-family;
     font-size: 14px;
     line-height: 1;
     font-weight: 500;
     outline: none;
     border: none;
-    color: var(--button-color);
-    background: var(--dark);
+    color: var(--button-color-hover);
+    background: var(--button-background-hover);
     opacity: 0;
     transition: all 0.2s ease;
     cursor: pointer;
+    will-change: transform;
   }
 }
 
@@ -209,52 +218,37 @@ img,
 }
 
 img,
+.lightense-wrap,
 .gallery {
   &+em {
     display: block;
     margin-top: 12px;
+    font-family: $heading-font-family;
     font-size: 14px;
+    line-height: 1.4;
     font-style: normal;
     font-weight: normal;
     text-align: center;
     color: var(--text-alt-color);
-
-    a {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 2px;
-      text-decoration-color: transparent;
-      font-weight: 500;
-      color: var(--link-color);
-      transition: $global-transition;
-
-      &:hover {
-        text-decoration-color: var(--link-color);
-      }
-    }
   }
 }
 
 a {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-  text-decoration-color: transparent;
+  text-decoration: none;
   color: var(--link-color);
   transition: $global-transition;
-
-  &:hover {
-    text-decoration-color: var(--link-color);
-  }
 }
 
 hr {
-  position: relative;
+  width: 100%;
   height: 1px;
-  margin: 60px 0;
-  font-size: 16px;
+  margin: 32px 0;
   border: 0;
-  background: var(--border-color);
+  background: var(--border-alt-color);
+
+  @media (max-width: $mobile) {
+    margin: 48px 0;
+  }
 }
 
 .table-container {
@@ -265,10 +259,10 @@ hr {
 
 table {
   font-size: 12px;
-  color: var(--dark);
+  color: var(--heading-font-color);
   width: 100%;
   border-width: 1px;
-  border-color: var(--background-alt-color);
+  border-color: var(--border-alt-color);
   border-collapse: collapse;
   color: var(--heading-font-color);
 }
@@ -279,21 +273,21 @@ table th {
   text-align: left;
   border: 1px solid var(--th-color);
   color: var(--heading-font-color);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 table tr {
-  background-color: var(--tr-color);
-  transition: all .3s ease;
+  background: var(--tr-color);
+
   &:nth-child(even) {
-    background-color: transparent;
+    background: transparent;
   }
 }
 
 table td {
   padding: 10px;
   font-size: 14px;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--th-color);
 }
 
 .lazy {
@@ -303,4 +297,8 @@ table td {
 
 .lazy.loaded {
   opacity: 1;
+}
+
+.lightense-backdrop {
+  background-color: var(--background-color) !important;
 }

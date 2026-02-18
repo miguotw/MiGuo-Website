@@ -1,12 +1,12 @@
-# Baleon – Portfolio & Blog Theme for Jekyll
+# Tarne — Professional Portfolio and Blog Jekyll Theme
 
-Baleon is a stylish and multifunctional theme for Jekyll, perfect for creating portfolios and blogs. With it, you can quickly and easily create a stylish website that highlights your work and publications. Its intuitive interface, responsive design, and numerous customizable options make Baleon an excellent choice for professionals looking to showcase their projects in the best light.
+Tarne is a professional portfolio Jekyll theme crafted for creatives, designers, developers, and professionals who want to showcase their work with clarity and style. Packed with thoughtful features, this theme includes a bookmark system for quick saving and browsing, a dark and light mode switch for a personalized experience, and beautifully designed sections for testimonials, services, and blogging. With this theme, your portfolio becomes a true reflection of your identity.
 
 * * *
 
 ### Demo
 
-Check the theme in action [Live Demo](https://baleon.netlify.app/) |
+Check the theme in action [Live Demo](https://tarne.netlify.app/) |
 [Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
 
 * * *
@@ -14,22 +14,28 @@ Check the theme in action [Live Demo](https://baleon.netlify.app/) |
 ### Theme features
 
 - Works with GitHub Pages (host it for free)
-- Dark and light mode
+- Dark and light mode user can select themself
 - No jQuery, only vanilla JS
-- 100% responsive Design
-- Clean and Modern Code
+- Bookmark system for quick saving and browsing
+- 100% responsive design
+- Clean and modern code
 - Optimized for mobile devices
-- Section Projects
-- Section Blog
-- Section Testimonials
-- Section Gallery
 - Super fast performance ⚡⚡⚡
+- Logos slider
+- Section projects
+- Section clients
+- Section blog
+- FAQ page included
+- Clients page included
+- Archive page for blog posts
 - Social sharing buttons
+- Scroll to top button
 - Syntax highlighting
+- Copy code button
 - Compatible with modern browsers
-- Image Lazy loading
+- Medium style image zoom
+- Image lazy loading
 - Image gallery
-- Tags
 - Tag page
 - Custom logo support
 - Supports video posts
@@ -37,7 +43,7 @@ Check the theme in action [Live Demo](https://baleon.netlify.app/) |
 - Supports MailChimp newsletter
 - Supports Disqus comments
 - Supports Google Analytics
-- Font Awesome Icons
+- Font Awesome icons
 - Free Google Fonts
 - Free Updates & Support
 
@@ -61,10 +67,10 @@ I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/de
 
 ### Documentation
 
-Before using the Baleon theme, please read the attached documentation.
+Before using the Tarne theme, please read the attached documentation.
 
 * * *
 
 ### Support
 
-<p>If you have any questions, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+<p>If you have any questions or feedback about the theme, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>

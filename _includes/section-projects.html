@@ -1,62 +1,67 @@
 {% if site.data.settings.projects.enable == true %}
-<!-- begin section projects -->
-<section class="section section-projects">
-    <div class="row">
-      <div class="col col-12">
+<!-- begin projects -->
+<section class="section projects">
+  <div class="container">
+    <div class="section__inner">
 
-        <div class="section__info">
-          {% if site.data.settings.projects.projects_title %}
+      <div class="row">
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+          <div class="section__head">
+            {% if site.data.settings.projects.projects_title %}
             <h2 class="section__title">{{ site.data.settings.projects.projects_title }}</h2>
-          {% endif %}
-          {% if site.data.settings.projects.projects_description %}
-            <p class="section__description">{{ site.data.settings.projects.projects_description }}</p>
-          {% endif %}
-        </div>
+            {% endif %}
+          </div>
 
-        <div class="row">
-          {% assign sorted = site.projects | sort: 'date' | reverse %}
-          {% for project in sorted limit:4 %}
-          <article class="project col col-6 col-t-12">
-            <div class="project__content">
-
-              <div class="project__head">
-                {% if project.image and project.video_embed %}
-                <div class="video-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-                    <polygon points="40,30 65,50 40,70"></polygon>
-                  </svg>
-                </div>
-                {% endif %}
-                {% if project.image %}
-                <a href="{{ project.url | relative_url }}" class="project__image">
-                  <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-                </a>
-                {% endif %}
-              </div>
-
-              <div class="project__info">
-                <h2 class="project__title">
-                  <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-                </h2>
-                <div class="project__meta">
-                  {% if project.subtitle %}
-                    <div class="project__subtitle">{{ project.subtitle }}</div><span>•</span>
+          <div class="row">
+            {% assign sorted = site.projects | sort: 'date' | reverse %}
+            {% assign displayed_projects = 0 %}
+            {% for project in sorted %}
+              {% unless project.featured == true %}
+              {% assign displayed_projects = displayed_projects | plus: 1 %}
+              <article class="project col col-6 col-t-12">
+                <div class="project__content">
+                  {% if project.image %}
+                  <div class="project__head">
+                    <div class="bookmark-btn" data-id="{{ project.url }}" data-title="{{ project.title }}"
+                      data-desc="{{ project.excerpt | strip_html | truncate: 100 }}" data-date="{{ project.date | date_to_long_string }}" data-image="{{ project.image }}">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <a href="{{ project.url }}" class="project__image">
+                      {% if project.video_embed %}
+                      <div class="video-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                          <polygon points="40,30 70,50 40,70"></polygon>
+                        </svg>
+                      </div>
+                      {% endif %}
+                      <img class="lazy" data-src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+                    </a>
+                  </div>
                   {% endif %}
-                  <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date_to_string }}</time>
+                  <div class="project__info">
+                    {% if project.label %}
+                    <div class="project__label">{{ project.label }}</div>
+                    {% endif %}
+                    {% if project.title %}
+                    <h2 class="project__title"><a class="project__link" href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+                    {% endif %}
+                    <p class="project__excerpt">{% if project.description %}{{ project.description }}{% else %}{{ project.content | strip_html | truncate: 160 }}{% endif %}</p>
+                  </div>
                 </div>
-              </div>
+              </article>
+              {% endunless %}
+              {% if displayed_projects >= 4 %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          </div>
 
-            </div>
-          </article>
-          {% endfor %}
         </div>
-
       </div>
-    </div>
 
-  <div class="section__navigation">
-    <a href="{{ '/projects' | relative_url }}" class="button section__button">查看更多 <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
   </div>
 </section>
-<!-- end section projects -->
+<!-- end projects -->
 {% endif %}

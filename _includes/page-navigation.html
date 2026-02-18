@@ -15,11 +15,11 @@
     {% endif %}
     <div class="prev__box">
       {% if page.collection == "posts" %}
-      <span class="page__nav__prev">Older post</span>
+      <span class="page__nav__prev">較舊貼文</span>
       {% elsif page.collection == "projects" %}
-      <span class="page__nav__prev">Older project</span>
+      <span class="page__nav__prev">較舊貼文</span>
       {% else %}
-      <span class="page__nav__prev">Older page</span>
+      <span class="page__nav__prev">舊頁面</span>
       {% endif %}
       <h2 class="page__nav__title"><a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a></h2>
     </div>
@@ -30,11 +30,11 @@
   <div class="page__next">
     <div class="next__box">
       {% if page.collection == "posts" %}
-      <span class="page__nav__next">Newer post</span>
+      <span class="page__nav__next">較新貼文</span>
       {% elsif page.collection == "projects" %}
-      <span class="page__nav__next">Newer project</span>
+      <span class="page__nav__next">較新貼文</span>
       {% else %}
-      <span class="page__nav__next">Newer page</span>
+      <span class="page__nav__next">新頁面</span>
       {% endif %}
       <h2 class="page__nav__title"><a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a></h2>
     </div>

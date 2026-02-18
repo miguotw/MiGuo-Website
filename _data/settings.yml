@@ -18,10 +18,15 @@ menu_settings:
       url: '/projects/'
       
     - title: '發起委託'
-    - url: '/services/'
+      url: '/services/'
       
-    
+    - title: '其他專案'
+      url: '/latest/'
+
       submenu:
+      #- url: '/latest/'
+      #  title: '其他專案'
+
       #- url: '/clients/'
       #  title: '案例'
 
@@ -37,11 +42,8 @@ menu_settings:
       #- url: '/elements/'
       #  title: '元素'
 
-      - url: '/latest/'
-        title: '最新'
-        
-      - url: '/faq/'
-        title: '常見問題'
+      #- url: '/faq/'
+      #  title: '常見問題'
 
 # 號召行動按鈕 Call to action button
 cta_button:
@@ -96,7 +98,7 @@ projects:
 # 部落格設定 Section Blog Settings
 blog:
   enable: true
-  blog_title: Writings
+  blog_title: 其他專案 Other Projects
 
 
 #-------------------------------

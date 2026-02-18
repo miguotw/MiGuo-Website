@@ -51,7 +51,7 @@ menu_settings:
 cta_button:
   enable: true
   cta_button_link: "https://miguo.fanbox.cc/"
-  cta_button_text: PIXIV FANBOX
+  cta_button_text: FANBOX
 
 
 # 首頁封面圖片 Home Cover Image

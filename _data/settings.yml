@@ -17,7 +17,7 @@ menu_settings:
     - title: '插畫作品'
       url: '/projects/'
       
-    - title: '委託'
+    - title: '發起委託'
     - url: '/services/'
       
     

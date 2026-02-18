@@ -1,0 +1,73 @@
+---
+layout: default
+title: 發起委託 Commission
+description: My goal is to help you turn concepts into solutions that are not only visually strong but also effective in the real world. Every service is tailored to meet your unique business needs and goals.
+permalink: /commission/
+image: '/images/01.jpg'
+---
+
+<!-- begin services -->
+<section class="section services">
+  <div class="container">
+    <div class="section__inner">
+      <div class="row">
+
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+          <div class="section__hero">
+            <div class="section__hero__inner">
+              {% if site.data.services.services_title %}
+              <h1 class="section__hero__title">{{ site.data.services.services_title }}</h1>
+              {% else page.title %}
+              <h1 class="section__hero__title">{{ page.title }}</h1>
+              {% endif %}
+              {% if site.data.services.services_description %}
+              <p class="section__hero__description">{{ site.data.services.services_description }}</p>
+              {% else page.description %}
+              <p class="section__hero__description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="row">
+            {% for service in site.data.services.services limit: 4 %}
+            <div class="services-item col col-6 col-t-12">
+              <div class="service">
+                <div class="service__content">
+                  {% if service.icon %}
+                  <div class="service__head">
+                    <div class="service__icon">
+                      <i class="{{ service.icon }}"></i>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% if service.title %}
+                  <h2 class="service__title">{{ service.title }}</h2>
+                  {% endif %}
+                  {% if service.description %}
+                  <p class="service__description">{{ service.description }}</p>
+                  {% endif %}
+                  <div class="service__info">
+                    {% if service.price %}
+                    <div class="service__info__price">{{ service.price }}</div>
+                    {% endif %}
+                    {% if service.button_text %}
+                    <a href="{{ service.button_link }}" rel="noopener" class="service__info__link">{{
+                      service.button_text }}</a>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end services -->
+
+{% include section-resources.html %}

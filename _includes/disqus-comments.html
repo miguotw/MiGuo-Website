@@ -1,15 +1,17 @@
-<!-- begin comments -->
 <div class="show-comments">
-  <button class="button disqus-button" id="show-comments-button" onclick="disqus();return false;">顯示評論</button>
-</div>
+  {% if site.data.settings.disqus.disqus_title %}
+  <h3 class="show-comments__title">{{ site.data.settings.disqus.disqus_title }}</h3>
+  {% endif %}
+  <button class="disqus-button button button--medium" id="show-comments-button" onclick="disqus();return false;">{{ site.data.settings.disqus.disqus_button_text }}</button>
 
-<div id="disqus_thread" class="post__comments">
-  <div id="disqus_empty"></div>
+  <div id="disqus_thread" class="post__comments">
+    <div id="disqus_empty"></div>
+  </div>
 </div>
 
 <script>
   var disqus_loaded = false;
-  var disqus_shortname = '{{ site.data.settings.disqus-identifier }}';
+  var disqus_shortname = '{{ site.data.settings.disqus.disqus_identifier }}';
   var disqus_container = document.getElementById("disqus_thread");
   function disqus() {
     if (!disqus_loaded) {
@@ -32,4 +34,3 @@
 <noscript>Please enable JavaScript to view the
   <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
 </noscript>
-<!-- end comments -->

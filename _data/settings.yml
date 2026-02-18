@@ -1,9 +1,9 @@
 #-------------------------------
-# 網站設定 Site Settings
+# Site Settings
 title: 米淉 MiGuo
-logo: "/assets/images/main/logo_light.png" # You can add own logo. For example '/assets/images/logo.png'.
-logo_dark: "/assets/images/main/logo_dark.png"
 description: 喜歡畫可愛的女孩子～如果有任何委託的需求，歡迎來信詢問～
+logo: '/assets/images/home/logo_dark.png' # You can add own logo. For example '/images/logo.png'.
+logo_dark: '/assets/images/home/logo_light.png'
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -13,24 +13,39 @@ menu_settings:
   menu_items:
     - title: '首頁'
       url: '/'
-
-    - title: '原創插畫'
-      url: '/tags/?tag=原創插畫'
     
     - title: '插畫作品'
-      url: '/blog/'
-
-    - title: '限時賀卡'
-      url: '/greeting-card/'
-
-    - title: '貼圖 | 米淉子日常'
-      url: '/project/line貼圖-米淉子日常'
-
-    - title: 'Live2D | 猫又みつる'
-      url: '/project/live2d-猫又みつる'
-
-    #- title: '其他專案'
-    #  url: '/projects'
+      url: '/projects/'
+      
+    - title: '其他專案'
+      url: '/posts/'
+    
+    - title: '發起委託'
+      url: '/commission/'
+    
+    - title: '資源'
+    
+      submenu:
+      - url: '/posts/猫又みつる/'
+        title: 'Live2D | 猫又みつる'
+      
+      - url: '/posts/米淉子日常/'
+        title: '貼圖 | 米淉子日常'
+        
+      #- url: '/about/'
+      #  title: '關於我'
+      
+      #- url: '/videos/'
+      #  title: '影片'
+      
+      #- url: '/archive/'
+      #  title: '檔案館'
+      
+      #- url: '/elements/'
+      #  title: '元素'
+      
+      #- url: '/faq/'
+      #  title: '常見問題'
 
 # 號召行動按鈕 Call to action button
 cta_button:
@@ -39,152 +54,88 @@ cta_button:
   cta_button_text: PIXIV FANBOX
 
 
+# 首頁封面圖片 Home Cover Image
+home_cover_image: /assets/images/home/bg.png
+
+
 #-------------------------------
 # 作者設定 Author Settings
 author:
-  author_intro: 米淉 MiGuo
   author_name: 米淉 MiGuo
-  author_role: # Illustrator
-  author_avatar: /assets/images/main/256px_8fps.gif
+  author_avatar: /assets/images/home/256px_24fps.gif
 
 
 #-------------------------------
-# 側邊欄部分設置 Sidebar Section Settings
-sidebar:
-  sidebar_title: ヾ(*ΦωΦ)ツ # You can add an 'em' element to highlight text.
-  sidebar_description: <p>喜歡畫可愛的女孩子～<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～<br><br>Email | <a href="mailto:hi@miguo.art">hi@miguo.art</a></p>
+# 英雄設定 Hero Settings
+hero:
+  enable: true
+  hero_avatar: /assets/images/home/256px_24fps.gif
+  hero_title: 米淉 MiGuo
+  hero_description: <p>喜歡畫可愛的女孩子～<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～<br><br>Email | <a href="mailto:hi@miguo.art">hi@miguo.art</a></p>
 
 
-# 社群連結 Social Links
+#-------------------------------
+# 社群連結 Social Settings
 social:
 - {icon: "fa-brands fa-pixiv", name: "pixiv", link: "https://www.pixiv.net/users/25343499"}
-- {icon: "fa-brands fa-x-twitter", name: "X", link: "https://x.com/miguo_tw"}
-- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://www.facebook.com/miguotw"}
+- {icon: "fa-brands fa-x-twitter", name: "X (twitter)", link: "https://x.com/miguo_tw"}
 - {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/miguo-art.bsky.social"}
+- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://www.facebook.com/miguotw"}
+- {icon: "fa-brands fa-instagram", name: "Facebook", link: "https://www.facebook.com/miguotw"} 
+- {icon: "fa-brands fa-threads", name: "Facebook", link: "https://www.facebook.com/miguotw"}
 - {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/miguotw"}
 - {icon: "fa-brands fa-youtube", name: "YouTube", link: "https://www.youtube.com/@miguo_tw"}
 - {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/invite/krSbg8ZrVx"}
-#- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/miguotw"}
-#- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
-#- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
-#- {icon: "fa-brands fa-spotify", name: "Spotify", link: "https://spotify.com"}
-#- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com"}
 
-# Example of adding a new link to the footer - {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
+# Example of adding a new link to the hero and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
 
 
 #-------------------------------
-# 畫廊設置 Gallery Settings
-gallery:
-  enable: true
-  gallery_title: 精選作品　<em>Selected Works</em> # You can add an 'em' element to highlight text.
-  gallery_description: 最滿意的作品，不定期更新！
-  gallery_caption:
-
-gallery_images:
-  - alt: '水色の夢🩵✨'
-    url: '/assets/images/gallery/16_N202SP.jpg'
-
-  - alt: '新年あけましておめでとう‼️🎍'
-    url: '/assets/images/gallery/10_noise_18_N01.jpg'
-
-  - alt: '君のクリスマスプレゼント🎁🎄'
-    url: '/assets/images/gallery/10_noise_17_N102.jpg'
-
-#-------------------------------
-# 插畫作品 Blog Section Settings
-blog:
-  enable: true
-  blog_title: 插畫作品　<em>Illustration Works</em> # You can add an 'em' element to highlight text.
-  blog_description: 這裡收錄一些我的插畫作品，<br>這些作品通常也可以在 <a href="https://www.pixiv.net/users/25343499">pixiv (ピクシブ)</a> 上查看。
-
-
-#-------------------------------
-# 其他專案 Projects Settings
+# 項目部分設定 Projects Section Settings
 projects:
   enable: true
-  projects_title: 其他專案　<em>Other Projects</em> # You can add an 'em' element to highlight text.
-  projects_description: 其他一些東東。好吧，我想不到了。
+  projects_title: 插畫作品 Illustration Works
 
 
 #-------------------------------
-# Testimonials Settings
-testimonials:
-  enable: false
-  testimonials_title: Trusted by <em>Professionals</em> # You can add an 'em' element to highlight text.
-  testimonials_description: Join our community of creative professionals where you can develop your talents and reach new heights in design.
-
-testimonial-items:
-  - name: Amelia Jones
-    image: "/assets/images/client-1.jpg"
-    designation : Network Engineer
-    content : This product designer is an expert in his field. His ability to understand the needs of clients and create designs that satisfy them is astounding.
-
-  - name: Ethan Robinson
-    image: "/assets/images/client-2.jpg"
-    designation : Blockchain Developer
-    content : Kevin is a true visionary in the field of product design. His ability to think outside the box and push boundaries is what sets him apart from the rest.
-
-  - name: Matthew Garcia
-    image: "/assets/images/client-3.jpg"
-    designation : IT Support Specialist
-    content : I cannot recommend this designer highly enough. Their designs are not only visually stunning but also highly functional, making them perfect for our needs.
-
-
-#-------------------------------
-# 常見問題設定 Faq (Frequently asked questions) Settings
-faq:
-  enable: false
-  faq_title: Questions? <em>Answers</em>. # You can add an 'em' element to highlight text.
-  faq_description: Find solutions to common queries here.
-
-faq_items:
-  - title: What are your main areas of expertise in product design?
-    description: My specialization includes user interface (UI) and user experience (UX) design, prototyping, as well as researching and testing user needs.
-
-  - title: Can you provide examples of your work?
-    description: Yes, on my website, you can find a portfolio with examples of my projects and designs.
-
-  - title: What is your experience with various platforms and devices?
-    description: I have extensive experience working with various platforms, including websites, mobile applications, tablets, and other devices.
-
-  - title: What tools and software do you use for work?
-    description: I work with tools such as Sketch, Adobe XD, Figma, InVision for creating designs and prototypes, and also use Jira and Trello for project management.
-
-  - title: How long does it take to develop a product design?
-    description: The development time depends on the complexity of the project. Usually, creating a product design takes from several weeks to several months.
-
-  - title: How can I contact you to discuss my project?
-    description: You can contact me through the contact form on my website or directly via email. I'm always open to new projects and ready to discuss your idea.
+# 部落格設定 Section Blog Settings
+blog:
+  enable: true
+  blog_title: 其他專案 Other Projects
 
 
 #-------------------------------
 # 簡訊設定 Newsletter Settings
 mailchimp:
   enable: false
-  mailchimp_title: Subscribe to Our <em>Newsletter</em> # You can add an 'em' element to highlight text.
-  mailchimp_description: Join now and never miss out on our stuff again. Because you are worth it!
+  mailchimp_image: '/images/20.jpg'
+  mailchimp_title: Stay Inspired Weekly
+  mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
   mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
   mailchimp_input_text: Your email address
   mailchimp_button_text: Subscribe
 
 
 #-------------------------------
-# 聯絡方式 Contact Settings
+# Contact Settings
 contact:
-  email: your@email.com # Add your form_id
-  description: Baleon comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  form_id: your@email.com # Add your form_id
+  button_text: Send Message
 
 # NOTE
-# Baleon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+# Tarne theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: miguo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus:
+  enable: true
+  disqus_identifier: miguo # Add your shortname for Disqus Comment. For example anvod-studio-test
+  disqus_title: 你有什麼想法？
+  disqus_button_text: 顯示評論區
 
 
 #-------------------------------
 # Google Analytics
-google-analytics: G-TPQJL9B9T1 # Add your GA Tracking Id
+google_analytics: G-TPQJL9B9T1 # Add your GA Tracking Id

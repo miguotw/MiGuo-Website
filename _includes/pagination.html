@@ -2,9 +2,10 @@
 {% assign postsCovered = site.paginate | plus:offset %}
 {% if postsCovered < postCount %}
 <!-- begin pagination -->
-<div class="container">
-  <div class="pagination">
-    <button class="load-more-posts button">載入更多 <i class="fa-solid fa-arrow-up"></i></button>
+<div class="pagination">
+  <div class="load-more-section">
+    <button class="load-more-posts button button--medium">載入更多</button>
+    <p class="load-more-complete">這裡沒有更多東西了 ┐(´д`)┌</p>
   </div>
 </div>
 <!-- end pagination -->
@@ -12,7 +13,7 @@
 
 <script>
   var base_url = "",
-    pagination_next_url = base_url + "{{ '/blog/page2' | relative_url }}",
+    pagination_next_url = base_url + "{{ '/page2' | relative_url }}",
     pagination_next_page_number = "{{ paginator.next_page }}",
     pagination_available_pages_number = "{{ paginator.total_pages }}";
 </script>

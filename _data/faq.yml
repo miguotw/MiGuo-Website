@@ -1,0 +1,33 @@
+#-------------------------------
+# 常見問題設定 Faq (Frequently asked questions) Settings
+faq_title: 常見問題 FAQ
+faq_description: Find answers to the most common questions about working with me, project timelines, pricing, and communication.
+
+faq_items:
+  - title: "What are your main areas of expertise in product design?"
+    description: "My specialization includes user interface (UI) and user experience (UX) design, prototyping, as well as researching and testing user needs."
+
+  - title: "Do you work with startups or established companies?"
+    description: "Both! I’ve worked with early-stage startups building MVPs as well as established teams refining and scaling their products."
+
+
+  - title: "What tools and software do you use for work?"
+    description: "Mostly Figma, FigJam, and Whimsical for ideation, wireframes, and high-fidelity UI. I also use Notion, Loom, and Slack to collaborate effectively with teams."
+
+  - title: "How long does it take to develop a product design?"
+    description: "The development time depends on the complexity of the project. Usually, creating a product design takes from several weeks to several months."
+
+  - title: "What is your experience with various platforms and devices?"
+    description: "I have extensive experience working with various platforms, including websites, mobile applications, tablets, and other devices."
+
+  - title: "Do you offer consulting or strategy sessions?"
+    description: "Yes, I provide consulting sessions to discuss design strategy, product direction, or UX improvements. These sessions are helpful for teams not ready for a full project but needing expert advice. It’s a great way to explore possibilities before committing."
+
+  - title: "What is included in a UX design project?"
+    description: "A typical UX project covers user research, wireframes, user flows, and testing. The outcome is a clear blueprint for how users will interact with the product. This ensures design decisions are based on data, not guesswork."
+
+  - title: "How can I contact you to discuss my project?"
+    description: "Simple — just use the <a href='/contact'>contact form</a> or email me directly. I’ll respond within 1–2 days and we can schedule a quick intro call."
+
+  - title: "Do you provide support after the project is finished?"
+    description: "Yes, I offer post-project support to help with adjustments, updates, or advice. Depending on the agreement, this can be a short support period or a longer retainer. I aim to make sure clients feel confident even after delivery."

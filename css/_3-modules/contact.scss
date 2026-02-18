@@ -1,34 +1,48 @@
 /* Contact */
 .form__group {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 
   &:last-child {
     margin-bottom: 0;
   }
+}
 
-  .form__input {
-    width: 100%;
-    padding: 16px;
-    font-size: 16px;
-    border-radius: 12px;
-    border: 2px solid transparent;
-    outline: 0;
-    color: var(--heading-font-color);
-    background: var(--background-alt-color);
-    resize: vertical;
-    transition: $global-transition;
+.form__input {
+  width: 100%;
+  padding: 16px;
+  font-size: 15px;
+  border: 1.4px solid var(--border-alt-color);
+  border-radius: 12px;
+  outline: none;
+  resize: vertical;
+  color: var(--heading-font-color);
+  background: var(--background-alt-color);
+
+  &::placeholder {
+    color: var(--text-alt-color);
+  }
+
+  &:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 4px;
+    background: transparent;
 
     &::placeholder {
-      color: var(--text-alt-color);
+      color: var(--heading-font-color);
     }
+  }
+}
 
-    &:hover {
-      border-color: var(--border-color);
-    }
+.dark-mode {
+  .form__group {
+    .button {
+      color: var(--button-color);
+      background: var(--background-alt-color);
 
-    &:focus {
-      border-color: var(--brand-color);
-      background: var(--background-color);
+      &:hover {
+        color: var(--button-color-hover);
+        background: var(--button-background-hover);
+      }
     }
   }
 }

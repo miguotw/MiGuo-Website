@@ -31,7 +31,10 @@
   --button-color: var(--white);
   --button-color-hover: var(--dark);
   --button-background-color: var(--dark);
-  --button-background-hover: var(--primary-color);
+  --button-background-hover: linear-gradient(-20deg, #FF775E 0%, #FFB66F 100%);
+
+
+
 
   --border-color: var(--light-gray);
   --border-alt-color: var(--light-blue);

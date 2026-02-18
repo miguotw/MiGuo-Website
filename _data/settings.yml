@@ -21,7 +21,7 @@ menu_settings:
       url: '/posts/'
     
     - title: '發起委託'
-      url: '/services/'
+      url: '/commission/'
     
     - title: '資源'
     
@@ -81,6 +81,8 @@ social:
 - {icon: "fa-brands fa-x-twitter", name: "X (twitter)", link: "https://x.com/miguo_tw"}
 - {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/miguo-art.bsky.social"}
 - {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://www.facebook.com/miguotw"}
+- {icon: "fa-brands fa-instagram", name: "Facebook", link: "https://www.facebook.com/miguotw"} 
+- {icon: "fa-brands fa-threads", name: "Facebook", link: "https://www.facebook.com/miguotw"}
 - {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/miguotw"}
 - {icon: "fa-brands fa-youtube", name: "YouTube", link: "https://www.youtube.com/@miguo_tw"}
 - {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/invite/krSbg8ZrVx"}

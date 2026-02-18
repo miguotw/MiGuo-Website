@@ -2,7 +2,7 @@
 // You can generate any color here - https://htmlcolorcodes.com
 
 :root {
-  --primary-color: #f9c345;
+  --primary-color: #FFB66F;
   --white: #fff;
   --light-gray: #f1f1f3;
   --lighten-gray: #e4e6eb;
@@ -13,7 +13,7 @@
   --dark: #10141f;
   --rgb-color: 255, 255, 255;
 
-  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.33) 75%);
+  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.6) 100%);
 
   --background-rgba: rgba(var(--rgb-color), 0.9);
   --background-color: var(--white);
@@ -49,7 +49,7 @@
 }
 
 :root[dark] {
-  --primary-color: #f9c345;
+  --primary-color: #FFB66F;
   --white: #fff;
   --light-gray: #f0f0f0;
   --gray: #9e9e9e;
@@ -60,7 +60,7 @@
   --background-alt-color: #292b30;
   --background-alt-color-2: #32343a;
 
-  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.33) 75%);
+  --image-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.6) 100%);
 
   --text-color: var(--gray);
   --text-alt-color: var(--gray);

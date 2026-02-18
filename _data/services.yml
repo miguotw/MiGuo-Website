@@ -1,34 +1,34 @@
 #-------------------------------
 # 服務設定 Services Settings
 services_title: 委託 Commission
-services_description: My goal is to help you turn concepts into solutions that are not only visually strong but also effective in the real world.
+services_description: 準備中...
 services_section_enable: true
 
 services:
-  - title: User Experience Design
-    description: From wireframes to flows, every interaction is designed to be clear, purposeful, and engaging across the entire product lifecycle.
+  - title: 插畫委託
+    description: 準備中...
     icon: "fa-solid fa-crop-simple"
-    price: Starts at $2599
-    button_text: Book a Call
-    button_link: "#"
+    price: NT$ 1,000 起
+    button_text: 開始聯繫
+    button_link: '#'
 
-  - title: UI & Visual Design
-    description: I design clean, modern, and accessible UI systems that not only look good but also enhance usability your brand’s identity.
-    icon: "fa-solid fa-spiral"
-    price: Starts at $4799
-    button_text: Book a Call
-    button_link: "#"
+#  - title: UI & Visual Design
+#    description: I design clean, modern, and accessible UI systems that not only look good but also enhance usability your brand’s identity.
+#    icon: "fa-solid fa-spiral"
+#    price: Starts at $4799
+#    button_text: Book a Call
+#    button_link: "#"
 
-  - title: Prototyping & Validation
-    description: This helps teams gather feedback early, validate assumptions, and save time and budget down the line.
-    icon: "fa-solid fa-images"
-    price: Starts at $2899
-    button_text: Book a Call
-    button_link: "#"
+#  - title: Prototyping & Validation
+#    description: This helps teams gather feedback early, validate assumptions, and save time and budget down the line.
+#    icon: "fa-solid fa-images"
+#    price: Starts at $2899
+#    button_text: Book a Call
+#    button_link: "#"
 
-  - title: Design Systems & Components
-    description: Through workshops, research, and rapid validation, we turn ambiguity into a clear product direction.
-    icon: "fa-solid fa-compass-drafting"
-    price: Starts at $5399
-    button_text: Book a Call
-    button_link: "#"
+#  - title: Design Systems & Components
+#    description: Through workshops, research, and rapid validation, we turn ambiguity into a clear product direction.
+#    icon: "fa-solid fa-compass-drafting"
+#    price: Starts at $5399
+#    button_text: Book a Call
+#    button_link: "#"

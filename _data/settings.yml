@@ -50,21 +50,21 @@ cta_button:
 
 
 # 首頁封面圖片 Home Cover Image
-home_cover_image: /images/bg.png
+home_cover_image: /assets/images/home/bg.png
 
 
 #-------------------------------
 # 作者設定 Author Settings
 author:
   author_name: 米淉 MiGuo
-  author_avatar: /images/01-1.jpg
+  author_avatar: /assets/images/home/256px_24fps.gif
 
 
 #-------------------------------
 # 英雄設定 Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/01-1.jpg
+  hero_avatar: /assets/images/home/256px_24fps.gif
   hero_title: 米淉 MiGuo
   hero_description: <p>喜歡畫可愛的女孩子～<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～<br><br>Email | <a href="mailto:hi@miguo.art">hi@miguo.art</a></p>
 

@@ -135,3 +135,15 @@
 {% include_relative _4-layouts/clients.scss %}
 /* >>>>>>>>>>>>>> :: 4.6-FAQ (Frequently asked questions) <<<<<<<<<<<<<<< */
 {% include_relative _4-layouts/faq.scss %}
+
+/* 全域 Font Awesome 垂直對齊修復 */
+.fa,
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+    vertical-align: middle;
+    transform: translateY(0.085em);
+}

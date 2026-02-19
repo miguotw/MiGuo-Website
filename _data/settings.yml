@@ -94,7 +94,7 @@ social:
 #-------------------------------
 # 項目部分設定 Projects Section Settings
 projects:
-  enable: true
+  enable: false
   projects_title: 插畫作品 Illustration Works
 
 

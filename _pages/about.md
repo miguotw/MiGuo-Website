@@ -8,5 +8,5 @@ toc: false
 ---
 
 <div class="button-group">
-    <a class="button" href="/"><i class="fa-solid fa-house"></i>　回到首頁，那裏有更詳細的介紹</a>
+    <a class="button button--big" href="/"><i class="fa-solid fa-house"></i>回到首頁，那裏有更詳細的介紹</a>
 </div>

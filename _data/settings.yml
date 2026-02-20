@@ -81,8 +81,8 @@ social:
 - {icon: "fa-brands fa-x-twitter", name: "X (twitter)", link: "https://x.com/miguo_tw"}
 - {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/miguo.art"}
 - {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://www.facebook.com/miguotw"}
-- {icon: "fa-brands fa-instagram", name: "Facebook", link: "https://www.facebook.com/miguotw"} 
-- {icon: "fa-brands fa-threads", name: "Facebook", link: "https://www.facebook.com/miguotw"}
+- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/miguo_tw"} 
+- {icon: "fa-brands fa-threads", name: "Threads", link: "https://www.threads.com/@miguo_tw"}
 - {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/miguotw"}
 - {icon: "fa-brands fa-youtube", name: "YouTube", link: "https://www.youtube.com/@miguo_tw"}
 - {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/invite/krSbg8ZrVx"}

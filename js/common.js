@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const html = document.querySelector('html'),
     globalWrap = document.querySelector('.global-wrap'),
     body = document.querySelector('body'),
+    pageTransitionOverlay = document.querySelector('.page-transition-overlay'),
     menuToggle = document.querySelector(".hamburger"),
     menuList = document.querySelector(".main-nav"),
     searchOpenButton = document.querySelectorAll(".search-icon"),
@@ -18,6 +19,24 @@ document.addEventListener("DOMContentLoaded", function() {
     tabContents = document.querySelectorAll('.clients__tabs__item'),
     btnScrollToTop = document.querySelector(".top");
 
+  /* =======================================================
+  // Page Transition Animation
+  ======================================================= */
+  // Trigger page transition fade-out after page loads
+  if (pageTransitionOverlay) {
+    // Wait for images and content to load, then fade out overlay
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        pageTransitionOverlay.classList.add('fade-out');
+        // Remove overlay from DOM after animation completes
+        setTimeout(function() {
+          if (pageTransitionOverlay.parentNode) {
+            pageTransitionOverlay.parentNode.removeChild(pageTransitionOverlay);
+          }
+        }, 600);
+      }, 100);
+    });
+  }
 
   /* =======================================================
   // Menu + Search + Theme Switcher + Blog List View

@@ -1,0 +1,114 @@
+{% if page.adult %}
+<!-- Immediate Age Gate Check (before DOM loads) -->
+<script>
+  (function() {
+    const currentPageUrl = window.location.pathname;
+    const storageKey = 'adult-content-confirmed-' + currentPageUrl;
+    const isConfirmed = sessionStorage.getItem(storageKey) === 'confirmed';
+    
+    // 設置初始狀態：若未確認，隱藏內容
+    if (!isConfirmed) {
+      document.documentElement.style.setProperty('--adult-content-hidden', 'true');
+    }
+  })();
+</script>
+
+<!-- Adult Content Age Gate Modal -->
+<div id="age-gate-modal" class="age-gate-modal" style="display: none;">
+  <div class="age-gate-modal__overlay"></div>
+  <div class="age-gate-modal__content">
+    <div class="age-gate-modal__box">
+      <h2 class="age-gate-modal__title">成人內容提示</h2>
+      <p class="age-gate-modal__description">
+        本頁面包含成人內容，需要確認年齡才能瀏覽。
+      </p>
+      <p class="age-gate-modal__age-info">
+        您確認已滿 18 歲嗎？
+      </p>
+      
+      <div class="age-gate-modal__actions">
+        <button id="age-gate-confirm" class="age-gate-modal__button age-gate-modal__button--confirm">
+          確認，我已滿 18 歲
+        </button>
+        <button id="age-gate-deny" class="age-gate-modal__button age-gate-modal__button--deny">
+          返回上一頁
+        </button>
+      </div>
+
+      <div class="age-gate-modal__notice">
+        <small>本網站不記錄您的個人信息。此確認僅在此瀏覽會話中有效。</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // 主要的成人內容確認邏輯
+  function initializeAgeGate() {
+    const ageGateModal = document.getElementById('age-gate-modal');
+    const confirmBtn = document.getElementById('age-gate-confirm');
+    const denyBtn = document.getElementById('age-gate-deny');
+    const contentArea = document.querySelector('main.content');
+    
+    const currentPageUrl = window.location.pathname;
+    const storageKey = 'adult-content-confirmed-' + currentPageUrl;
+    const isConfirmed = sessionStorage.getItem(storageKey) === 'confirmed';
+    
+    if (isConfirmed) {
+      // 已確認過，直接顯示內容
+      if (contentArea) {
+        contentArea.style.display = 'block';
+        contentArea.style.visibility = 'visible';
+        contentArea.style.opacity = '1';
+      }
+      ageGateModal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    } else {
+      // 未確認，隱藏內容並顯示對話框
+      if (contentArea) {
+        contentArea.style.display = 'none';
+      }
+      ageGateModal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+    
+    // 確認按鈕事件
+    confirmBtn.addEventListener('click', function() {
+      sessionStorage.setItem(storageKey, 'confirmed');
+      
+      // 動畫效果：淡出對話框
+      ageGateModal.style.opacity = '0';
+      ageGateModal.style.transition = 'opacity 0.3s ease-out';
+      
+      setTimeout(function() {
+        ageGateModal.style.display = 'none';
+        
+        // 淡入內容
+        if (contentArea) {
+          contentArea.style.display = 'block';
+          contentArea.style.visibility = 'visible';
+          contentArea.style.opacity = '0';
+          contentArea.style.transition = 'opacity 0.3s ease-in';
+          contentArea.offsetHeight; // 觸發重排
+          contentArea.style.opacity = '1';
+        }
+        
+        document.body.style.overflow = 'auto';
+      }, 300);
+    });
+    
+    // 拒絕按鈕事件
+    denyBtn.addEventListener('click', function() {
+      window.history.back();
+    });
+  }
+  
+  // 在 DOM 完全加載後初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeAgeGate);
+  } else {
+    // 如果 script 執行時 DOM 已加載，直接初始化
+    initializeAgeGate();
+  }
+</script>
+{% endif %}

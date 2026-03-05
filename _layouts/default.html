@@ -23,6 +23,10 @@
 
     {% include header.html %}
 
+    <!-- begin age-gate (if adult content) -->
+    {% include age-gate.html %}
+    <!-- end age-gate -->
+
     <!-- begin content -->
     <main class="content" aria-label="Content">
       {{ content }}

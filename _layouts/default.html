@@ -15,11 +15,22 @@
   <!-- begin global wrap -->
   <div class="global-wrap">
 
-    {% if site.data.settings.home_cover_image and page.url == '/' %}
+    {% assign default_cover_image = site.data.settings.home_cover_image %}
+    {% assign page_cover_image = page.home_cover_image | default: default_cover_image %}
+    {% assign show_cover = false %}
+    {% if page.url == '/' and default_cover_image %}
+      {% assign show_cover = true %}
+    {% elsif page_cover_image and page.show_home_cover_image %}
+      {% assign show_cover = true %}
+    {% elsif page.home_cover_image %}
+      {% assign show_cover = true %}
+    {% endif %}
+
+    {% if show_cover %}
     <!-- begin home cover -->
     <div class="home-cover">
       <div class="home-cover__inner">
-        <img src="{{ site.data.settings.home_cover_image }}" alt="{{ site.data.settings.title }}">
+        <img src="{{ page_cover_image }}" alt="{{ site.data.settings.title }}">
       </div>
     </div>
     <!-- end home cover -->

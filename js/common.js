@@ -535,6 +535,42 @@ document.addEventListener("DOMContentLoaded", function() {
 
   load_posts_button&&load_posts_button.addEventListener("click",function(e){e.preventDefault();var t=load_posts_button.textContent;load_posts_button.classList.add("button--loading"),load_posts_button.textContent="Loading";var o=pagination_next_url.split("/page")[0]+"/page/"+pagination_next_page_number+"/";fetch(o).then(function(e){if(e.ok)return e.text()}).then(function(e){var t=document.createElement("div");t.innerHTML=e;for(var o=document.querySelector(".grid"),n=t.querySelectorAll(".grid__post"),a=0;a<n.length;a++)o.appendChild(n.item(a));new LazyLoad({elements_selector:".lazy"}),updateUI(),pagination_next_page_number++,pagination_next_page_number>pagination_available_pages_number&&(load_posts_button.style.display="none",document.querySelector(".load-more-complete").style.display="block")}).finally(function(){load_posts_button.classList.remove("button--loading"),load_posts_button.textContent=t})});
 
+  // Smooth same-page anchors
+  document.querySelectorAll("a[href*='#']").forEach(function (anchor) {
+    var href = anchor.getAttribute('href');
+    if (!href || href.indexOf('#') === -1) return;
+    var hash = href.slice(href.indexOf('#'));
+    if (!hash || hash === '#') return;
+    var url;
+    try {
+      url = new URL(href, window.location.href);
+    } catch (error) {
+      return;
+    }
+    if (url.pathname !== window.location.pathname || url.origin !== window.location.origin) return;
+    var target = document.getElementById(hash.slice(1));
+    if (!target) return;
+
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (history.replaceState) {
+        history.replaceState(null, '', hash);
+      } else {
+        window.location.hash = hash;
+      }
+    });
+  });
+
+  if (window.location.hash) {
+    var initialTarget = document.getElementById(window.location.hash.slice(1));
+    if (initialTarget) {
+      setTimeout(function () {
+        initialTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
+  }
+
 
   /* =======================
   // Scroll Top Button

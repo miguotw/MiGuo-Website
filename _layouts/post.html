@@ -49,7 +49,6 @@ layout: default
           </div>
 
         </div>
-
         <div class="page-head">
           {% if page.video_embed %}
           <div class="page-video">
@@ -58,6 +57,12 @@ layout: default
                 webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
           </div>
+          {% else %}
+          {% if page.image and page.show_page_image != false %}
+          <div class="page-image">
+            <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </div>
+          {% endif %}
           {% endif %}
         </div>
 

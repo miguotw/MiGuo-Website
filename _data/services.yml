@@ -5,9 +5,23 @@ services_description: 準備中...
 services_section_enable: true
 
 services:
-  - title: 插畫委託
-    description: 正在籌備中，敬請期待！( •̀ ω •́ )✧
-    icon: "fa-solid fa-crop-simple"
+  - title: 插畫類委託
+    description: 檔期規劃中，敬請期待！( •̀ ω •́ )✧
+    icon: "fa-solid fa-palette"
+    price: NT$ ? 起
+    button_text: 透過 Email 開始聯繫
+    button_link: 'mailto:hi@miguo.art'
+
+  - title: V 皮繪製類委託
+    description: 檔期規劃中，敬請期待！( •̀ ω •́ )✧
+    icon: "fa-solid fa-person"
+    price: NT$ ? 起
+    button_text: 透過 Email 開始聯繫
+    button_link: 'mailto:hi@miguo.art'
+
+  - title: Live2D 類委託
+    description: 檔期規劃中，敬請期待！( •̀ ω •́ )✧
+    icon: "fa-solid fa-photo-film"
     price: NT$ ? 起
     button_text: 透過 Email 開始聯繫
     button_link: 'mailto:hi@miguo.art'

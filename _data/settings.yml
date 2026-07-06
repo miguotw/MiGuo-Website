@@ -26,6 +26,12 @@ menu_settings:
     - title: '資源'
     
       submenu:
+      - url: '/portfolio/illustration'
+        title: '作品 | 插畫、Live2D'
+      
+      - url: '/portfolio/design'
+        title: '作品 | 平面、商品設計'
+      
       - url: '/posts/猫又みつる'
         title: 'Live2D | 猫又みつる'
       

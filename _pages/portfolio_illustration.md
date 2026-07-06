@@ -20,6 +20,8 @@ toc: true
 水竟然出現在樓梯間、通道、車廂裡——<br>
 踩著藍綠色的光影，每一步都像在夢裡散步。
 
+Photoshop｜PaintTool SAI 2｜2025
+
 <div class="gallery-box">
   <div class="gallery gallery-columns-3">
     <img src="https://cdn.miguo.art/images/portfolio/illustration/ill_ori_08.jpg" loading="lazy">
@@ -29,7 +31,10 @@ toc: true
 </div>
 
 ### <i class="fa-solid fa-champagne-glasses"></i> 節慶與日常
+
 以日常、夢境與季節為題材，透過柔和色彩與光影描繪富有故事感的場景。
+
+Photoshop｜CLIP STUDIO PAINT｜PaintTool SAI 2｜2025 ~ 2026
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-2">
@@ -52,6 +57,8 @@ toc: true
 ### <i class="fa-solid fa-box-archive"></i> 模型「みつる」
 
 以原創角色「みつる」製作 Live2D 模型，負責模型繪製、拆件、模型建構、參數設定與物理模擬，並提供公開下載。
+
+Live2D Cubism｜PaintTool SAI 2｜2025
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-1">
@@ -79,6 +86,8 @@ toc: true
 
 以夏日主題重新設計原創角色服裝，延伸角色設定並維持整體識別性。
 
+Photoshop｜PaintTool SAI 2｜2024
+
 <div class="gallery-box">
   <div class="gallery gallery-columns-1">
     <img src="https://cdn.miguo.art/images/portfolio/illustration/role_miyako_swimsuit.png" loading="lazy">
@@ -94,6 +103,8 @@ toc: true
 
 以《絕區零》遊戲角色為主題進行二次創作，延伸角色特色並建立系列化的視覺表現。
 
+Photoshop｜PaintTool SAI 2｜2026
+
 <div class="gallery-box">
   <div class="gallery gallery-columns-3">
     <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Nanguhane_N01.jpg" loading="lazy">
@@ -103,6 +114,8 @@ toc: true
 </div>
 
 「妄想天使」Ｑ 版角色插畫延伸製作的壓克力周邊商品。
+
+Illustrator｜Photoshop｜PaintTool SAI 2｜2026
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-2">

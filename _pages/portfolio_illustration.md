@@ -47,32 +47,6 @@ toc: true
 
 ***
 
-## 同人二創
-
-### <i class="fa-solid fa-hands-clapping"></i> 妄想天使
-
-以《絕區零》遊戲角色為主題進行二次創作，延伸角色特色並建立系列化的視覺表現。
-
-<div class="gallery-box">
-  <div class="gallery gallery-columns-3">
-    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Nanguhane_N01.jpg" loading="lazy">
-    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Aria_N01.jpg" loading="lazy">
-    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Chinatsu_N01.jpg" loading="lazy">
-  </div>
-</div>
-
-「妄想天使」Ｑ 版角色插畫延伸製作的壓克力周邊商品。
-
-<div class="gallery-box">
-  <div class="gallery gallery-columns-2">
-    <img src="https://cdn.miguo.art/images/portfolio/illustration/com_zzz_02.jpg" loading="lazy">
-    <img src="https://cdn.miguo.art/images/portfolio/illustration/com_zzz_02.png" loading="lazy">
-  </div>
-</div>
-　
-
-***
-
 ## Live2D 製作
 
 ### <i class="fa-solid fa-box-archive"></i> 模型「みつる」
@@ -108,6 +82,32 @@ toc: true
 <div class="gallery-box">
   <div class="gallery gallery-columns-1">
     <img src="https://cdn.miguo.art/images/portfolio/illustration/role_miyako_swimsuit.png" loading="lazy">
+  </div>
+</div>
+　
+
+***
+
+## 同人二創
+
+### <i class="fa-solid fa-hands-clapping"></i> 妄想天使
+
+以《絕區零》遊戲角色為主題進行二次創作，延伸角色特色並建立系列化的視覺表現。
+
+<div class="gallery-box">
+  <div class="gallery gallery-columns-3">
+    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Nanguhane_N01.jpg" loading="lazy">
+    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Aria_N01.jpg" loading="lazy">
+    <img src="https://cdn.miguo.art/images/portfolio/illustration/AOD_Chinatsu_N01.jpg" loading="lazy">
+  </div>
+</div>
+
+「妄想天使」Ｑ 版角色插畫延伸製作的壓克力周邊商品。
+
+<div class="gallery-box">
+  <div class="gallery gallery-columns-2">
+    <img src="https://cdn.miguo.art/images/portfolio/illustration/com_zzz_02.jpg" loading="lazy">
+    <img src="https://cdn.miguo.art/images/portfolio/illustration/com_zzz_02.png" loading="lazy">
   </div>
 </div>
 　

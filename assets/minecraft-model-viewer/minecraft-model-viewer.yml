@@ -45,6 +45,56 @@ model_display:
   # 是否預設啟用模型光影效果：true（開啟）或 false（關閉）
   lighting: true
 
+# 光影參數相關設定
+lighting_display:
+  # 整體曝光強度；數值越大畫面越亮，建議範圍 0.5～2
+  tone_mapping_exposure: 1
+
+  # 半球環境光的天空顏色；需使用引號包住 # 色碼
+  ambient_sky_color: "#FFE0BA"
+
+  # 半球環境光的地面補光顏色；需使用引號包住 # 色碼
+  ambient_ground_color: "#A6A4DB"
+
+  # 半球環境光強度；提高可減少模型暗部死黑
+  ambient_intensity: 1.5
+
+  # 主光顏色；通常使用白色或微暖色
+  key_color: "#ffffff"
+
+  # 主光強度；數值越大模型正面受光越明顯
+  key_intensity: 0.5
+
+  # 主光 X 軸位置；影響亮面方向，不會產生地面投影
+  key_position_x: 3
+
+  # 主光 Y 軸位置；數值越大越像從上方照射
+  key_position_y: 5
+
+  # 主光 Z 軸位置；影響前後方向的亮面
+  key_position_z: 4
+
+  # 邊緣補光顏色；可用來增加輪廓色彩
+  rim_color: "#B2A4DB"
+
+  # 邊緣補光強度；提高會讓模型側邊或背面更亮
+  rim_intensity: 2
+
+  # 邊緣補光 X 軸位置
+  rim_position_x: -4
+
+  # 邊緣補光 Y 軸位置
+  rim_position_y: 2
+
+  # 邊緣補光 Z 軸位置
+  rim_position_z: -3
+
+  # 光影材質粗糙度，範圍 0～1；越高反光越柔和
+  material_roughness: 0.68
+
+  # 光影材質金屬度，範圍 0～1；Minecraft 物品通常建議保持接近 0
+  material_metalness: 0.04
+
 # 元件顯示相關設定
 component_display:
   # 元件寬度，可填入任何有效的 CSS width 值；例如 100%、640px、min(100%, 720px)
@@ -52,6 +102,9 @@ component_display:
 
   # 元件高度，可填入任何有效的 CSS height 值；例如 520px、60vh、min(64vh, 600px)
   display_height: "75%"
+
+  # 元件上下外距，可填入任何有效的 CSS margin-block 值；避免連續放置多個元件時互相緊貼
+  display_margin_y: "1em"
 
   # 元件圓角，可填入任何有效的 CSS border-radius 值；例如 0、1em、18px
   border_radius: "1em"

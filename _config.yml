@@ -52,3 +52,7 @@ defaults:
 
 sass:
   style: compressed
+
+# Repository-only agent instructions
+exclude:
+  - AGENTS.md

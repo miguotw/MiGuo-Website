@@ -1,0 +1,663 @@
+{
+  "date": "2026-10-09",
+  "scope": "greeting-card-and-home-images",
+  "status": "verified-and-local-sources-removed-deployment-pending",
+  "bucket_objects_before": 106,
+  "entries": [
+    {
+      "source_path": "assets/images/greeting_card/2023FF40.jpg",
+      "target_key": "works/ff40-2023/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/ff40-2023/greeting-card.jpg",
+      "bytes": 504971,
+      "sha256": "ad3d9a7e7763dccfb7b14a3b9e493eae25517485a3271580a6f5d32bcab751c8",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T17:12:43.4Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:45.425025647+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/2024新年.jpg",
+      "target_key": "works/new-year-2024/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2024/greeting-card.jpg",
+      "bytes": 337420,
+      "sha256": "bcd0205c3ee3578c9d436de1bb3746a97316e06d54418f9c3538264b85e9ba87",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:43.303Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:45.425025647+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/2025中秋.jpg",
+      "target_key": "works/mid-autumn-2025/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-2025/greeting-card.jpg",
+      "bytes": 482853,
+      "sha256": "e6a5e0ca8555deec21fdb2bce4b7505d45f27e0108682fa37a70f5e0e963d737",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:43.348Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:45.425025647+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/2025新年.jpg",
+      "target_key": "works/new-year-2025/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2025/greeting-card.jpg",
+      "bytes": 644651,
+      "sha256": "476764331f7fd7739d146ade01b19cb546064587aa13a53d0eaacdcc156b5217",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T17:12:43.409Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:45.638508533+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/2025聖誕(RGB).jpg",
+      "target_key": "works/christmas-2025/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/greeting-card.jpg",
+      "bytes": 1498444,
+      "sha256": "b7ed40bf2b67105a30ddc19a3fc7725909d6509decbee69ea232cd87a716330b",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:12:43.727305648+08:00",
+        "btime": "2026-10-08T17:12:44.737Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:46.172215747+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/2025萬聖節.jpg",
+      "target_key": "works/halloween-2025/greeting-card.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/greeting-card.jpg",
+      "bytes": 629274,
+      "sha256": "b462ac198e3ab7f0601d0cf5985f545832814cad4ba11caa409377cd5e254e5e",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:44.851Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:45.638508533+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/greeting_card/社群列印排版.png",
+      "target_key": "works/greeting-cards/print-layout.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/greeting-cards/print-layout.png",
+      "bytes": 5014703,
+      "sha256": "ba9125deb5f526cd2f1ed0f110398e039c5a95500f25cc63be19fbb8e513f1b5",
+      "content_type": "image/png",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:12:43.785028173+08:00",
+        "btime": "2026-10-08T17:12:46.165Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-18T17:47:46.473032541+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/256px_24fps.gif",
+      "target_key": "site/author/avatar.gif",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/author/avatar.gif",
+      "bytes": 2609637,
+      "sha256": "14f87d45a223a8571ba3a83e72f3da73e848b28dadb6b644b08d2b6c45ce58a2",
+      "content_type": "image/gif",
+      "references": [
+        {
+          "file": "_data/settings.yml",
+          "line": 65
+        },
+        {
+          "file": "_data/settings.yml",
+          "line": 72
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/gif",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:12:43.919714061+08:00",
+        "btime": "2026-10-08T17:12:45.807Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/gif",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.364708032+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/about.jpg",
+      "target_key": "site/home/about.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/home/about.jpg",
+      "bytes": 159849,
+      "sha256": "57e7f988e623a2c0d6c3c1c70f3c54372a692b48f09b5c3c96304fc7d490a7aa",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "index.html",
+          "line": 4
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:46.184Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-03-06T01:35:27.363649097+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/apple-touch-icon.png",
+      "target_key": "site/brand/apple-touch-icon.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+      "bytes": 984572,
+      "sha256": "286f4c0fb1b8e460538a0746b80504c861dbd0d05b5c0135bfc0645e0ea7f5eb",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_includes/head.html",
+          "line": 16
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:46.415Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.364708032+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/bg.png",
+      "target_key": "site/home/hero-background.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/home/hero-background.png",
+      "bytes": 1163390,
+      "sha256": "4c4fe179e8862ef4b3b097903aa18156a2924eb7fa259f9b38e2107e3f793197",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_data/settings.yml",
+          "line": 58
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:12:46.238235428+08:00",
+        "btime": "2026-10-08T17:12:47.312Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-03-06T01:35:27.363649097+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/bg_old.png",
+      "target_key": "site/home/hero-background-old.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/home/hero-background-old.png",
+      "bytes": 85537,
+      "sha256": "0642ccccd2960b9e1350d6af524bbb49b0d90a6ec11f699b71184963cd959b9e",
+      "content_type": "image/png",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:47.427Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-03-06T01:35:27.373055603+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/logo_dark.png",
+      "target_key": "site/brand/logo-dark.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/brand/logo-dark.png",
+      "bytes": 60162,
+      "sha256": "3a4d5dfa124863b0c1e6dfbb910eccd98782a45c7c69e350d873d0b20ba563a1",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_data/settings.yml",
+          "line": 5
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:47.42Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.364708032+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/home/logo_light.png",
+      "target_key": "site/brand/logo-light.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/site/brand/logo-light.png",
+      "bytes": 69416,
+      "sha256": "926496ed9e98457dff6d2b3d1bac52e06edc2cd62bc3d42519af5f3449902326",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_data/settings.yml",
+          "line": 6
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:12:47.472Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.364708032+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    }
+  ],
+  "bucket_object_count": 120,
+  "updated_project_files": [
+    "_data/settings.yml",
+    "_includes/head.html",
+    "index.html"
+  ],
+  "updated_url_occurrences": 7,
+  "validation_summary": {
+    "browser": {
+      "scope": "Local production HTML at official origin through route interception; real CDN images.",
+      "imageChecks": [
+        {
+          "url": "https://cdn.miguo.art/works/ff40-2023/greeting-card.jpg",
+          "width": 1697,
+          "height": 1200,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/new-year-2024/greeting-card.jpg",
+          "width": 1240,
+          "height": 1748,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/mid-autumn-2025/greeting-card.jpg",
+          "width": 1200,
+          "height": 1692,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/new-year-2025/greeting-card.jpg",
+          "width": 1200,
+          "height": 1692,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/christmas-2025/greeting-card.jpg",
+          "width": 1240,
+          "height": 1701,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/halloween-2025/greeting-card.jpg",
+          "width": 1200,
+          "height": 1692,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/works/greeting-cards/print-layout.png",
+          "width": 2068,
+          "height": 1812,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/author/avatar.gif",
+          "width": 256,
+          "height": 256,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/home/about.jpg",
+          "width": 1000,
+          "height": 562,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+          "width": 1024,
+          "height": 1024,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/home/hero-background.png",
+          "width": 1920,
+          "height": 480,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/home/hero-background-old.png",
+          "width": 1200,
+          "height": 300,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/brand/logo-dark.png",
+          "width": 1072,
+          "height": 389,
+          "ok": true
+        },
+        {
+          "url": "https://cdn.miguo.art/site/brand/logo-light.png",
+          "width": 1072,
+          "height": 389,
+          "ok": true
+        }
+      ],
+      "homepageCases": [
+        {
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "dark": false,
+          "logos": [
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-dark.png",
+              "visible": false,
+              "loaded": true
+            },
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-light.png",
+              "visible": true,
+              "loaded": true
+            }
+          ],
+          "background": "https://cdn.miguo.art/site/home/hero-background.png",
+          "avatar": "https://cdn.miguo.art/site/author/avatar.gif",
+          "touchIcon": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+          "ogImage": "https://cdn.miguo.art/site/home/about.jpg"
+        },
+        {
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "dark": true,
+          "logos": [
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-dark.png",
+              "visible": false,
+              "loaded": true
+            },
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-light.png",
+              "visible": true,
+              "loaded": true
+            }
+          ],
+          "background": "https://cdn.miguo.art/site/home/hero-background.png",
+          "avatar": "https://cdn.miguo.art/site/author/avatar.gif",
+          "touchIcon": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+          "ogImage": "https://cdn.miguo.art/site/home/about.jpg"
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "dark": false,
+          "logos": [
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-dark.png",
+              "visible": false,
+              "loaded": true
+            },
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-light.png",
+              "visible": true,
+              "loaded": true
+            }
+          ],
+          "background": "https://cdn.miguo.art/site/home/hero-background.png",
+          "avatar": "https://cdn.miguo.art/site/author/avatar.gif",
+          "touchIcon": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+          "ogImage": "https://cdn.miguo.art/site/home/about.jpg"
+        },
+        {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "dark": true,
+          "logos": [
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-dark.png",
+              "visible": false,
+              "loaded": true
+            },
+            {
+              "src": "https://cdn.miguo.art/site/brand/logo-light.png",
+              "visible": true,
+              "loaded": true
+            }
+          ],
+          "background": "https://cdn.miguo.art/site/home/hero-background.png",
+          "avatar": "https://cdn.miguo.art/site/author/avatar.gif",
+          "touchIcon": "https://cdn.miguo.art/site/brand/apple-touch-icon.png",
+          "ogImage": "https://cdn.miguo.art/site/home/about.jpg"
+        }
+      ],
+      "sharedPostAvatar": "https://cdn.miguo.art/site/author/avatar.gif"
+    },
+    "deleted_local_files": 14,
+    "removed_local_bytes": 14244879,
+    "jekyll_build": "passed-after-local-cleanup",
+    "template_change": "header logo and logo_dark use relative_url instead of concatenating baseurl",
+    "completed_at": "2026-10-09T01:17:13+08:00",
+    "deployment": "pending",
+    "built_asset_cleanup": "passed",
+    "source_changes": "7 URL replacements and 2 header logo URL filters"
+  }
+}

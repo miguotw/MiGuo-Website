@@ -1,0 +1,2371 @@
+{
+  "date": "2026-10-09",
+  "scope": "project-images",
+  "status": "verified-and-local-sources-removed-deployment-pending",
+  "bucket_objects_before": 120,
+  "entries": [
+    {
+      "source_path": "assets/images/projects/おやすみ〜/5_noise_08_N01.jpg",
+      "target_key": "works/good-night/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/good-night/image-01.jpg",
+      "bytes": 533532,
+      "sha256": "bc7e5db70cbf46a3e69eb9f6f070f740b933fc4318a588a9c328db440be8642e",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "line": 19,
+          "variant": "/assets/images/projects/おやすみ〜/5_noise_08_N01.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:02.937Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/おやすみ〜/5_noise_08_N02.jpg",
+      "target_key": "works/good-night/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/good-night/image-02.jpg",
+      "bytes": 534837,
+      "sha256": "900712861056f0ef4e60608c14ed19dbf617d7a1f7cfa1cd52a7e5b4432e94ca",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "line": 25,
+          "variant": "/assets/images/projects/おやすみ〜/5_noise_08_N02.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:02.944Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/おやすみ〜/5_noise_08_N03.jpg",
+      "target_key": "works/good-night/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/good-night/image-03.jpg",
+      "bytes": 543752,
+      "sha256": "2edc426d9ec696e8e2629f0edc83a14d618d143448a6c5c2e9c6f3f5499361a2",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "line": 26,
+          "variant": "/assets/images/projects/おやすみ〜/5_noise_08_N03.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:02.867Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/おやすみ〜/cover.jpg",
+      "target_key": "works/good-night/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/good-night/cover.jpg",
+      "bytes": 516217,
+      "sha256": "97325441a73907cd656372b5c374920bd9a1a69c94c2ffe566b76a4d3a09d13d",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "line": 6,
+          "variant": "/assets/images/projects/おやすみ〜/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:02.869Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/ガオー/5_noise_13N_101.jpg",
+      "target_key": "works/roar/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/roar/image-01.jpg",
+      "bytes": 651491,
+      "sha256": "f503deae7e685a23d08f075deccc47058437522835697220f8ca3bffaa606e94",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "line": 15,
+          "variant": "/assets/images/projects/ガオー/5_noise_13N_101.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:04.043Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/ガオー/5_noise_13N_102.jpg",
+      "target_key": "works/roar/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/roar/image-02.jpg",
+      "bytes": 661846,
+      "sha256": "5998223ae09ae08a42a75ce1dd93d930855895201d08e8564904a532113af53e",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "line": 24,
+          "variant": "/assets/images/projects/ガオー/5_noise_13N_102.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:04.254Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/ガオー/5_noise_13N_111.jpg",
+      "target_key": "works/roar/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/roar/image-03.jpg",
+      "bytes": 660188,
+      "sha256": "53a5dfe842dddf5e59ed865f255017baa37693c207d3b2d9375a506f9174b7a6",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "line": 16,
+          "variant": "/assets/images/projects/ガオー/5_noise_13N_111.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:04.418Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/ガオー/5_noise_13N_112.jpg",
+      "target_key": "works/roar/image-04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/roar/image-04.jpg",
+      "bytes": 661032,
+      "sha256": "a65e6aca1081f4f3ff079fb6dc279fca137b88782992d0bb2d2fb271a4040065",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "line": 25,
+          "variant": "/assets/images/projects/ガオー/5_noise_13N_112.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:04.397Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/ガオー/cover.jpg",
+      "target_key": "works/roar/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/roar/cover.jpg",
+      "bytes": 589005,
+      "sha256": "c629b55984130f7d9b1e5ffd801ab994d68ede9328e7ffef36930265bfa5b367",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "line": 6,
+          "variant": "/assets/images/projects/ガオー/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:05.5Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/下江コハル/111714463_p0.jpg",
+      "target_key": "works/shimoe-koharu/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/shimoe-koharu/image-01.jpg",
+      "bytes": 786538,
+      "sha256": "f3a699da49436e59081e17fd3a7e3318cb6249cee7620bda87a0a2cca08296a5",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2023-09-14-下江コハル.md",
+          "line": 15,
+          "variant": "/assets/images/projects/下江コハル/111714463_p0.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:05.85Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/下江コハル/cover.jpg",
+      "target_key": "works/shimoe-koharu/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/shimoe-koharu/cover.jpg",
+      "bytes": 579397,
+      "sha256": "e350d434a2dd75c1d87e57bf208b4c908ddaf0aeb8ec7f8e38157af32c27ee8d",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2023-09-14-下江コハル.md",
+          "line": 6,
+          "variant": "/assets/images/projects/下江コハル/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:05.852Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.461614619+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/中秋の名月/5_noise_12_N01.jpg",
+      "target_key": "works/mid-autumn-moon/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-moon/image-01.jpg",
+      "bytes": 646822,
+      "sha256": "cccefc63e368c97878b5d21fca77dcabad47ffee8a51f9e5e972e165216f7ce0",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "line": 15,
+          "variant": "/assets/images/projects/中秋の名月/5_noise_12_N01.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:05.918Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/中秋の名月/5_noise_12_N02.jpg",
+      "target_key": "works/mid-autumn-moon/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-moon/image-02.jpg",
+      "bytes": 648456,
+      "sha256": "93d5f2797907ff834f10dd0ba193a20adddc30e152e3b534dd855519d94c3796",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "line": 16,
+          "variant": "/assets/images/projects/中秋の名月/5_noise_12_N02.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:07.065Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/中秋の名月/cover.jpg",
+      "target_key": "works/mid-autumn-moon/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-moon/cover.jpg",
+      "bytes": 626577,
+      "sha256": "9d0079dbe136dd8c1edef64f31dd310e191f8c0a15f0e8325fff5b9e8bf860f2",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "line": 6,
+          "variant": "/assets/images/projects/中秋の名月/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:07.191Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/君のクリスマスプレゼント/10_noise_17_N101.jpg",
+      "target_key": "works/your-christmas-present/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/your-christmas-present/image-01.jpg",
+      "bytes": 670387,
+      "sha256": "e196db3833f3999e81bcd55983026b176e7f233f8af84495e0493190d450baf8",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "line": 24,
+          "variant": "/assets/images/projects/君のクリスマスプレゼント/10_noise_17_N101.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:07.351Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/君のクリスマスプレゼント/10_noise_17_N102.jpg",
+      "target_key": "works/your-christmas-present/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/your-christmas-present/image-02.jpg",
+      "bytes": 682355,
+      "sha256": "7c0f2ccfe606a6c2798be09404db4492fd3407cc76f0af44ac8751c1b5e7c6f2",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "line": 15,
+          "variant": "/assets/images/projects/君のクリスマスプレゼント/10_noise_17_N102.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:07.506Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/君のクリスマスプレゼント/10_noise_17_N103.jpg",
+      "target_key": "works/your-christmas-present/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/your-christmas-present/image-03.jpg",
+      "bytes": 678662,
+      "sha256": "8b3a0e78067ada53f100fb0c1767a102b088e45d6d4d6865c5375215099d0005",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "line": 25,
+          "variant": "/assets/images/projects/君のクリスマスプレゼント/10_noise_17_N103.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:08.213Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.471305279+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/君のクリスマスプレゼント/10_noise_17_N104.jpg",
+      "target_key": "works/your-christmas-present/image-04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/your-christmas-present/image-04.jpg",
+      "bytes": 692931,
+      "sha256": "54dba00c7cbc0dc058f99dbff4251484d9f793e290eef08965554ec4eb7516b1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "line": 16,
+          "variant": "/assets/images/projects/君のクリスマスプレゼント/10_noise_17_N104.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:08.574Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.480995937+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/君のクリスマスプレゼント/cover.jpg",
+      "target_key": "works/your-christmas-present/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/your-christmas-present/cover.jpg",
+      "bytes": 604347,
+      "sha256": "461b42110586b466010f25d1f06b87eea8814738e179d7a7c41a7039be77bef1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "line": 6,
+          "variant": "/assets/images/projects/君のクリスマスプレゼント/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:08.907Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.480995937+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/小悪魔常闇トワ/126083127_p0.jpg",
+      "target_key": "works/tokoyami-towa/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/tokoyami-towa/image-01.jpg",
+      "bytes": 667924,
+      "sha256": "3db10c610f01a25b94b3095dd2e95dd424ac9e6f07463b0a82b143e6a8e55a51",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-10-小悪魔常闇トワ.md",
+          "line": 15,
+          "variant": "/assets/images/projects/小悪魔常闇トワ/126083127_p0.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:08.69Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.480995937+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/小悪魔常闇トワ/cover.jpg",
+      "target_key": "works/tokoyami-towa/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/tokoyami-towa/cover.jpg",
+      "bytes": 485263,
+      "sha256": "cf6b111f5430b0a1250ff420f8a1a756a3f83cc0ab858877e05037b322638aee",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-10-小悪魔常闇トワ.md",
+          "line": 6,
+          "variant": "/assets/images/projects/小悪魔常闇トワ/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:09.421Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.480995937+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/年賀絵-Vol.2/115897621_p0.jpg",
+      "target_key": "works/new-year-vol-2/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-vol-2/image-01.jpg",
+      "bytes": 635599,
+      "sha256": "312239dd23d221ef637298fed7df64b4779431f42893d366ffda2dfe5031b830",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "line": 15,
+          "variant": "/assets/images/projects/年賀絵-Vol.2/115897621_p0.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:09.919Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.490686595+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/年賀絵-Vol.2/115897621_p1.jpg",
+      "target_key": "works/new-year-vol-2/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-vol-2/image-02.jpg",
+      "bytes": 631670,
+      "sha256": "163189e4c38bff57e87e1614e5923d2a9a8c86cb82b98ac506e5d19baa99cbe8",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "line": 16,
+          "variant": "/assets/images/projects/年賀絵-Vol.2/115897621_p1.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:09.879Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.490686595+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/年賀絵-Vol.2/cover.jpg",
+      "target_key": "works/new-year-vol-2/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-vol-2/cover.jpg",
+      "bytes": 597607,
+      "sha256": "d4c38782eadef0f7db1ec1144e44c69fc43eff1f65a040798c94b52d90b9a6f4",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "line": 6,
+          "variant": "/assets/images/projects/年賀絵-Vol.2/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:10.065Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.490686595+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/新年あけましておめでとう/10_noise_18_N01.jpg",
+      "target_key": "works/new-year-2026/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2026/image-01.jpg",
+      "bytes": 2519475,
+      "sha256": "880895aa73caeaa60c40c1eba39fcd8e04baf29f5d2d199578cb63d54c603181",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-01-新年あけましておめでとう.md",
+          "line": 15,
+          "variant": "/assets/images/projects/新年あけましておめでとう/10_noise_18_N01.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:24:09.113874345+08:00",
+        "btime": "2026-10-08T17:24:11.187Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.500377254+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/新年あけましておめでとう/cover.jpg",
+      "target_key": "works/new-year-2026/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2026/cover.jpg",
+      "bytes": 744921,
+      "sha256": "3e4ded2ad92b06c72f31d0831626b6d85382c0be69201b912f9a536dab9747f8",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-01-新年あけましておめでとう.md",
+          "line": 6,
+          "variant": "/assets/images/projects/新年あけましておめでとう/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:11.217Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.500377254+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/新年の午後/20_N001.png",
+      "target_key": "works/new-year-afternoon/image-01.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-afternoon/image-01.png",
+      "bytes": 3395759,
+      "sha256": "10d51770311a933847aacff85f3a1febbaede77641937e4abbf08a5bd575fd63",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "line": 15,
+          "variant": "/assets/images/projects/新年の午後/20_N001.png"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:24:09.706636545+08:00",
+        "btime": "2026-10-08T17:24:12.449Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.500377254+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/新年の午後/20_N002.png",
+      "target_key": "works/new-year-afternoon/image-02.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-afternoon/image-02.png",
+      "bytes": 3362949,
+      "sha256": "ee8fee3dae08c6b91afdc1c3df5fe43c14c82deb2f63aeeabb27cf3d544521e4",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "line": 25,
+          "variant": "/assets/images/projects/新年の午後/20_N002.png"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:12.366Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.510067913+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/新年の午後/cover.jpg",
+      "target_key": "works/new-year-afternoon/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-afternoon/cover.jpg",
+      "bytes": 610010,
+      "sha256": "7bb386ed7c910695526bf3482b1c6a810331bb5a41fc486511b36d1fb624ecc2",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "line": 6,
+          "variant": "/assets/images/projects/新年の午後/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:13.54Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.510067913+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p0.jpg",
+      "target_key": "works/lunar-new-year-2025/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-01.jpg",
+      "bytes": 842236,
+      "sha256": "89d283fac29e56ab4715b6b3ee40c54fb5a27b69775ab6fcba52fbbd04d191d1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 15,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p0.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:13.822Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.510067913+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p1.jpg",
+      "target_key": "works/lunar-new-year-2025/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-02.jpg",
+      "bytes": 849216,
+      "sha256": "eba4550d317e251016c343094c60fab12c95c483bfce64e63182ed8b8ea3cfaf",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 23,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p1.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:13.792Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.519758572+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p2.jpg",
+      "target_key": "works/lunar-new-year-2025/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-03.jpg",
+      "bytes": 837281,
+      "sha256": "05807721cfb40d711f0157d7c2f72cf32cbe8fc2344318e0ad3ea764a9e05f75",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 24,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p2.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:14.067Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.519758572+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p3.jpg",
+      "target_key": "works/lunar-new-year-2025/image-04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-04.jpg",
+      "bytes": 834649,
+      "sha256": "703dba559b550e358b04d231e149932274d3e772d5ee0774a73048194a4d57f4",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 30,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p3.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:15.412Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.519758572+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p4.jpg",
+      "target_key": "works/lunar-new-year-2025/image-05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-05.jpg",
+      "bytes": 830298,
+      "sha256": "417a08aeea6c14547a064549d0b31308d82b1b08767975d9c9356170623e0eb1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 31,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p4.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:15.014Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.519758572+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/126522361_p5.jpg",
+      "target_key": "works/lunar-new-year-2025/image-06.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/image-06.jpg",
+      "bytes": 846375,
+      "sha256": "f93b55975fab5bfe6365b56e4af0c0f2d919032c9f7dfa8889c69cb775a908d4",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 32,
+          "variant": "/assets/images/projects/旧正月おめでとう！/126522361_p5.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:15.14Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.52944923+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/旧正月おめでとう！/cover.jpg",
+      "target_key": "works/lunar-new-year-2025/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/lunar-new-year-2025/cover.jpg",
+      "bytes": 734795,
+      "sha256": "41728267c3a32acd9a7167101df349b2770cebcefb133328b204e3cb643b0d8b",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "line": 6,
+          "variant": "/assets/images/projects/旧正月おめでとう！/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:15.29Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.52944923+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_14N_101.jpg",
+      "target_key": "works/water-blue-dream/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-01.jpg",
+      "bytes": 798467,
+      "sha256": "4fcd4fde409bcca5fa6735f81544e3b82e47d4a5482474126bb63a6fd63ac862",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 49,
+          "variant": "/assets/images/projects/水色の夢/10_noise_14N_101.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:16.198Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.52944923+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_14N_101SP.jpg",
+      "target_key": "works/water-blue-dream/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-02.jpg",
+      "bytes": 796402,
+      "sha256": "391dc1fb7f68457d2c03b10a2066e6466ca78bbc3b11d06535a9cdef2a849818",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 48,
+          "variant": "/assets/images/projects/水色の夢/10_noise_14N_101SP.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:16.499Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.52944923+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_14N_102.jpg",
+      "target_key": "works/water-blue-dream/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-03.jpg",
+      "bytes": 801903,
+      "sha256": "d876ef5a9e9f852be7302c015255d337bf2b77da8fd7fd1116014e381a71173c",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 42,
+          "variant": "/assets/images/projects/水色の夢/10_noise_14N_102.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:16.718Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.539139888+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_15N_101.jpg",
+      "target_key": "works/water-blue-dream/image-04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-04.jpg",
+      "bytes": 800402,
+      "sha256": "441bd929760e2f163e30f8a584f6b712a200ddb856006ff0f6b2a606e511dfd6",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 60,
+          "variant": "/assets/images/projects/水色の夢/10_noise_15N_101.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:16.698Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.539139888+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_15N_102.jpg",
+      "target_key": "works/water-blue-dream/image-05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-05.jpg",
+      "bytes": 800946,
+      "sha256": "ddb7ed2070d669400fe7a73da38a2dae10aeeeb941763a8f30a313130c9781a6",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 66,
+          "variant": "/assets/images/projects/水色の夢/10_noise_15N_102.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:17.365Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.539139888+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/10_noise_15N_103.jpg",
+      "target_key": "works/water-blue-dream/image-06.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-06.jpg",
+      "bytes": 791572,
+      "sha256": "843454f84c0273aceba0207fc4669f8ba0bfdb8a7da07cec58c67d079b0d06bd",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 67,
+          "variant": "/assets/images/projects/水色の夢/10_noise_15N_103.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:18.023Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.548830548+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N102.jpg",
+      "target_key": "works/water-blue-dream/image-07.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-07.jpg",
+      "bytes": 730858,
+      "sha256": "e253d57c8a434c265ffa167086d742e1f78a0a45e0aef053b52ab076ddf5616e",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 29,
+          "variant": "/assets/images/projects/水色の夢/16_N102.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:18.114Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.548830548+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N102SP.jpg",
+      "target_key": "works/water-blue-dream/image-08.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-08.jpg",
+      "bytes": 792569,
+      "sha256": "3853ed543c25bcfb7675d726e9de165b8f5b81b0460095fc4d8c625417c58dc9",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 27,
+          "variant": "/assets/images/projects/水色の夢/16_N102SP.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:18.276Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.548830548+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N202.jpg",
+      "target_key": "works/water-blue-dream/image-09.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-09.jpg",
+      "bytes": 735274,
+      "sha256": "a431bb3987e5681a38de448fe8f90843c5f3cdbb3b49fb1a90ba9debe4f886ab",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 30,
+          "variant": "/assets/images/projects/水色の夢/16_N202.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:18.547Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.548830548+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N202SP.jpg",
+      "target_key": "works/water-blue-dream/image-10.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-10.jpg",
+      "bytes": 654639,
+      "sha256": "5d2eb05bead2bb775baa0ee4a198a91fcf01c3aa89740d574942e403ffeb72bb",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 21,
+          "variant": "/assets/images/projects/水色の夢/16_N202SP.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:19.162Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.548830548+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N203.jpg",
+      "target_key": "works/water-blue-dream/image-11.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-11.jpg",
+      "bytes": 732996,
+      "sha256": "f2243c117abc79ca8380f05b10957691febab4c1ffed66b25bc96ed9e31a6c7d",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 31,
+          "variant": "/assets/images/projects/水色の夢/16_N203.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:19.351Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/16_N203SP.jpg",
+      "target_key": "works/water-blue-dream/image-12.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/image-12.jpg",
+      "bytes": 657811,
+      "sha256": "0266b8213318ea1ba8d2e57451a7818f6e097644d3352f0bff7b297b187c9828",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 28,
+          "variant": "/assets/images/projects/水色の夢/16_N203SP.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:19.805Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/水色の夢/cover.jpg",
+      "target_key": "works/water-blue-dream/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/water-blue-dream/cover.jpg",
+      "bytes": 532688,
+      "sha256": "ad1a222cee3854f231ef0260b9a29efd7bd5ea48535a0ab34265e2ed049d921b",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "line": 6,
+          "variant": "/assets/images/projects/水色の夢/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:20.26Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_09_N11.jpg",
+      "target_key": "works/seaside-rendezvous/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-01.jpg",
+      "bytes": 676849,
+      "sha256": "222826c63ccd9c40a6a67638198d0cba593e01977da025fbf67139aba02dd1b7",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:20.286Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_09_N12.jpg",
+      "target_key": "works/seaside-rendezvous/image-02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-02.jpg",
+      "bytes": 678354,
+      "sha256": "c370f0b360ff6ac9774c1da3aeefb107a3336284720258a39f3e3eb95844d02f",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 31,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_09_N12.jpg"
+        },
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 39,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_09_N12.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:20.696Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_09_N21.jpg",
+      "target_key": "works/seaside-rendezvous/image-03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-03.jpg",
+      "bytes": 673653,
+      "sha256": "22f2bd42a578a81ba52bf04c7b22bc22884d376a6d16f4ce0ceff9df037e9eba",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:21.084Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_09_N22.jpg",
+      "target_key": "works/seaside-rendezvous/image-04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-04.jpg",
+      "bytes": 683645,
+      "sha256": "4f382af2fc72f5960fc70f45abd0d56b4005abcf811a3ba626b2684cf4c3f041",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 38,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_09_N22.jpg"
+        },
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 40,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_09_N22.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:21.441Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.558521206+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_11_N01.jpg",
+      "target_key": "works/seaside-rendezvous/image-05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-05.jpg",
+      "bytes": 741791,
+      "sha256": "74a5bfee3510e820f938a8cb18ae0d822a39894079ca2cd97864503244be85a1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 19,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_11_N01.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:21.647Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.568211866+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/5_noise_11_N11.jpg",
+      "target_key": "works/seaside-rendezvous/image-06.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/image-06.jpg",
+      "bytes": 744747,
+      "sha256": "4b989dba100bd57aa3310ac1cf01bc050fdcff40f6da3bc8674167a2ab318c35",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 20,
+          "variant": "/assets/images/projects/浜辺で密会〜/5_noise_11_N11.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:22.7Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.568211866+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/浜辺で密会〜/cover.jpg",
+      "target_key": "works/seaside-rendezvous/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/seaside-rendezvous/cover.jpg",
+      "bytes": 634577,
+      "sha256": "7a1674f56323bd2327f95a19d63e602f22a56b7928334af5f572be62e550e355",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "line": 6,
+          "variant": "/assets/images/projects/浜辺で密会〜/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:22.213Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.568211866+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/濡れた髪/19N001.png",
+      "target_key": "works/wet-hair/image-01.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/wet-hair/image-01.png",
+      "bytes": 3938180,
+      "sha256": "441b16aea7540da2bcca37189fcf9de6348d6e3c035c2d62b6f69a0dc2bf8aaf",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "line": 15,
+          "variant": "/assets/images/projects/濡れた髪/19N001.png"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:24:21.132363828+08:00",
+        "btime": "2026-10-08T17:24:23.628Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.568211866+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/濡れた髪/19N002.png",
+      "target_key": "works/wet-hair/image-02.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/wet-hair/image-02.png",
+      "bytes": 3908317,
+      "sha256": "26672757204c5e2b452c351a8327c66d55aacc62dcc1661aa9533a2e79bcf733",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "line": 16,
+          "variant": "/assets/images/projects/濡れた髪/19N002.png"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:24:23.318515394+08:00",
+        "btime": "2026-10-08T17:24:24.603Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.577902524+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/濡れた髪/cover.jpg",
+      "target_key": "works/wet-hair/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/wet-hair/cover.jpg",
+      "bytes": 2796627,
+      "sha256": "2ebc8936534132cd0dd3f4e059cc3dc1a211559d506d33f822cf277c32fdae63",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "line": 6,
+          "variant": "/assets/images/projects/濡れた髪/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T01:24:23.610533277+08:00",
+        "btime": "2026-10-08T17:24:24.963Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.577902524+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/雪の妖精/21N_001.jpg",
+      "target_key": "works/winter-fairy/image-01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/winter-fairy/image-01.jpg",
+      "bytes": 675475,
+      "sha256": "67c2c36e9e919efadaa7f8d9c58403600fc28ff8e60e2825d74ec0f2255ce591",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-19-雪の妖精.md",
+          "line": 16,
+          "variant": "/assets/images/projects/雪の妖精/21N_001.jpg"
+        },
+        {
+          "file": "_projects/_draft/2001-01-01-test.md",
+          "line": 14,
+          "variant": "https://cdn.miguo.art/assets/images/projects/%E9%9B%AA%E3%81%AE%E5%A6%96%E7%B2%BE/21N_001.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.534102239+08:00",
+        "btime": "2026-10-08T17:24:24.872Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-03-06T01:35:27.373055603+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/projects/雪の妖精/cover.jpg",
+      "target_key": "works/winter-fairy/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/works/winter-fairy/cover.jpg",
+      "bytes": 602752,
+      "sha256": "05a23a07c1c3ea1c3d28d6430a25a1fdc1a3f2eafa64265a28742dadc065682a",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-19-雪の妖精.md",
+          "line": 6,
+          "variant": "/assets/images/projects/雪の妖精/cover.jpg"
+        },
+        {
+          "file": "_projects/_draft/2001-01-01-test.md",
+          "line": 6,
+          "variant": "/assets/images/projects/雪の妖精/cover.jpg"
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "removed-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.543555602+08:00",
+        "btime": "2026-10-08T17:24:25.625Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-03-06T01:35:27.373055603+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    }
+  ],
+  "bucket_object_count": 181,
+  "updated_project_files": [
+    "_projects/2023-09-14-下江コハル.md",
+    "_projects/2024-02-09-年賀絵 Vol.2.md",
+    "_projects/2025-01-10-小悪魔常闇トワ.md",
+    "_projects/2025-01-24-旧正月おめでとう！.md",
+    "_projects/2025-07-24-おやすみ〜.md",
+    "_projects/2025-08-07-浜辺で密会〜.md",
+    "_projects/2025-09-27-中秋の名月.md",
+    "_projects/2025-10-25-ガオー！.md",
+    "_projects/2025-11-07-水色の夢.md",
+    "_projects/2025-12-19-君のクリスマスプレゼント.md",
+    "_projects/2026-01-01-新年あけましておめでとう.md",
+    "_projects/2026-01-16-濡れた髪 copy.md",
+    "_projects/2026-02-13-新年の午後.md",
+    "_projects/2026-02-19-雪の妖精.md",
+    "_projects/_draft/2001-01-01-test.md"
+  ],
+  "updated_url_occurrences": 63,
+  "validation_summary": {
+    "browser": {
+      "scope": "Local production HTML at official origin via interception; real CDN images.",
+      "pages": [
+        {
+          "page": "/project/新年あけましておめでとう",
+          "title": "米淉 MiGuo | 新年あけましておめでとう‼️🎍",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/水色の夢",
+          "title": "米淉 MiGuo | 水色の夢🩵✨",
+          "images": 21,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/年賀絵-vol-2",
+          "title": "米淉 MiGuo | 年賀絵 Vol.2",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/小悪魔常闇トワ",
+          "title": "米淉 MiGuo | 小悪魔常闇トワ👿✨💖",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/濡れた髪-copy",
+          "title": "米淉 MiGuo | 濡れた髪...💧🫧",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/おやすみ",
+          "title": "米淉 MiGuo | おやすみ〜💕🌙",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/新年の午後",
+          "title": "米淉 MiGuo | 新年の午後🏮✨",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/中秋の名月",
+          "title": "米淉 MiGuo | 中秋の名月🌕✨",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/下江コハル",
+          "title": "米淉 MiGuo | 下江コハル",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/浜辺で密会",
+          "title": "米淉 MiGuo | 浜辺で密会〜🏝️✨",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/旧正月おめでとう",
+          "title": "米淉 MiGuo | 旧正月おめでとう！🪭✨",
+          "images": 15,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/ガオー",
+          "title": "米淉 MiGuo | ガオー！🐾",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/雪の妖精",
+          "title": "米淉 MiGuo | 雪の妖精❄️✨",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/雪の妖精",
+          "images": 5
+        },
+        {
+          "page": "/project/水色の夢",
+          "images": 17
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    },
+    "deleted_local_files": 61,
+    "removed_local_bytes": 57775893,
+    "jekyll_build": "passed-after-local-cleanup",
+    "completed_at": "2026-10-09T01:27:18+08:00",
+    "deployment": "pending",
+    "built_asset_cleanup": "passed",
+    "source_changes": "only-63-url-replacements-in-15-project-documents"
+  }
+}

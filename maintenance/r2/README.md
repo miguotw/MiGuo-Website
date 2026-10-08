@@ -55,7 +55,7 @@
 
 ## 既有問題
 
-`_projects/_draft/2001-01-01-test.md` 引用的 CDN key `assets/images/projects/%E9%9B%AA%E3%81%AE%E5%A6%96%E7%B2%BE/21N_001.jpg` 不在本批原有 98 個物件內。沒有猜測對應素材或擴大上傳範圍，此草稿引用未修改。
+`_projects/_draft/2001-01-01-test.md` 引用的 CDN key `assets/images/projects/%E9%9B%AA%E3%81%AE%E5%A6%96%E7%B2%BE/21N_001.jpg` 不在本批原有 98 個物件內。沒有猜測對應素材或擴大上傳範圍，此草稿引用未修改。後續「作品圖片遷移」已確認本機來源並上傳至 `works/winter-fairy/image-01.jpg`，此草稿引用現已修正。
 
 ## 2026-10-09：文章專屬素材遷移
 
@@ -71,3 +71,29 @@
 - 依使用者本次要求，驗證完成後已刪除專案中 13 個本機來源及空目錄，釋出約 54.9 MiB 的來源檔案；Jekyll 重建後 `_site` 也不再保留這批舊副本。刪除清單只涵蓋本批已驗證素材。
 - `_posts` 不再直接引用本機 `/assets/` URL；全站建置內容沒有本批舊素材連結，內部記錄已排除於公開輸出。
 - 本批完成後 R2 有 106 個物件。網站修改仍待本次授權提交、推送與部署；正式網站在新部署前仍由先前的 GitHub Pages 版本供應舊連結與素材。
+
+## 2026-10-09：賀卡與首頁素材遷移
+
+對照與驗證見 [2026-10-09-home-cards.json](2026-10-09-home-cards.json)。
+
+- 指定兩個資料夾共 14 張圖片、14,244,879 bytes（約 13.6 MiB）：賀卡 7 張、首頁素材 7 張。賀卡及舊背景雖無站內引用，仍完整保存在 R2。
+- 賀卡放 `works/<stable-slug>/greeting-card.jpg`；共用列印圖放 `works/greeting-cards/print-layout.png`；首頁素材依用途放 `site/brand/`、`site/author/`、`site/home/`。
+- 更新 `_data/settings.yml`、`_includes/head.html` 與 `index.html` 的 7 處 URL。標誌明暗配對保持原設定；首頁 JPG 與既有 PNG 預設社群圖是不同素材，分別保留。
+- `_includes/header.html` 的兩個標誌使用 `relative_url`，避免將 baseurl 直接拼接到完整 CDN URL。
+- 先 dry-run 再上傳，immutable 防止覆寫既有 key。R2 完整下載比對 14 個檔案全數匹配、0 差異；CDN GET 的 SHA-256、Content-Type 與快取標頭皆已核對，瀏覽器也能解碼全部 14 張圖片。
+- 無頭 Chrome 以本機正式建置 HTML 模擬官網來源並實際讀取 CDN：首頁桌面／手機、深色／淺色共四種組合通過，標誌、頭像、背景與社群圖 URL 正確；一般文章的共用作者頭像亦使用新網址。桌面深色與手機淺色截圖已檢視。
+- Apple touch icon 已驗證標籤 URL 與圖片解碼；未進行實體 iOS 主畫面圖示測試。
+- 依先前的遷移清理要求，驗證後已移除專案中 14 個本機來源與空目錄，Jekyll 重建也移除舊輸出副本。約 13.6 MiB 的來源圖片由 R2 提供。
+- 本批後 R2 有 120 個物件。本批未變更文章名稱、公開路由或部署架構，尚待當次授權提交、推送與部署。
+
+## 2026-10-09：作品圖片遷移
+
+對照與驗證見 [2026-10-09-projects.json](2026-10-09-projects.json)。
+
+- `assets/images/projects` 共 14 件作品、61 張圖片、57,775,893 bytes（約 55.1 MiB）。目標為 `works/<stable-slug>/cover.jpg`、`image-01.jpg` 等路徑，保留原副檔名；兩張未引用圖片亦完整保存在 R2。
+- 更新 15 份 `_projects` 文件（含一份草稿）的 63 處 URL。逐檔與 Git 版本比對，除圖片網址外，作品標題、內文、圖片順序、公開路由與換行均未改動。
+- 草稿原有失效的雪の妖精 CDN URL 已依確認的本機來源改為 `works/winter-fairy/image-01.jpg`，封面亦同步切換。
+- 先 dry-run 再上傳，以 immutable 避免覆寫既有物件。R2 完整下載比對 61 張圖片全數匹配、0 差異；CDN GET 的 SHA-256、Content-Type 與物件中繼資料已核對。
+- 無頭 Chrome 以本機正式建置 HTML 模擬官網來源並實際存取 CDN，14 個作品頁、作品列表與首頁均可載入圖片及 OG 封面；另檢查雪の妖精、水色の夢與作品列表的手機寬度。包含延遲載入圖片的解碼驗證，沒有宣稱完整視覺版面驗收或本機來源防盜連例外已設定。
+- 驗證後精確移除 61 張本機來源與空目錄，釋出約 55.1 MiB。清理後 Jekyll 重建成功，兩份建置輸出均無舊素材副本或舊路徑引用，維護記錄未公開輸出。
+- 本批後 R2 有 181 個物件。先前賀卡／首頁批次的待提交變更保留；本批亦尚未提交、推送或部署，正式網站仍由先前部署版本供應內容。

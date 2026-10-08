@@ -2,8 +2,8 @@
 # Site Settings
 title: 米淉 MiGuo
 description: 喜歡畫可愛的女孩子～如果有任何委託的需求，歡迎來信詢問～
-logo: '/assets/images/home/logo_dark.png' # You can add own logo. For example '/images/logo.png'.
-logo_dark: '/assets/images/home/logo_light.png'
+logo: 'https://cdn.miguo.art/site/brand/logo-dark.png' # You can add own logo. For example '/images/logo.png'.
+logo_dark: 'https://cdn.miguo.art/site/brand/logo-light.png'
 color_scheme: dark # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -55,21 +55,21 @@ cta_button:
 
 
 # 首頁封面圖片 Home Cover Image
-home_cover_image: /assets/images/home/bg.png
+home_cover_image: https://cdn.miguo.art/site/home/hero-background.png
 
 
 #-------------------------------
 # 作者設定 Author Settings
 author:
   author_name: 米淉 MiGuo
-  author_avatar: /assets/images/home/256px_24fps.gif
+  author_avatar: https://cdn.miguo.art/site/author/avatar.gif
 
 
 #-------------------------------
 # 英雄設定 Hero Settings
 hero:
   enable: true
-  hero_avatar: /assets/images/home/256px_24fps.gif
+  hero_avatar: https://cdn.miguo.art/site/author/avatar.gif
   hero_title: 米淉 MiGuo
   hero_description: <p>插畫繪製｜V皮繪製｜Live2D<br><br>歡畫可愛的女孩子～<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～<br><br>Email | <a href="mailto:hi@miguo.art">hi@miguo.art</a></p>
 

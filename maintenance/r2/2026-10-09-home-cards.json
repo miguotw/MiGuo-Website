@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
   "scope": "greeting-card-and-home-images",
-  "status": "verified-and-local-sources-removed-deployment-pending",
+  "status": "deployed-and-local-sources-removed",
   "bucket_objects_before": 106,
   "entries": [
     {
@@ -656,7 +656,144 @@
     "jekyll_build": "passed-after-local-cleanup",
     "template_change": "header logo and logo_dark use relative_url instead of concatenating baseurl",
     "completed_at": "2026-10-09T01:17:13+08:00",
-    "deployment": "pending",
+    "deployment": {
+      "status": "success",
+      "commit": "88a93e23bf9a1cc3a280cb92ed08c0778352419a",
+      "run_id": 37817404857,
+      "run_url": "https://github.com/miguotw/MiGuo-Website/actions/runs/37817404857",
+      "verified_at": "2026-10-09T01:35:09.594803+08:00",
+      "production_browser": {
+        "scope": "Live production pages and real CDN images; no page interception.",
+        "pages": [
+          {
+            "page": "/project/新年あけましておめでとう",
+            "title": "米淉 MiGuo | 新年あけましておめでとう‼️🎍",
+            "images": 9,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/水色の夢",
+            "title": "米淉 MiGuo | 水色の夢🩵✨",
+            "images": 21,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/年賀絵-vol-2",
+            "title": "米淉 MiGuo | 年賀絵 Vol.2",
+            "images": 11,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/小悪魔常闇トワ",
+            "title": "米淉 MiGuo | 小悪魔常闇トワ👿✨💖",
+            "images": 9,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/濡れた髪-copy",
+            "title": "米淉 MiGuo | 濡れた髪...💧🫧",
+            "images": 10,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/君のクリスマスプレゼント",
+            "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+            "images": 13,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/おやすみ",
+            "title": "米淉 MiGuo | おやすみ〜💕🌙",
+            "images": 12,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/新年の午後",
+            "title": "米淉 MiGuo | 新年の午後🏮✨",
+            "images": 10,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/中秋の名月",
+            "title": "米淉 MiGuo | 中秋の名月🌕✨",
+            "images": 11,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/下江コハル",
+            "title": "米淉 MiGuo | 下江コハル",
+            "images": 9,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/浜辺で密会",
+            "title": "米淉 MiGuo | 浜辺で密会〜🏝️✨",
+            "images": 13,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/旧正月おめでとう",
+            "title": "米淉 MiGuo | 旧正月おめでとう！🪭✨",
+            "images": 15,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/ガオー",
+            "title": "米淉 MiGuo | ガオー！🐾",
+            "images": 12,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/project/雪の妖精",
+            "title": "米淉 MiGuo | 雪の妖精❄️✨",
+            "images": 9,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/projects/",
+            "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+            "images": 17,
+            "failed": [],
+            "oldProjectUrls": false
+          },
+          {
+            "page": "/",
+            "title": "米淉 MiGuo | 首頁 Home",
+            "images": 12,
+            "failed": [],
+            "oldProjectUrls": false
+          }
+        ],
+        "mobile": [
+          {
+            "page": "/project/雪の妖精",
+            "images": 5
+          },
+          {
+            "page": "/project/水色の夢",
+            "images": 17
+          },
+          {
+            "page": "/projects/",
+            "images": 14
+          }
+        ]
+      }
+    },
     "built_asset_cleanup": "passed",
     "source_changes": "7 URL replacements and 2 header logo URL filters"
   }

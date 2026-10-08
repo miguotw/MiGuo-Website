@@ -1,0 +1,3261 @@
+{
+  "date": "2026-10-09",
+  "source_bucket": "miguo-website-cdn",
+  "remote": "cloudflare-r2",
+  "status": "objects-and-local-links-updated-deployment-pending",
+  "source_objects": 98,
+  "unique_targets": 93,
+  "entries": [
+    {
+      "source_key": "images/event/水晶轉印貼黏貼4步驟/step_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/crystal-transfer-guide/step-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/crystal-transfer-guide/step-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 195471,
+      "target_bytes": 195471,
+      "source_sha256": "c337ec3f3f9f41c7eecf45eb2ee1907c38ddf62e61371e27fe919a40411de9bb",
+      "target_sha256": "c337ec3f3f9f41c7eecf45eb2ee1907c38ddf62e61371e27fe919a40411de9bb",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:36.146Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-04-03T12:12:32.962+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_pages/水晶轉印貼黏貼4步驟.md",
+          "line": 17
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/event/水晶轉印貼黏貼4步驟/step_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/crystal-transfer-guide/step-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/crystal-transfer-guide/step-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 186579,
+      "target_bytes": 186579,
+      "source_sha256": "fe2f8f7afc0c03e0739cda086f6223cc55d37896bc511351ff19759c6a5d6e8c",
+      "target_sha256": "fe2f8f7afc0c03e0739cda086f6223cc55d37896bc511351ff19759c6a5d6e8c",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:36.348Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-04-03T12:12:32.853+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_pages/水晶轉印貼黏貼4步驟.md",
+          "line": 27
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/event/水晶轉印貼黏貼4步驟/step_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/crystal-transfer-guide/step-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/crystal-transfer-guide/step-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 174724,
+      "target_bytes": 174724,
+      "source_sha256": "4d6f35c79620ea66941cd525bcca0ef86ce604e98086a1c30a1e49d36ad34caf",
+      "target_sha256": "4d6f35c79620ea66941cd525bcca0ef86ce604e98086a1c30a1e49d36ad34caf",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:37.068Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-04-03T12:12:32.908+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_pages/水晶轉印貼黏貼4步驟.md",
+          "line": 37
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/event/水晶轉印貼黏貼4步驟/step_04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/crystal-transfer-guide/step-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/crystal-transfer-guide/step-04.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 201289,
+      "target_bytes": 201289,
+      "source_sha256": "09659bf335777fb4c794cea4df1a80a18f6396d0ef8c2a0587ef832a8a3d4c3c",
+      "target_sha256": "09659bf335777fb4c794cea4df1a80a18f6396d0ef8c2a0587ef832a8a3d4c3c",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:37.918Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-04-03T12:12:33.036+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_pages/水晶轉印貼黏貼4步驟.md",
+          "line": 47
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/home/about.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "site/social/default-preview.png",
+      "cdn_url": "https://cdn.miguo.art/site/social/default-preview.png",
+      "content_type": "image/png",
+      "source_bytes": 435372,
+      "target_bytes": 435372,
+      "source_sha256": "67b602334306fa834a81d4d1ba5557e16aac81e54ead50471fc1ab1c179240fa",
+      "target_sha256": "67b602334306fa834a81d4d1ba5557e16aac81e54ead50471fc1ab1c179240fa",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:36.969Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T07:31:24.998+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_pages/about.md",
+          "line": 6
+        },
+        {
+          "file": "_pages/commission.html",
+          "line": 6
+        },
+        {
+          "file": "_pages/posts.html",
+          "line": 6
+        },
+        {
+          "file": "_pages/projects.html",
+          "line": 6
+        },
+        {
+          "file": "_pages/test.md",
+          "line": 6
+        },
+        {
+          "file": "_pages/水晶轉印貼黏貼4步驟.md",
+          "line": 6
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/AOD_Aria_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-aria/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-aria/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 495919,
+      "target_bytes": 495919,
+      "source_sha256": "1c919ba970b2331b24c2a6fa68a664bd23d5d5edba1e6c5e92bf4747bdd41c96",
+      "target_sha256": "1c919ba970b2331b24c2a6fa68a664bd23d5d5edba1e6c5e92bf4747bdd41c96",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:51.069Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T08:17:07.997+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/AOD_Chinatsu_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-chinatsu/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-chinatsu/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 478550,
+      "target_bytes": 478550,
+      "source_sha256": "f28800413798d91a0461949136ed972a74573d0eded8bd2c2e16309190210fa4",
+      "target_sha256": "f28800413798d91a0461949136ed972a74573d0eded8bd2c2e16309190210fa4",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:51.126Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T08:17:07.841+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/AOD_Nanguhane_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-nanguhane/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-nanguhane/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 465682,
+      "target_bytes": 465682,
+      "source_sha256": "b7bca1d152da22e6d7edf2d48d0375efb7ea565e01146819b985e389e1fadfbb",
+      "target_sha256": "b7bca1d152da22e6d7edf2d48d0375efb7ea565e01146819b985e389e1fadfbb",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:51.632Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T08:17:07.868+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/commission-01/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/commission-01/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 711708,
+      "target_bytes": 711708,
+      "source_sha256": "33b81cc53e4de68489bc40d83ce77a9716a2d603d2d3ea94e2eca0fdab16c6b9",
+      "target_sha256": "33b81cc53e4de68489bc40d83ce77a9716a2d603d2d3ea94e2eca0fdab16c6b9",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:51.38Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:24:35.027+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1328054,
+      "target_bytes": 1328054,
+      "source_sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "target_sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:52.382Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T06:45:06.007+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_02.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-02.png",
+      "content_type": "image/png",
+      "source_bytes": 5205659,
+      "target_bytes": 5205659,
+      "source_sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "target_sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:52.556Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T05:58:41.162+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1146609,
+      "target_bytes": 1146609,
+      "source_sha256": "d684cf830fd8b8e7c5b4384e299d9ad54cdd95572ac400c43195cfb7657b6666",
+      "target_sha256": "d684cf830fd8b8e7c5b4384e299d9ad54cdd95572ac400c43195cfb7657b6666",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:52.827Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:30:10.705+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-04.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 651532,
+      "target_bytes": 651532,
+      "source_sha256": "10663d16168bb1fa008cc80b34d6c5ff7a24e7ea6801821b4559c0ac01c05c3a",
+      "target_sha256": "10663d16168bb1fa008cc80b34d6c5ff7a24e7ea6801821b4559c0ac01c05c3a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:53.226Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:41:20.285+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-05.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-05.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 452274,
+      "target_bytes": 452274,
+      "source_sha256": "aecaa2fb2bc26b1efe724530112220793f4243de606cc2e4a9aa7b38adb9cd9a",
+      "target_sha256": "aecaa2fb2bc26b1efe724530112220793f4243de606cc2e4a9aa7b38adb9cd9a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:53.514Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:49:03.538+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_06.gif",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-06.gif",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-06.gif",
+      "content_type": "image/gif",
+      "source_bytes": 9915330,
+      "target_bytes": 9915330,
+      "source_sha256": "413c298ceb4058893836022c43779189060117424d4c3d2e179827008e4b04a7",
+      "target_sha256": "413c298ceb4058893836022c43779189060117424d4c3d2e179827008e4b04a7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:54.708Z",
+        "content-type": "image/gif",
+        "mtime": "2026-07-06T07:00:12.15+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/gif",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/com_zzz_07.gif",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-07.gif",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-07.gif",
+      "content_type": "image/gif",
+      "source_bytes": 13088714,
+      "target_bytes": 13088714,
+      "source_sha256": "ce2e3e8e6e0a2e337a75aad14832ab846a4f6eed0dd062c411872e7e142b4018",
+      "target_sha256": "ce2e3e8e6e0a2e337a75aad14832ab846a4f6eed0dd062c411872e7e142b4018",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:55.036Z",
+        "content-type": "image/gif",
+        "mtime": "2026-07-06T07:00:14.554+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/gif",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/AOD_Aria_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-aria/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-aria/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 495919,
+      "target_bytes": 495919,
+      "source_sha256": "1c919ba970b2331b24c2a6fa68a664bd23d5d5edba1e6c5e92bf4747bdd41c96",
+      "target_sha256": "1c919ba970b2331b24c2a6fa68a664bd23d5d5edba1e6c5e92bf4747bdd41c96",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:56.909Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:18:30.36+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/AOD_Chinatsu_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-chinatsu/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-chinatsu/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 478550,
+      "target_bytes": 478550,
+      "source_sha256": "f28800413798d91a0461949136ed972a74573d0eded8bd2c2e16309190210fa4",
+      "target_sha256": "f28800413798d91a0461949136ed972a74573d0eded8bd2c2e16309190210fa4",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:57.314Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:18:30.231+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/AOD_Nanguhane_N01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/aod-nanguhane/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/aod-nanguhane/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 465682,
+      "target_bytes": 465682,
+      "source_sha256": "b7bca1d152da22e6d7edf2d48d0375efb7ea565e01146819b985e389e1fadfbb",
+      "target_sha256": "b7bca1d152da22e6d7edf2d48d0375efb7ea565e01146819b985e389e1fadfbb",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:58.586Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:18:29.66+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/com_zzz_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1328054,
+      "target_bytes": 1328054,
+      "source_sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "target_sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:58.317Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:24:51.883+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/com_zzz_02.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-commissions/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-commissions/image-02.png",
+      "content_type": "image/png",
+      "source_bytes": 5205659,
+      "target_bytes": 5205659,
+      "source_sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "target_sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:58.34Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T09:24:52.955+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_doujin_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/fan-art/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/fan-art/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 592159,
+      "target_bytes": 592159,
+      "source_sha256": "bfc82573e5de10a61b2a609e0e6ac91b0203359b174136723f030136a7f998f9",
+      "target_sha256": "bfc82573e5de10a61b2a609e0e6ac91b0203359b174136723f030136a7f998f9",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:58.282Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:30:45.855+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1083263,
+      "target_bytes": 1083263,
+      "source_sha256": "0b568c892b1a8112391b2353ac5b01a8363ea3a63632a997d95fd8f5701dd5f4",
+      "target_sha256": "0b568c892b1a8112391b2353ac5b01a8363ea3a63632a997d95fd8f5701dd5f4",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:59.712Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:07.416+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 761795,
+      "target_bytes": 761795,
+      "source_sha256": "5c0b839aeeaecada1128a966a85e71e49f6a94871f23e6965296eec07b2b4bd5",
+      "target_sha256": "5c0b839aeeaecada1128a966a85e71e49f6a94871f23e6965296eec07b2b4bd5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:59.466Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:06.661+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 669004,
+      "target_bytes": 669004,
+      "source_sha256": "bea52dc1f65e760cf9015ab150cbc9498e24eaa1faaba2b17eb55aabd57b914a",
+      "target_sha256": "bea52dc1f65e760cf9015ab150cbc9498e24eaa1faaba2b17eb55aabd57b914a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:59.64Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:07.246+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-04.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 675584,
+      "target_bytes": 675584,
+      "source_sha256": "1b5ef617b12e123549002b4119d857883d23c5e5c0c2d20573a81370b70b0810",
+      "target_sha256": "1b5ef617b12e123549002b4119d857883d23c5e5c0c2d20573a81370b70b0810",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:00.619Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:05.931+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-05.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-05.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 670865,
+      "target_bytes": 670865,
+      "source_sha256": "19790536a1bef0a3cdeffa5aa88ce2a957f07b1682e7634943b1d3c0fd4ce630",
+      "target_sha256": "19790536a1bef0a3cdeffa5aa88ce2a957f07b1682e7634943b1d3c0fd4ce630",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:00.701Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:05.554+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_06.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-06.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-06.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 654999,
+      "target_bytes": 654999,
+      "source_sha256": "1438cb810fff28618512de477cf4cd6aa716b499973026157c801e6ca7f2d0be",
+      "target_sha256": "1438cb810fff28618512de477cf4cd6aa716b499973026157c801e6ca7f2d0be",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:00.803Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:06.095+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_07.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-07.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-07.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 652667,
+      "target_bytes": 652667,
+      "source_sha256": "151fe2d41b7453351084b557594ab11b5adf933343ff0bfcd370954b3506d7a2",
+      "target_sha256": "151fe2d41b7453351084b557594ab11b5adf933343ff0bfcd370954b3506d7a2",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:00.943Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:05.804+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_08.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-08.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-08.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 654830,
+      "target_bytes": 654830,
+      "source_sha256": "dc03b65fe43fbde090a71a1e33601a3f15aec0b6c0374bd4ad47fff9f86a99d1",
+      "target_sha256": "dc03b65fe43fbde090a71a1e33601a3f15aec0b6c0374bd4ad47fff9f86a99d1",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:02.014Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:07:05.483+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_09.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-09.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-09.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 476443,
+      "target_bytes": 476443,
+      "source_sha256": "f26c0bc0d29dc30331e5c5b0451c7ecbb69e6a837b68ac1ba6d15ee42de4347a",
+      "target_sha256": "f26c0bc0d29dc30331e5c5b0451c7ecbb69e6a837b68ac1ba6d15ee42de4347a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:02.096Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:13:56.362+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_10.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-10.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-10.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 649513,
+      "target_bytes": 649513,
+      "source_sha256": "13f01d9909f5a09aa0886708105394f9075a5e0cae2756920352bba8a4ad3648",
+      "target_sha256": "13f01d9909f5a09aa0886708105394f9075a5e0cae2756920352bba8a4ad3648",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:02.267Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:16:12.195+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/ill_ori_11.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/original-illustrations/image-11.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/original-illustrations/image-11.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 612183,
+      "target_bytes": 612183,
+      "source_sha256": "e45b7b01983a1d800e9a2ee5b7a7fade6199763340d29927f1f40d9f5bb156f0",
+      "target_sha256": "e45b7b01983a1d800e9a2ee5b7a7fade6199763340d29927f1f40d9f5bb156f0",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:02.181Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T09:16:11.694+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/live2d_mitsuru_texture.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/mitsuru-live2d/texture.png",
+      "cdn_url": "https://cdn.miguo.art/works/mitsuru-live2d/texture.png",
+      "content_type": "image/png",
+      "source_bytes": 1531449,
+      "target_bytes": 1531449,
+      "source_sha256": "a9f8064e8c85f5cfa497a8dfb1e5385759b5dea4fa2e402d9238be083a3c2557",
+      "target_sha256": "a9f8064e8c85f5cfa497a8dfb1e5385759b5dea4fa2e402d9238be083a3c2557",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:03.282Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T10:04:11.933+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/live2d_mitsuru_video.mp4",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/mitsuru-live2d/preview.mp4",
+      "cdn_url": "https://cdn.miguo.art/works/mitsuru-live2d/preview.mp4",
+      "content_type": "video/mp4",
+      "source_bytes": 34359509,
+      "target_bytes": 34359509,
+      "source_sha256": "de50d2456383ff730cf5941515f4fd8320720ae5683c44cf79832aa3e3135b2b",
+      "target_sha256": "de50d2456383ff730cf5941515f4fd8320720ae5683c44cf79832aa3e3135b2b",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:05.972Z",
+        "content-type": "video/mp4",
+        "mtime": "2026-07-06T11:13:15.898+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "video/mp4",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/illustration/role_miyako_swimsuit.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/miyako-swimsuit/character.png",
+      "cdn_url": "https://cdn.miguo.art/works/miyako-swimsuit/character.png",
+      "content_type": "image/png",
+      "source_bytes": 1377550,
+      "target_bytes": 1377550,
+      "source_sha256": "8e27c14153dd8bde30df0cb8993ecf34d5029082be22582ce3ca8fa74206ead6",
+      "target_sha256": "8e27c14153dd8bde30df0cb8993ecf34d5029082be22582ce3ca8fa74206ead6",
+      "source_metadata": {
+        "btime": "2026-10-08T15:46:03.312Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T10:30:49.033+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/mc_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/minecraft-collection/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/minecraft-collection/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 125840,
+      "target_bytes": 125840,
+      "source_sha256": "c0285648a9c46aad996a116fb96014ff6492e5c08cea78eaed434acef604b78c",
+      "target_sha256": "c0285648a9c46aad996a116fb96014ff6492e5c08cea78eaed434acef604b78c",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:54.058Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:13:25.053+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/mc_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/minecraft-collection/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/minecraft-collection/image-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 119618,
+      "target_bytes": 119618,
+      "source_sha256": "33c5917abf8052adb42d513a890b9c835bdf9e8ecbd216c15675eef3a6e7fbd5",
+      "target_sha256": "33c5917abf8052adb42d513a890b9c835bdf9e8ecbd216c15675eef3a6e7fbd5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:54.334Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:13:25.035+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/mc_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/minecraft-collection/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/minecraft-collection/image-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 80804,
+      "target_bytes": 80804,
+      "source_sha256": "591f628309fdd1aa5ba6f3b7a7bf5925ffe57a5426585fea1dc8e14308683baf",
+      "target_sha256": "591f628309fdd1aa5ba6f3b7a7bf5925ffe57a5426585fea1dc8e14308683baf",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:55.12Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T05:13:25.187+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/nc_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/nc-collection/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/nc-collection/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 890862,
+      "target_bytes": 890862,
+      "source_sha256": "8a5aa86ac28d66ddad720a082f00aa63f1dc2d7c2d8a5c827b1a9619a3491fe7",
+      "target_sha256": "8a5aa86ac28d66ddad720a082f00aa63f1dc2d7c2d8a5c827b1a9619a3491fe7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:55.956Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T04:22:14.22+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/nc_02.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/nc-collection/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/works/nc-collection/image-02.png",
+      "content_type": "image/png",
+      "source_bytes": 2858527,
+      "target_bytes": 2858527,
+      "source_sha256": "ebfd69779025de18582e0925ea5fd06e4c5e642720d940c99ad118940db603e9",
+      "target_sha256": "ebfd69779025de18582e0925ea5fd06e4c5e642720d940c99ad118940db603e9",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:56.093Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-06T04:25:42.135+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/zzz_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-collection/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-collection/image-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 87261,
+      "target_bytes": 87261,
+      "source_sha256": "dba3c6dd5888c59643bf40a6b35110779caa7f2ef43f331cd25882ccc9d32273",
+      "target_sha256": "dba3c6dd5888c59643bf40a6b35110779caa7f2ef43f331cd25882ccc9d32273",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:56.248Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T04:35:43.415+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/zzz_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-collection/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-collection/image-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 83781,
+      "target_bytes": 83781,
+      "source_sha256": "580b3ea94c8c3a6e0d273b631245c1cd540a29b77ca33daebbd76599e0409d5d",
+      "target_sha256": "580b3ea94c8c3a6e0d273b631245c1cd540a29b77ca33daebbd76599e0409d5d",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:55.89Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T04:35:43.599+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/zzz_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-collection/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-collection/image-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 96371,
+      "target_bytes": 96371,
+      "source_sha256": "22d8816769ff6acee658768e7a7113e2969af64e332d69dbe9887f91c4a89667",
+      "target_sha256": "22d8816769ff6acee658768e7a7113e2969af64e332d69dbe9887f91c4a89667",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:56.63Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T04:35:43.589+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/portfolio/zzz_04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "works/zzz-collection/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-collection/image-04.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1145510,
+      "target_bytes": 1145510,
+      "source_sha256": "e07e09b91ba5e601bf03961e816adc4d0634eea90c252758f68e506f4192396f",
+      "target_sha256": "e07e09b91ba5e601bf03961e816adc4d0634eea90c252758f68e506f4192396f",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:56.965Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-07-06T04:37:41.189+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/01.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-01.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-01.png",
+      "content_type": "image/png",
+      "source_bytes": 139464,
+      "target_bytes": 139464,
+      "source_sha256": "8cf18fa41163f26c6c6e0682fc342fea5bd0941643a71385a0de994b55eca73d",
+      "target_sha256": "8cf18fa41163f26c6c6e0682fc342fea5bd0941643a71385a0de994b55eca73d",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:37.237Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:35.986+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 42
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/02.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-02.png",
+      "content_type": "image/png",
+      "source_bytes": 166257,
+      "target_bytes": 166257,
+      "source_sha256": "3fbd83fa10d74c24bd510edcd5802ab46a942fab9dc65d31d01db23b7e63bfe7",
+      "target_sha256": "3fbd83fa10d74c24bd510edcd5802ab46a942fab9dc65d31d01db23b7e63bfe7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:38.504Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:34.59+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 44
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/03.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-03.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-03.png",
+      "content_type": "image/png",
+      "source_bytes": 149795,
+      "target_bytes": 149795,
+      "source_sha256": "29f19600176f8e8068d02eb90f111c19e8ca748f3ac0ab7c6a1b59ced1d47ad3",
+      "target_sha256": "29f19600176f8e8068d02eb90f111c19e8ca748f3ac0ab7c6a1b59ced1d47ad3",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:37.975Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:34.703+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 40
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/04.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-04.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-04.png",
+      "content_type": "image/png",
+      "source_bytes": 149922,
+      "target_bytes": 149922,
+      "source_sha256": "4d6d16e2fc802fc0f130aef41a6264169af873a1adf4e6bb6155bdae7614e2cc",
+      "target_sha256": "4d6d16e2fc802fc0f130aef41a6264169af873a1adf4e6bb6155bdae7614e2cc",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:38.268Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:36.127+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 35
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/05.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-05.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-05.png",
+      "content_type": "image/png",
+      "source_bytes": 147998,
+      "target_bytes": 147998,
+      "source_sha256": "7544dcb0ed5bbcd37331632e3d361e8c5a63c3f79855d48fde43c3c8a504c8ee",
+      "target_sha256": "7544dcb0ed5bbcd37331632e3d361e8c5a63c3f79855d48fde43c3c8a504c8ee",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:38.738Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:36.113+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 28
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/06.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-06.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-06.png",
+      "content_type": "image/png",
+      "source_bytes": 151390,
+      "target_bytes": 151390,
+      "source_sha256": "08cd1b0f1207483b1acaee7046271666d2eb5d1df77bdd5fd887041af9e4ceb1",
+      "target_sha256": "08cd1b0f1207483b1acaee7046271666d2eb5d1df77bdd5fd887041af9e4ceb1",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:38.803Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:38.69+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 38
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/07.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-07.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-07.png",
+      "content_type": "image/png",
+      "source_bytes": 145236,
+      "target_bytes": 145236,
+      "source_sha256": "83bd72efbe8866b3de1cbf47f042bb96fbd86b9270eae6c43a2e6e78f09f3fa0",
+      "target_sha256": "83bd72efbe8866b3de1cbf47f042bb96fbd86b9270eae6c43a2e6e78f09f3fa0",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:39.064Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:36.643+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 36
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/08.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-08.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-08.png",
+      "content_type": "image/png",
+      "source_bytes": 154232,
+      "target_bytes": 154232,
+      "source_sha256": "2954471ea09a7a9885346004863b0e4caa8e94fb008f3918eda0308796648ef8",
+      "target_sha256": "2954471ea09a7a9885346004863b0e4caa8e94fb008f3918eda0308796648ef8",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:39.601Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:37.972+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 27
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/09.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-09.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-09.png",
+      "content_type": "image/png",
+      "source_bytes": 146648,
+      "target_bytes": 146648,
+      "source_sha256": "5a885d9d49cd5ec5667f5f9a63d957e12517f96b995a759b58595637fe618567",
+      "target_sha256": "5a885d9d49cd5ec5667f5f9a63d957e12517f96b995a759b58595637fe618567",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:39.579Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:38.319+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 41
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/10.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-10.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-10.png",
+      "content_type": "image/png",
+      "source_bytes": 163393,
+      "target_bytes": 163393,
+      "source_sha256": "ed2255542401f64af8aa45780a21e27b32893b093bc62a0cb5464de611b1c6bd",
+      "target_sha256": "ed2255542401f64af8aa45780a21e27b32893b093bc62a0cb5464de611b1c6bd",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:40.002Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:38.77+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 45
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/11.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-11.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-11.png",
+      "content_type": "image/png",
+      "source_bytes": 148019,
+      "target_bytes": 148019,
+      "source_sha256": "e6a80d47c4704fe69f5b1a27a635bbad0b601713f26678d2bc05ddb6a32dd6a1",
+      "target_sha256": "e6a80d47c4704fe69f5b1a27a635bbad0b601713f26678d2bc05ddb6a32dd6a1",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:39.836Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:39.252+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 37
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/12.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-12.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-12.png",
+      "content_type": "image/png",
+      "source_bytes": 150306,
+      "target_bytes": 150306,
+      "source_sha256": "e01bd911c3b60bbd669643517991a21e5f02a5fa419ec606eefd77909867a2cf",
+      "target_sha256": "e01bd911c3b60bbd669643517991a21e5f02a5fa419ec606eefd77909867a2cf",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:40.487Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:40.34+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 53
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/13.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-13.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-13.png",
+      "content_type": "image/png",
+      "source_bytes": 147154,
+      "target_bytes": 147154,
+      "source_sha256": "2692426ae459e926a3827559b779ad1dd29849cce3ff48d7a97174463715dbdb",
+      "target_sha256": "2692426ae459e926a3827559b779ad1dd29849cce3ff48d7a97174463715dbdb",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:40.421Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:42.646+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 43
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/14.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-14.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-14.png",
+      "content_type": "image/png",
+      "source_bytes": 146170,
+      "target_bytes": 146170,
+      "source_sha256": "cecfd1d6f7c879a0b87ddfff0ae53a1aed861a173fb07fe8f513fba6f57667c2",
+      "target_sha256": "cecfd1d6f7c879a0b87ddfff0ae53a1aed861a173fb07fe8f513fba6f57667c2",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:40.953Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:40.736+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 46
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/15.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-15.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-15.png",
+      "content_type": "image/png",
+      "source_bytes": 155331,
+      "target_bytes": 155331,
+      "source_sha256": "0a6af406bd2360fe6f1b52c36dbfd68eddd566b13b066743aa38ca2240e33991",
+      "target_sha256": "0a6af406bd2360fe6f1b52c36dbfd68eddd566b13b066743aa38ca2240e33991",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:41.225Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:43.729+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 39
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/16.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/image-16.png",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/image-16.png",
+      "content_type": "image/png",
+      "source_bytes": 122911,
+      "target_bytes": 122911,
+      "source_sha256": "0cb119551359845453213cafc6aa5b1f3b43a49a5723fa5e9ec9f76a500f9198",
+      "target_sha256": "0cb119551359845453213cafc6aa5b1f3b43a49a5723fa5e9ec9f76a500f9198",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:41.622Z",
+        "content-type": "image/png",
+        "mtime": "2026-03-19T22:45:44.425+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 52
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/米淉子日常/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/miguoko-daily/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/miguoko-daily/cover.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 483408,
+      "target_bytes": 483408,
+      "source_sha256": "e43630f7068ca8fe29f4ad6b3a8ad9065f3089af2735bb97e3521cbbd1c0e7cd",
+      "target_sha256": "e43630f7068ca8fe29f4ad6b3a8ad9065f3089af2735bb97e3521cbbd1c0e7cd",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:41.595Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-03-19T22:52:01.78+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 6
+        },
+        {
+          "file": "_posts/2024-09-02-米淉子日常.md",
+          "line": 13
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/cover.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 453622,
+      "target_bytes": 453622,
+      "source_sha256": "6e41dd158330444970998d1baab52957d727ba611e805d08b0a007cb353e6c5c",
+      "target_sha256": "6e41dd158330444970998d1baab52957d727ba611e805d08b0a007cb353e6c5c",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:42.069Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:38:36.694+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 6
+        },
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 13
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/dm_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/flyer-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/flyer-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 640705,
+      "target_bytes": 640705,
+      "source_sha256": "ebd5bcc5d1ed6ea64b18723c44c09f6286892de4671fcc6a0d51b135762be966",
+      "target_sha256": "ebd5bcc5d1ed6ea64b18723c44c09f6286892de4671fcc6a0d51b135762be966",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:42.028Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-04-08T20:10:38.784+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 21
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/photo_3412.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/photo-3412.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/photo-3412.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 375232,
+      "target_bytes": 375232,
+      "source_sha256": "e783e3ec7a0a6cbe2bbe66becba96726fd227acee58eab6c5129acdae26ab367",
+      "target_sha256": "e783e3ec7a0a6cbe2bbe66becba96726fd227acee58eab6c5129acdae26ab367",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:43.105Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-07T23:20:02.235+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 54
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/photo_3413.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/photo-3413.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/photo-3413.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 813714,
+      "target_bytes": 813714,
+      "source_sha256": "b57895a096250f780338607a1a50c0e455f8e3734ee66cd896799e23560f8e44",
+      "target_sha256": "b57895a096250f780338607a1a50c0e455f8e3734ee66cd896799e23560f8e44",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:43.289Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-07T23:28:07.596+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 55
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/photo_3414.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/photo-3414.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/photo-3414.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 482930,
+      "target_bytes": 482930,
+      "source_sha256": "88bf32346b3f6d80b47f0f35c9e0bac80fb36d2da0003505158daebb022eea25",
+      "target_sha256": "88bf32346b3f6d80b47f0f35c9e0bac80fb36d2da0003505158daebb022eea25",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:43.334Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-07T23:20:02.162+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/photo_3416.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/photo-3416.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/photo-3416.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 392573,
+      "target_bytes": 392573,
+      "source_sha256": "afaa8a30e231502d21e1160d844ed7f90d3581be48584d951c196f3b98ed1f7a",
+      "target_sha256": "afaa8a30e231502d21e1160d844ed7f90d3581be48584d951c196f3b98ed1f7a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:43.758Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-07T23:20:01.883+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 53
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/photo_3425.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/photo-3425.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/photo-3425.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 370638,
+      "target_bytes": 370638,
+      "source_sha256": "95b5e9810deb556130c2b48392adb99fca3e96da3936f88dcd6a80e554bada28",
+      "target_sha256": "95b5e9810deb556130c2b48392adb99fca3e96da3936f88dcd6a80e554bada28",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:44.069Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-07T23:20:02.017+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 47
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_bk_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/book-cover-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/book-cover-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1208799,
+      "target_bytes": 1208799,
+      "source_sha256": "6b06c69bb6d8af0e5015789c185f4f78dfd62f1bb8fe90f1c28d6084b3de65a7",
+      "target_sha256": "6b06c69bb6d8af0e5015789c185f4f78dfd62f1bb8fe90f1c28d6084b3de65a7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:44.584Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:42:01.091+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 65
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_bk_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/book-cover-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/book-cover-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 437536,
+      "target_bytes": 437536,
+      "source_sha256": "33ce583a59adef61f31042441449f2f86519367a30fedd7f490bcf9e3d26cb9a",
+      "target_sha256": "33ce583a59adef61f31042441449f2f86519367a30fedd7f490bcf9e3d26cb9a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:44.563Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:42:00.669+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 129
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_01.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-01.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 411268,
+      "target_bytes": 411268,
+      "source_sha256": "d46c4c57799e527f43c2b88a1d446d8235283d79da506acdf28b6c63f9b41cb8",
+      "target_sha256": "d46c4c57799e527f43c2b88a1d446d8235283d79da506acdf28b6c63f9b41cb8",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:45.019Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:41.845+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 66
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_02.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-02.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1597684,
+      "target_bytes": 1597684,
+      "source_sha256": "dd5fe3e9f32402c31f46c34dc9c8d3b08efa85557b1396e210cabf8ac3b47bd4",
+      "target_sha256": "dd5fe3e9f32402c31f46c34dc9c8d3b08efa85557b1396e210cabf8ac3b47bd4",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:45.376Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:43.039+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 72
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_03.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-03.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1260977,
+      "target_bytes": 1260977,
+      "source_sha256": "8b0be4442ff9d897f6b40b875d051f27235c987423a12cb35109bfe9ff2e5482",
+      "target_sha256": "8b0be4442ff9d897f6b40b875d051f27235c987423a12cb35109bfe9ff2e5482",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:45.948Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:42.75+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 73
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_04.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-04.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1067140,
+      "target_bytes": 1067140,
+      "source_sha256": "a2140ab14a4f0bcadeef28b257a6cc097977db4641088620b75f1888adb2ae21",
+      "target_sha256": "a2140ab14a4f0bcadeef28b257a6cc097977db4641088620b75f1888adb2ae21",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:45.815Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:43.434+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 79
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_05.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-05.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-05.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 875041,
+      "target_bytes": 875041,
+      "source_sha256": "cbecf8bd725fc81906d4b3c8d13773acc0596f12ca54f374eddfafba8ea434a0",
+      "target_sha256": "cbecf8bd725fc81906d4b3c8d13773acc0596f12ca54f374eddfafba8ea434a0",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:46.163Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:42.184+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 80
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_06.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-06.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-06.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1302404,
+      "target_bytes": 1302404,
+      "source_sha256": "211b5b2ca9bd4040740d3a310277f8f869766786238b9eeabfa98f4d8e94e694",
+      "target_sha256": "211b5b2ca9bd4040740d3a310277f8f869766786238b9eeabfa98f4d8e94e694",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:46.571Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:43.007+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 86
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_07.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-07.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-07.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 965466,
+      "target_bytes": 965466,
+      "source_sha256": "061d866bbdaa52794fb5b31657956dc903c63f2b51e1dce054fda2e2a802d153",
+      "target_sha256": "061d866bbdaa52794fb5b31657956dc903c63f2b51e1dce054fda2e2a802d153",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:48.572Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:43.625+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 87
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_08.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-08.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-08.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1064820,
+      "target_bytes": 1064820,
+      "source_sha256": "5a9de0a5b85df6eada85bc480a2a43d71ccd28b7cd3e57706d93372eac1df992",
+      "target_sha256": "5a9de0a5b85df6eada85bc480a2a43d71ccd28b7cd3e57706d93372eac1df992",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:47.127Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:44.611+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 93
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_09.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-09.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-09.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 795488,
+      "target_bytes": 795488,
+      "source_sha256": "3bbd7e3b15fd1c6aca670ec800b04d2924e423d2229dd20c4f64bd55d498713a",
+      "target_sha256": "3bbd7e3b15fd1c6aca670ec800b04d2924e423d2229dd20c4f64bd55d498713a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:47.294Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:44.09+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 94
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_10.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-10.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-10.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1121539,
+      "target_bytes": 1121539,
+      "source_sha256": "e9258b3f7475ae2b39154f46d049c556dd820a4c48533e029d1fed98358b54c7",
+      "target_sha256": "e9258b3f7475ae2b39154f46d049c556dd820a4c48533e029d1fed98358b54c7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:47.699Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:44.8+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 100
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_11.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-11.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-11.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1122966,
+      "target_bytes": 1122966,
+      "source_sha256": "462bef3dafa5e45cc5e1c7136261e2e8f1cb0dedbb103a060654f3d88299bf50",
+      "target_sha256": "462bef3dafa5e45cc5e1c7136261e2e8f1cb0dedbb103a060654f3d88299bf50",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:48.384Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:45.157+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 101
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_12.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-12.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-12.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1174933,
+      "target_bytes": 1174933,
+      "source_sha256": "151442251e6600b0f19e7c9d25f4bf1e4e4c82e762857b4a4c6ced6ddd63ceb5",
+      "target_sha256": "151442251e6600b0f19e7c9d25f4bf1e4e4c82e762857b4a4c6ced6ddd63ceb5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:48.419Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:44.934+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 107
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_13.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-13.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-13.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 808496,
+      "target_bytes": 808496,
+      "source_sha256": "26ef31db550936afd700d82d3d6ea14989d0558eee0e7145effc8a481b2c5384",
+      "target_sha256": "26ef31db550936afd700d82d3d6ea14989d0558eee0e7145effc8a481b2c5384",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:49.276Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:45.962+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 108
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_34.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-34.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-34.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 363965,
+      "target_bytes": 363965,
+      "source_sha256": "de35cd0d3e4f690977e839b94d33c872fadbced016ff7dea7c783baf198d93de",
+      "target_sha256": "de35cd0d3e4f690977e839b94d33c872fadbced016ff7dea7c783baf198d93de",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:49.236Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:45.498+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 114
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_35.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-35.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-35.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 2608314,
+      "target_bytes": 2608314,
+      "source_sha256": "19d6f7ea049d3d047cd2d0d47b22a04a3aea537cdb5f6de507fdd9dde2ef6041",
+      "target_sha256": "19d6f7ea049d3d047cd2d0d47b22a04a3aea537cdb5f6de507fdd9dde2ef6041",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:49.966Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:47.413+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 115
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_36.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-36.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-36.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1645558,
+      "target_bytes": 1645558,
+      "source_sha256": "5f2da66701b8ec41eeda565772d912ca359b2bdc199edc1281fc0b3eaa24a9f8",
+      "target_sha256": "5f2da66701b8ec41eeda565772d912ca359b2bdc199edc1281fc0b3eaa24a9f8",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:49.508Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:47.628+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 121
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_37.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-37.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-37.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 1461139,
+      "target_bytes": 1461139,
+      "source_sha256": "efe8975ef561fc646675cfee12203c914ff515182382b27fbf31b48c70e1e7e5",
+      "target_sha256": "efe8975ef561fc646675cfee12203c914ff515182382b27fbf31b48c70e1e7e5",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:50.118Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:47.175+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 122
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "images/posts/繪日和-日子的形狀/web_page_42.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/shapes-of-days/page-42.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/page-42.jpg",
+      "content_type": "image/jpeg",
+      "source_bytes": 684166,
+      "target_bytes": 684166,
+      "source_sha256": "96a088d811e2ca989a517d04fa04423f389509bfd8f401f8d2bc0dbc113faaab",
+      "target_sha256": "96a088d811e2ca989a517d04fa04423f389509bfd8f401f8d2bc0dbc113faaab",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:50.369Z",
+        "content-type": "image/jpeg",
+        "mtime": "2026-05-01T02:30:46.988+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-03-10-繪日和・日子的形狀.md",
+          "line": 128
+        }
+      ],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "updated"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/models/brick.json",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/brick/models/model.json",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/brick/models/model.json",
+      "content_type": "application/json",
+      "source_bytes": 10682,
+      "target_bytes": 10679,
+      "source_sha256": "2c7569a9feb82acb95a85c771a2e704bed21069baf78c70af19cea7017294a9a",
+      "target_sha256": "1ffcbf7c3a3835b747b98f651c154b5f0e5d25f6cb62e27234f982129ef4e798",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:34.558Z",
+        "content-type": "application/json",
+        "mtime": "2026-07-10T04:52:51.866+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [
+        {
+          "from": "item/brick",
+          "to": "texture"
+        }
+      ],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/json",
+        "access_control_allow_origin": null,
+        "cache_control": null,
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/models/event_7th_graduate_purple.json",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/event-7th-graduate-purple/models/model.json",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/event-7th-graduate-purple/models/model.json",
+      "content_type": "application/json",
+      "source_bytes": 8100,
+      "target_bytes": 8068,
+      "source_sha256": "f5e3ccfaca96cfba99c920f33c589d3978cd8ee307ffc579e6b46add44b024e3",
+      "target_sha256": "0950dee8934ae91423b4497e3df2127a38f407b91f88dfb70bd3dd64d5fd7b43",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:34.809Z",
+        "content-type": "application/json",
+        "mtime": "2026-07-10T04:52:52.599+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [
+        {
+          "from": "item/event_7th_graduate",
+          "to": "texture"
+        }
+      ],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/json",
+        "access_control_allow_origin": null,
+        "cache_control": null,
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/models/nether_brick.json",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/nether-brick/models/model.json",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/nether-brick/models/model.json",
+      "content_type": "application/json",
+      "source_bytes": 10689,
+      "target_bytes": 10679,
+      "source_sha256": "de7aa9688bdd0b3599b01a42c911ef5035f43633b0150151def5b02fddbed037",
+      "target_sha256": "1ffcbf7c3a3835b747b98f651c154b5f0e5d25f6cb62e27234f982129ef4e798",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:35.408Z",
+        "content-type": "application/json",
+        "mtime": "2026-07-10T04:52:52.719+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [
+        {
+          "from": "item/nether_brick",
+          "to": "texture"
+        }
+      ],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/json",
+        "access_control_allow_origin": null,
+        "cache_control": null,
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/models/netherite_sword.json",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/netherite-sword/models/model.json",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/netherite-sword/models/model.json",
+      "content_type": "application/json",
+      "source_bytes": 51659,
+      "target_bytes": 51646,
+      "source_sha256": "8152318715c858cb7b2acc7aa5ed92213f3ebb3e97a959f60d5464ecd4259842",
+      "target_sha256": "c34e201318a9008faa0a9142c85112efc93153ee34040face320cf245e3cea03",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:35.181Z",
+        "content-type": "application/json",
+        "mtime": "2026-07-10T04:52:53.468+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [
+        {
+          "from": "item/netherite_sword",
+          "to": "texture"
+        }
+      ],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/json",
+        "access_control_allow_origin": null,
+        "cache_control": null,
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/textures/7c653b1c4bfacc1e.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/skins/7c653b1c4bfacc1e.png",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/skins/7c653b1c4bfacc1e.png",
+      "content_type": "image/png",
+      "source_bytes": 2402,
+      "target_bytes": 2402,
+      "source_sha256": "0e9dd10eee9fdd282bdfedf672569e722dcefaacfa468b4eebb22237343f4a70",
+      "target_sha256": "0e9dd10eee9fdd282bdfedf672569e722dcefaacfa468b4eebb22237343f4a70",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:33.545Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-10T04:52:51.761+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/textures/brick.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/brick/textures/texture.png",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/brick/textures/texture.png",
+      "content_type": "image/png",
+      "source_bytes": 2441,
+      "target_bytes": 2441,
+      "source_sha256": "64dbd45ae7e5711677bb41d6ac2f312ea355c3dab64fcef88f2448bb4104e9e9",
+      "target_sha256": "64dbd45ae7e5711677bb41d6ac2f312ea355c3dab64fcef88f2448bb4104e9e9",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:33.737Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-10T04:52:52.621+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/textures/event_7th_graduate.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/event-7th-graduate-purple/textures/texture.png",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/event-7th-graduate-purple/textures/texture.png",
+      "content_type": "image/png",
+      "source_bytes": 7077,
+      "target_bytes": 7077,
+      "source_sha256": "2e399ea02a6020ed78ee9d4dc32015719b2b99d3c4f7cb54f5d476d71bd3f096",
+      "target_sha256": "2e399ea02a6020ed78ee9d4dc32015719b2b99d3c4f7cb54f5d476d71bd3f096",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:34.264Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-10T04:52:52.639+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/textures/nether_brick.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/nether-brick/textures/texture.png",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/nether-brick/textures/texture.png",
+      "content_type": "image/png",
+      "source_bytes": 2952,
+      "target_bytes": 2952,
+      "source_sha256": "df16ac4d1d050b8600ad3793efb4ae091662d2ca78dd2aade3ffc4de1e9b774a",
+      "target_sha256": "df16ac4d1d050b8600ad3793efb4ae091662d2ca78dd2aade3ffc4de1e9b774a",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:33.72Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-10T04:52:53.034+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    },
+    {
+      "source_key": "minecraft-model-viewer/textures/netherite_sword.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "models/minecraft/netherite-sword/textures/texture.png",
+      "cdn_url": "https://cdn.miguo.art/models/minecraft/netherite-sword/textures/texture.png",
+      "content_type": "image/png",
+      "source_bytes": 2836,
+      "target_bytes": 2836,
+      "source_sha256": "4c61e429ac44315990f05d0934e62bff3d0664d95372c1b6ffaef4bc71020da7",
+      "target_sha256": "4c61e429ac44315990f05d0934e62bff3d0664d95372c1b6ffaef4bc71020da7",
+      "source_metadata": {
+        "btime": "2026-10-08T15:45:34.316Z",
+        "content-type": "image/png",
+        "mtime": "2026-07-10T04:52:53.47+08:00",
+        "tier": "STANDARD"
+      },
+      "references": [],
+      "model_texture_changes": [],
+      "verification": {
+        "s3": "download-content-matched",
+        "metadata": "matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "access_control_allow_origin": null,
+        "cache_control": "max-age=14400",
+        "project_references": "no-cdn-reference-found"
+      },
+      "source_retained": true
+    }
+  ],
+  "bucket_object_count_after_copy": 191,
+  "updated_project_files": [
+    "_pages/about.md",
+    "_pages/commission.html",
+    "_pages/posts.html",
+    "_pages/projects.html",
+    "_pages/test.md",
+    "_pages/水晶轉印貼黏貼4步驟.md",
+    "_posts/2024-09-02-米淉子日常.md",
+    "_posts/2026-03-10-繪日和・日子的形狀.md"
+  ],
+  "updated_url_occurrences": 55,
+  "validation_summary": {
+    "jekyll_build": "passed",
+    "old_url_scan": "passed",
+    "maintenance_excluded": "passed",
+    "source_changes": "only-55-url-replacements",
+    "browser_image_loads": 48,
+    "same_origin_model_loads": 4,
+    "same_origin_skin_loads": 1,
+    "remote_model_cors": "not-configured",
+    "deployment": "pending"
+  }
+}

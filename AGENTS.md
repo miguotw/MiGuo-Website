@@ -76,6 +76,66 @@ bundle exec jekyll build
 - 修改 Sass 時保留 `css/main.scss` 的 front matter 與 Liquid 載入方式，不直接修改 `_site/css/main.css`。
 - 圖片與 Live2D、模型檢視器等資產可能由多個頁面共用，刪除前先搜尋引用。
 
+## R2 素材管理與遷移
+
+### 連線與已驗證狀態
+
+- 網站靜態素材將分批遷移至 `miguo-website-cdn`；CDN 網址使用 `https://cdn.miguo.art`。
+- WSL 的 rclone remote 名稱為 `cloudflare-r2`，provider 為 `Cloudflare`（大小寫需正確），region 使用 `auto`，`no_check_bucket = true`。
+- 使用既有本機 rclone 設定。不要在輸出、聊天、Git、文件或腳本中列出 Access Key ID、Secret Access Key、API token 或完整憑證設定檔。
+- rclone 使用 R2 的存取金鑰識別碼與秘密存取金鑰；S3 API Endpoint 與公開 CDN 網址不同。憑證權限應限於操作所需的指定貯體。
+- 2026-10-08 已以 `rclone copy --metadata` 將舊貯體 `miguo-website` 複製至 `miguo-website-cdn`，並以 `rclone check --download` 完整比對：98 個檔案、122,491,302 bytes、0 差異。這是當次遷移紀錄，不是永遠固定的檔案數量。
+- 舊貯體 `miguo-website` 保留。2026-10-09 已確認只新增於 `miguo-website-cdn` 的 93 個新路徑可由 `cdn.miguo.art` 讀取，回應內容 SHA-256 全數吻合；驗證請求使用官網 Referer。這是 CDN 實際供檔證據，不代表已完整稽核 Cloudflare 帳戶設定。
+- 2026-10-09 已將上述 98 個舊 key 對應到 93 個新 key（5 組相同內容共用新 key），並更新專案 55 處 CDN 引用。原 key 暫留以相容舊版連結並保留回復能力；本次複製後目標貯體有 191 個物件。對照、雜湊、引用位置與驗證狀態見 `maintenance/r2/2026-10-09-renames.json`，流程與限制見 `maintenance/r2/README.md`。
+- 新路徑 GET 回應尚未提供 `Access-Control-Allow-Origin`，不能宣稱 Minecraft／Live2D 跨來源載入可用。現有 Minecraft 預覽器仍使用本機素材；其他本機靜態資源也尚未全部遷移。
+
+### 新素材目錄規劃
+
+以「用途 → 穩定的作品或文章識別碼 → 素材角色」組織，不必沿用舊目錄。下列是遷移時採用的規劃與範例，不代表 R2 已有這些物件：
+
+```text
+site/brand/logo-dark.png
+site/home/hero-background.webp
+site/social/default-preview.jpg
+works/winter-fairy/cover.jpg
+works/winter-fairy/image-01.jpg
+articles/weapon-collection/cover.jpg
+models/live2d/mitsuru/v1/mitsuru.model3.json
+models/live2d/mitsuru/v1/mitsuru.physics3.json
+models/live2d/mitsuru/v1/textures/texture-01.png
+models/minecraft/netherite-sword/models/model.json
+models/minecraft/netherite-sword/textures/texture.png
+downloads/mitsuru/v1/model-package.zip
+```
+
+- Minecraft 每個模型保留 `models/model.json` 與 `textures/texture.png` 配對，JSON 的材質值使用 `texture`；這符合現有預覽器以最後一層 `/models/` 推導同層 `/textures/` 的規則。不要只攤平目錄而未同步調整解析器。
+- `site` 放全站品牌、首頁與預設社群預覽素材；`works` 放作品素材；`articles` 放文章素材；`models` 放執行時載入的模型；`downloads` 放供訪客下載的套件。
+- 作品或文章使用簡短、固定的英文識別碼；同一作品的封面、縮圖、內頁與預覽圖放在一起。
+- 角色名稱可使用 `cover`、`thumbnail`、`social-preview`、`image-01`。只有確有多尺寸時才加入 `-640`、`-1280`；模型與下載包可使用 `v1`、`v2` 版本目錄。
+
+### 必須遵守的命名規則
+
+- R2 目錄名稱與檔案主名稱僅使用小寫英文 `a-z`、數字 `0-9` 與連字號 `-`；不使用中文、日文、空格或底線。
+- `.` 僅用於副檔名，允許一般與複合副檔名，例如 `.jpg`、`.webp`、`.model3.json`、`.physics3.json`、`.motion3.json`、`.tar.gz`。
+- `/` 是物件路徑的層級分隔符，不屬於單一名稱。避免以點號拼接主名稱或在目錄名稱中使用點號。
+- 使用者允許為遷移適當重新命名舊素材；範圍是素材目錄與檔名，不因此改寫作品標題、文章內容或公開頁面 permalink。
+- 對第三方格式，先確認規格要求。Live2D 的模型 JSON、材質、動作與物理設定，以及 Minecraft 模型引用需一併更新，保留副檔名及解析器所需結構，並實際測試載入。
+
+### 每批遷移流程
+
+1. 盤點本機／R2 來源檔案、所有引用與目標 object key，確認新名稱不碰撞。
+2. 維護可追蹤的對照清單，至少記錄來源、目標貯體／object key、CDN URL、檔案類型、引用位置與驗證狀態；遷移工具與內部紀錄需排除於 Jekyll 公開輸出。
+3. 先 dry-run，再複製或上傳。既有物件搬移使用 `--metadata`，並核對 Content-Type、Cache-Control 等中繼資料；CORS、自訂網域、生命週期屬於貯體設定，不會跟著複製。
+4. 驗證物件內容與 CDN 讀取，再更新網站 Markdown、YAML、HTML、CSS、JavaScript 及模型內部引用；執行 Jekyll 建置與相關頁面測試。
+5. 上線切換完成且確認無舊引用後，才將已確認可刪除的來源列入清理。不要在初次搬移時用 `sync`、`move` 或 `purge` 一併刪除來源／目標。
+6. 切換貯體時保留來源以便回復；更換相同 URL 的內容要考慮 CDN 快取，不能只靠命中快取的成功回應證明新貯體可用。
+
+唯讀列出目前遷移目標的頂層內容：
+
+```bash
+rclone lsf cloudflare-r2:miguo-website-cdn --max-depth 1
+```
+
 ## CDN 與社群預覽
 
 - 保留已有的 `cdn.miguo.art` 素材網址；不要為本機圖片載入失敗就大量搬回儲存庫或替換網域。

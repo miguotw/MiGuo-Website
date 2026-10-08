@@ -3,7 +3,7 @@ layout: page
 title: 嗨👋我是米淉
 description: 喜歡畫可愛的女孩子～
 permalink: /about/
-image: 'https://cdn.miguo.art/images/home/about.png'
+image: 'https://cdn.miguo.art/site/social/default-preview.png'
 toc: false
 ---
 

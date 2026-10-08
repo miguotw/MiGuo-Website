@@ -3,7 +3,7 @@ layout: post
 title: Minecraft JE 3D 模型預覽器
 description: Minecraft JE 3D 模型預覽器
 date: 2026-07-09 00:00:00 +0800
-image: 'https://cdn.miguo.art/images/home/about.png'
+image: 'https://cdn.miguo.art/site/social/default-preview.png'
 permalink: /test
 tags: []
 show_home_cover_image: false

@@ -53,6 +53,7 @@ defaults:
 sass:
   style: compressed
 
-# Repository-only agent instructions
+# Repository-only instructions and maintenance records
 exclude:
   - AGENTS.md
+  - maintenance/

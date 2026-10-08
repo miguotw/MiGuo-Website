@@ -1,0 +1,532 @@
+{
+  "date": "2026-10-09",
+  "scope": "post-owned-images-and-downloads",
+  "status": "verified-and-local-sources-removed-deployment-pending",
+  "entries": [
+    {
+      "source_path": "assets/images/posts/台北捷運站牌包/001.jpg",
+      "target_key": "articles/taipei-mrt-signboard/image-001.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/taipei-mrt-signboard/image-001.jpg",
+      "bytes": 826283,
+      "sha256": "3848027bd57ce2fb89a579a9622b9668b6a154c710062e26d586e73a1deb47f1",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 36
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:34.16Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.374398692+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/台北捷運站牌包/002.jpg",
+      "target_key": "articles/taipei-mrt-signboard/image-002.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/taipei-mrt-signboard/image-002.jpg",
+      "bytes": 640536,
+      "sha256": "3ed672cf732378e6e252f5141efcbfd6aaf7e5d4d9e5909bdbce30d0d5eb9ca6",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 40
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:33.409Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.374398692+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/台北捷運站牌包/003.jpg",
+      "target_key": "articles/taipei-mrt-signboard/image-003.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/taipei-mrt-signboard/image-003.jpg",
+      "bytes": 300410,
+      "sha256": "57e988f673dc795a6b8bb737ea18f796dd0e2fc14c39e0c6f2f6d190c65d275b",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 41
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:32.569Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.374398692+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/台北捷運站牌包/004.jpg",
+      "target_key": "articles/taipei-mrt-signboard/image-004.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/taipei-mrt-signboard/image-004.jpg",
+      "bytes": 132291,
+      "sha256": "a4d53a086702ec2d61e6daa011178263dcbc9bd46234533dde63f5cedc2a0d6c",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 42
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:32.572Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.374398692+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/台北捷運站牌包/cover.jpg",
+      "target_key": "articles/taipei-mrt-signboard/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/taipei-mrt-signboard/cover.jpg",
+      "bytes": 173836,
+      "sha256": "6d6bf724c1d20358d556909eda091913ad7dea864d4c0906ad37cda98cb3a88e",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 6
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:33.847Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.374398692+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/猫又みつる/001.png",
+      "target_key": "articles/mitsuru/image-001.png",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/mitsuru/image-001.png",
+      "bytes": 335023,
+      "sha256": "dd0eaa7fdff6aa7a3e88bdf195a978ae7e71d5ac425711f946a855b02ee15c1b",
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_posts/2025-05-31-猫又みつる.md",
+          "line": 29
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/png",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:33.674Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.38408935+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/猫又みつる/cover.gif",
+      "target_key": "articles/mitsuru/cover.gif",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/mitsuru/cover.gif",
+      "bytes": 6053445,
+      "sha256": "5ce63799617397cdba17b8ada65fe1b3d82346ea3b065961a4e1b482fac77560",
+      "content_type": "image/gif",
+      "references": [
+        {
+          "file": "_posts/2025-05-31-猫又みつる.md",
+          "line": 6
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/gif",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T00:46:34.1629477+08:00",
+        "btime": "2026-10-08T16:46:36.02Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/gif",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.413161325+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/米淉的武器收藏/110_001.jpeg",
+      "target_key": "articles/weapon-collection/image-001.jpeg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/weapon-collection/image-001.jpeg",
+      "bytes": 1022507,
+      "sha256": "cf70a28a8f74d15146dc60cb3493507b4dbb2ab9bc0a4f2e74f4beede62bd6b3",
+      "content_type": "image/jpeg",
+      "references": [],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:35.525Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.422851985+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/米淉的武器收藏/110_002.jpeg",
+      "target_key": "articles/weapon-collection/image-002.jpeg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/weapon-collection/image-002.jpeg",
+      "bytes": 1473545,
+      "sha256": "bfcceecaa511824d91ec5d2d541ea9a2736a4806c5ba393c729dbd54fb653535",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2024-08-24-米淉的武器收藏.md",
+          "line": 16
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T00:46:34.662947386+08:00",
+        "btime": "2026-10-08T16:46:36.348Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.432542643+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/米淉的武器收藏/110_003.jpeg",
+      "target_key": "articles/weapon-collection/image-003.jpeg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/weapon-collection/image-003.jpeg",
+      "bytes": 1562099,
+      "sha256": "d375e3e94c17d4d534e36ce0fe1f86d515463abf3481ce876d764eed963d3f47",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2024-08-24-米淉的武器收藏.md",
+          "line": 15
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T00:46:35.192947057+08:00",
+        "btime": "2026-10-08T16:46:36.14Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/images/posts/米淉的武器收藏/cover.jpg",
+      "target_key": "articles/weapon-collection/cover.jpg",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/articles/weapon-collection/cover.jpg",
+      "bytes": 906324,
+      "sha256": "c4c9c035a0dcf6f8c785e35e304bef16710f4d7aaa3fe84c4d868ca829807213",
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_posts/2024-08-24-米淉的武器收藏.md",
+          "line": 6
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "content_disposition": null,
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-08T22:01:44.524648874+08:00",
+        "btime": "2026-10-08T16:46:37.053Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/jpeg",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.45192396+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/files/posts/【Live2D】猫又みつる/Mituru_44(CC BY-NC-ND).zip",
+      "target_key": "downloads/mitsuru/mituru-44-cc-by-nc-nd.zip",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/downloads/mitsuru/mituru-44-cc-by-nc-nd.zip",
+      "bytes": 37987392,
+      "sha256": "469637612c85b3f66c2a9bfee99584ecccda5a0d3d38f9fdbc0d3750bc882a70",
+      "content_type": "application/zip",
+      "references": [
+        {
+          "file": "_posts/2025-05-31-猫又みつる.md",
+          "line": 44
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/zip",
+        "content_disposition": "attachment; filename=\"mituru-44-cc-by-nc-nd.zip\"",
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T00:46:36.767975784+08:00",
+        "btime": "2026-10-08T16:46:45.466Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"mituru-44-cc-by-nc-nd.zip\"",
+        "content-type": "application/zip",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.325945475+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    },
+    {
+      "source_path": "assets/files/posts/【Minecraft】台北捷運站牌包/RTM-Taiwan_MRT_Signboard-v1.2.zip",
+      "target_key": "downloads/taipei-mrt-signboard/v1-2/rtm-taiwan-mrt-signboard.zip",
+      "target_bucket": "miguo-website-cdn",
+      "cdn_url": "https://cdn.miguo.art/downloads/taipei-mrt-signboard/v1-2/rtm-taiwan-mrt-signboard.zip",
+      "bytes": 6153114,
+      "sha256": "89f3eda804203aa152ea6a44df89a5cb5021caa2f6942e66b5b22a4c18a03b24",
+      "content_type": "application/zip",
+      "references": [
+        {
+          "file": "_posts/2021-01-01-台北捷運站牌包.md",
+          "line": 55
+        }
+      ],
+      "source_retained": false,
+      "verification": {
+        "s3": "download-content-matched",
+        "cdn": "sha256-matched",
+        "http_status": 200,
+        "content_type": "application/zip",
+        "content_disposition": "attachment; filename=\"rtm-taiwan-mrt-signboard.zip\"",
+        "local_cleanup": "deleted-after-content-and-browser-verification"
+      },
+      "r2_metadata": {
+        "atime": "2026-10-09T00:46:36.841309071+08:00",
+        "btime": "2026-10-08T16:46:40.751Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"rtm-taiwan-mrt-signboard.zip\"",
+        "content-type": "application/zip",
+        "gid": "1000",
+        "mode": "100644",
+        "mtime": "2026-02-19T04:57:41.345326748+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      }
+    }
+  ],
+  "bucket_object_count": 106,
+  "updated_project_files": [
+    "_posts/2021-01-01-台北捷運站牌包.md",
+    "_posts/2024-08-24-米淉的武器收藏.md",
+    "_posts/2025-05-31-猫又みつる.md"
+  ],
+  "updated_url_occurrences": 12,
+  "validation_summary": {
+    "jekyll_build": "passed-after-local-cleanup",
+    "browser": {
+      "scope": "Local production build served at official origin via route interception; CDN images and downloads fetched from real R2 custom domain.",
+      "pages": [
+        {
+          "page": "台北捷運站牌包",
+          "images": 6,
+          "failed": [],
+          "localPostAssets": [],
+          "downloads": [
+            {
+              "target": "downloads/taipei-mrt-signboard/v1-2/rtm-taiwan-mrt-signboard.zip",
+              "filename": "rtm-taiwan-mrt-signboard.zip",
+              "sha256": "matched"
+            }
+          ]
+        },
+        {
+          "page": "米淉的武器收藏",
+          "images": 5,
+          "failed": [],
+          "localPostAssets": [],
+          "downloads": []
+        },
+        {
+          "page": "猫又みつる",
+          "images": 4,
+          "failed": [],
+          "localPostAssets": [],
+          "downloads": [
+            {
+              "target": "downloads/mitsuru/mituru-44-cc-by-nc-nd.zip",
+              "filename": "mituru-44-cc-by-nc-nd.zip",
+              "sha256": "matched"
+            }
+          ]
+        },
+        {
+          "page": "米淉子日常",
+          "images": 19,
+          "failed": [],
+          "localPostAssets": [],
+          "downloads": []
+        },
+        {
+          "page": "繪日和-日子的形狀",
+          "images": 27,
+          "failed": [],
+          "localPostAssets": [],
+          "downloads": []
+        }
+      ],
+      "mobilePages": 3
+    },
+    "post_local_asset_references": 0,
+    "zip_download_sha256": "matched",
+    "r2_content_sha256": "matched",
+    "cdn_content_sha256": "matched",
+    "deleted_local_files": 13,
+    "removed_local_bytes": 57566805,
+    "completed_at": "2026-10-09T00:50:58+08:00",
+    "deployment": "pending",
+    "built_asset_cleanup": "passed",
+    "source_changes": "only-12-url-replacements"
+  }
+}

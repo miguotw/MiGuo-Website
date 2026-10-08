@@ -56,3 +56,18 @@
 ## 既有問題
 
 `_projects/_draft/2001-01-01-test.md` 引用的 CDN key `assets/images/projects/%E9%9B%AA%E3%81%AE%E5%A6%96%E7%B2%BE/21N_001.jpg` 不在本批原有 98 個物件內。沒有猜測對應素材或擴大上傳範圍，此草稿引用未修改。
+
+## 2026-10-09：文章專屬素材遷移
+
+對照與驗證見 [2026-10-09-posts.json](2026-10-09-posts.json)。本批專指文章圖片與下載包，不包含全站共用的腳本、樣式、作者頭像或首頁執行中的 Live2D 模型。
+
+- 13 個素材，共 57,566,805 bytes（約 54.9 MiB）：台北捷運站牌圖片 5 張與 ZIP 1 個、武器收藏圖片 4 張、みつる圖片 2 張與 ZIP 1 個。
+- 目標使用 `articles/taipei-mrt-signboard/`、`articles/weapon-collection/`、`articles/mitsuru/` 與 `downloads/`。未引用的 `110_001.jpeg` 一併保存至 `articles/weapon-collection/image-001.jpeg`，沒有自行新增文章圖片。
+- ZIP 只重新命名公開 object key，包內檔案與模型引用完整保留，SHA-256 不變。`mituru-44` 保留來源檔名識別碼，不推定新的模型版本。
+- 先 dry-run，再上傳，使用 immutable 避免覆寫既有 key。R2 完整下載比對 13 個檔案全部匹配，CDN GET 的 SHA-256 與 Content-Type 全數吻合。
+- Cache-Control 為 `public, max-age=14400`；ZIP 使用 `application/zip` 與 attachment Content-Disposition，瀏覽器下載檔名遵守命名規則。
+- 更新三篇文章的 12 處 URL，作品標題、內文、外部下載網址、頁面 permalink 與換行未改動；沒有素材被其他來源文件引用。
+- 無頭 Chrome 以本機正式建置 HTML 模擬官網來源、實際存取 CDN，驗證五篇文章圖片與 OG 封面，包含延遲載入的 data-src；兩個下載按鈕取得完整 ZIP，雜湊與原檔匹配。三篇變更文章另檢查手機寬度可載入文章內容；沒有宣稱完整視覺版面驗收。
+- 依使用者本次要求，驗證完成後已刪除專案中 13 個本機來源及空目錄，釋出約 54.9 MiB 的來源檔案；Jekyll 重建後 `_site` 也不再保留這批舊副本。刪除清單只涵蓋本批已驗證素材。
+- `_posts` 不再直接引用本機 `/assets/` URL；全站建置內容沒有本批舊素材連結，內部記錄已排除於公開輸出。
+- 本批完成後 R2 有 106 個物件。網站修改仍待本次授權提交、推送與部署；正式網站在新部署前仍由先前的 GitHub Pages 版本供應舊連結與素材。

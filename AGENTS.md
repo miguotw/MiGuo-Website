@@ -86,7 +86,7 @@ bundle exec jekyll build
 - rclone 使用 R2 的存取金鑰識別碼與秘密存取金鑰；S3 API Endpoint 與公開 CDN 網址不同。憑證權限應限於操作所需的指定貯體。
 - 2026-10-08 已以 `rclone copy --metadata` 將舊貯體 `miguo-website` 複製至 `miguo-website-cdn`，並以 `rclone check --download` 完整比對：98 個檔案、122,491,302 bytes、0 差異。這是當次遷移紀錄，不是永遠固定的檔案數量。
 - 舊貯體 `miguo-website` 保留。2026-10-09 已確認只新增於 `miguo-website-cdn` 的 93 個新路徑可由 `cdn.miguo.art` 讀取，回應內容 SHA-256 全數吻合；驗證請求使用官網 Referer。這是 CDN 實際供檔證據，不代表已完整稽核 Cloudflare 帳戶設定。
-- 2026-10-09 已將上述 98 個舊 key 對應到 93 個新 key（5 組相同內容共用新 key），並更新專案 55 處 CDN 引用。原 key 暫留以相容舊版連結並保留回復能力；本次複製後目標貯體有 191 個物件。對照、雜湊、引用位置與驗證狀態見 `maintenance/r2/2026-10-09-renames.json`，流程與限制見 `maintenance/r2/README.md`。
+- 2026-10-09 已將上述 98 個舊 key 對應到 93 個新 key（5 組相同內容共用新 key），並更新專案 55 處 CDN 引用。提交 `826e7ae` 已推送並部署成功，8 個正式頁面已確認使用新連結。2026-10-09 依使用者授權刪除目標貯體內 98 個舊 key，清理後剩 93 個新物件；舊貯體 `miguo-website` 的 98 個物件仍保留作為回復副本。對照、雜湊、引用位置與驗證狀態見 `maintenance/r2/2026-10-09-renames.json`，流程與限制見 `maintenance/r2/README.md`。
 - 新路徑 GET 回應尚未提供 `Access-Control-Allow-Origin`，不能宣稱 Minecraft／Live2D 跨來源載入可用。現有 Minecraft 預覽器仍使用本機素材；其他本機靜態資源也尚未全部遷移。
 
 ### 新素材目錄規劃

@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "source_bucket": "miguo-website-cdn",
   "remote": "cloudflare-r2",
-  "status": "objects-and-local-links-updated-deployment-pending",
+  "status": "deployed-and-old-keys-removed",
   "source_objects": 98,
   "unique_targets": 93,
   "entries": [
@@ -37,9 +37,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/event/水晶轉印貼黏貼4步驟/step_02.jpg",
@@ -72,9 +73,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/event/水晶轉印貼黏貼4步驟/step_03.jpg",
@@ -107,9 +109,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/event/水晶轉印貼黏貼4步驟/step_04.jpg",
@@ -142,9 +145,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/home/about.png",
@@ -197,9 +201,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/AOD_Aria_N01.jpg",
@@ -227,9 +232,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/AOD_Chinatsu_N01.jpg",
@@ -257,9 +263,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/AOD_Nanguhane_N01.jpg",
@@ -287,9 +294,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_01.jpg",
@@ -317,9 +325,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_02.jpg",
@@ -347,9 +356,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_02.png",
@@ -377,9 +387,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_03.jpg",
@@ -407,9 +418,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_04.jpg",
@@ -437,9 +449,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_05.jpg",
@@ -467,9 +480,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_06.gif",
@@ -497,9 +511,10 @@
         "content_type": "image/gif",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/com_zzz_07.gif",
@@ -527,9 +542,10 @@
         "content_type": "image/gif",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/AOD_Aria_N01.jpg",
@@ -557,9 +573,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/AOD_Chinatsu_N01.jpg",
@@ -587,9 +604,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/AOD_Nanguhane_N01.jpg",
@@ -617,9 +635,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/com_zzz_02.jpg",
@@ -647,9 +666,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/com_zzz_02.png",
@@ -677,9 +697,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_doujin_01.jpg",
@@ -707,9 +728,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_01.jpg",
@@ -737,9 +759,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_02.jpg",
@@ -767,9 +790,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_03.jpg",
@@ -797,9 +821,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_04.jpg",
@@ -827,9 +852,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_05.jpg",
@@ -857,9 +883,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_06.jpg",
@@ -887,9 +914,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_07.jpg",
@@ -917,9 +945,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_08.jpg",
@@ -947,9 +976,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_09.jpg",
@@ -977,9 +1007,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_10.jpg",
@@ -1007,9 +1038,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/ill_ori_11.jpg",
@@ -1037,9 +1069,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/live2d_mitsuru_texture.png",
@@ -1067,9 +1100,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/live2d_mitsuru_video.mp4",
@@ -1097,9 +1131,10 @@
         "content_type": "video/mp4",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/illustration/role_miyako_swimsuit.png",
@@ -1127,9 +1162,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/mc_01.jpg",
@@ -1157,9 +1193,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/mc_02.jpg",
@@ -1187,9 +1224,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/mc_03.jpg",
@@ -1217,9 +1255,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/nc_01.jpg",
@@ -1247,9 +1286,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/nc_02.png",
@@ -1277,9 +1317,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/zzz_01.jpg",
@@ -1307,9 +1348,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/zzz_02.jpg",
@@ -1337,9 +1379,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/zzz_03.jpg",
@@ -1367,9 +1410,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/portfolio/zzz_04.jpg",
@@ -1397,9 +1441,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/01.png",
@@ -1432,9 +1477,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/02.png",
@@ -1467,9 +1513,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/03.png",
@@ -1502,9 +1549,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/04.png",
@@ -1537,9 +1585,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/05.png",
@@ -1572,9 +1621,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/06.png",
@@ -1607,9 +1657,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/07.png",
@@ -1642,9 +1693,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/08.png",
@@ -1677,9 +1729,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/09.png",
@@ -1712,9 +1765,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/10.png",
@@ -1747,9 +1801,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/11.png",
@@ -1782,9 +1837,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/12.png",
@@ -1817,9 +1873,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/13.png",
@@ -1852,9 +1909,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/14.png",
@@ -1887,9 +1945,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/15.png",
@@ -1922,9 +1981,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/16.png",
@@ -1957,9 +2017,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/米淉子日常/cover.jpg",
@@ -1996,9 +2057,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/cover.jpg",
@@ -2035,9 +2097,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/dm_01.jpg",
@@ -2070,9 +2133,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/photo_3412.jpg",
@@ -2105,9 +2169,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/photo_3413.jpg",
@@ -2140,9 +2205,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/photo_3414.jpg",
@@ -2170,9 +2236,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/photo_3416.jpg",
@@ -2205,9 +2272,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/photo_3425.jpg",
@@ -2240,9 +2308,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_bk_01.jpg",
@@ -2275,9 +2344,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_bk_02.jpg",
@@ -2310,9 +2380,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_01.jpg",
@@ -2345,9 +2416,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_02.jpg",
@@ -2380,9 +2452,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_03.jpg",
@@ -2415,9 +2488,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_04.jpg",
@@ -2450,9 +2524,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_05.jpg",
@@ -2485,9 +2560,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_06.jpg",
@@ -2520,9 +2596,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_07.jpg",
@@ -2555,9 +2632,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_08.jpg",
@@ -2590,9 +2668,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_09.jpg",
@@ -2625,9 +2704,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_10.jpg",
@@ -2660,9 +2740,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_11.jpg",
@@ -2695,9 +2776,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_12.jpg",
@@ -2730,9 +2812,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_13.jpg",
@@ -2765,9 +2848,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_34.jpg",
@@ -2800,9 +2884,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_35.jpg",
@@ -2835,9 +2920,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_36.jpg",
@@ -2870,9 +2956,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_37.jpg",
@@ -2905,9 +2992,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "images/posts/繪日和-日子的形狀/web_page_42.jpg",
@@ -2940,9 +3028,10 @@
         "content_type": "image/jpeg",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "updated"
+        "project_references": "updated",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/models/brick.json",
@@ -2975,9 +3064,10 @@
         "content_type": "application/json",
         "access_control_allow_origin": null,
         "cache_control": null,
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/models/event_7th_graduate_purple.json",
@@ -3010,9 +3100,10 @@
         "content_type": "application/json",
         "access_control_allow_origin": null,
         "cache_control": null,
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/models/nether_brick.json",
@@ -3045,9 +3136,10 @@
         "content_type": "application/json",
         "access_control_allow_origin": null,
         "cache_control": null,
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/models/netherite_sword.json",
@@ -3080,9 +3172,10 @@
         "content_type": "application/json",
         "access_control_allow_origin": null,
         "cache_control": null,
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/textures/7c653b1c4bfacc1e.png",
@@ -3110,9 +3203,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/textures/brick.png",
@@ -3140,9 +3234,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/textures/event_7th_graduate.png",
@@ -3170,9 +3265,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/textures/nether_brick.png",
@@ -3200,9 +3296,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     },
     {
       "source_key": "minecraft-model-viewer/textures/netherite_sword.png",
@@ -3230,9 +3327,10 @@
         "content_type": "image/png",
         "access_control_allow_origin": null,
         "cache_control": "max-age=14400",
-        "project_references": "no-cdn-reference-found"
+        "project_references": "no-cdn-reference-found",
+        "old_source": "deleted-after-deployment"
       },
-      "source_retained": true
+      "source_retained": false
     }
   ],
   "bucket_object_count_after_copy": 191,
@@ -3256,6 +3354,21 @@
     "same_origin_model_loads": 4,
     "same_origin_skin_loads": 1,
     "remote_model_cors": "not-configured",
-    "deployment": "pending"
+    "deployment": "success"
+  },
+  "cleanup": {
+    "completed_at": "2026-10-09T00:33:21+08:00",
+    "deleted_objects": 98,
+    "remaining_objects": 93,
+    "new_object_metadata": "unchanged",
+    "referenced_cdn_assets_verified": 48,
+    "old_bucket_backup": "miguo-website-retained",
+    "source_scope": "miguo-website-cdn-only"
+  },
+  "deployment": {
+    "commit": "826e7aecf75b1c0e85667057d527e3e49640e01f",
+    "workflow_url": "https://github.com/miguotw/MiGuo-Website/actions/runs/37808669615",
+    "conclusion": "success",
+    "live_pages_verified": 8
   }
 }

@@ -103,6 +103,8 @@ bundle exec jekyll build
 
 - 後續資料夾整理已隨提交 `e6cb79f` 推送 main，GitHub Pages run `37894460786` 部署成功，正式網站兩個作品頁、列表與首頁已使用新連結。重新比對後已清理 new-year-vol-2 與 roar 共 8 個舊物件，本批所有 16 個來源均已清理，新物件保留；清理後 R2 為 181 個物件。兩批維護清單已補上提交、部署與清理證據。
 
+- 2026-10-09 第三批路徑整理將 11 個圖片／影片放入 mid-autumn-2025、christmas-2025、articles/mitsuru 與 articles/shapes-of-days 平面目錄，無撞名，保留原檔名；更新兩個作品頁的 8 處 URL，建置與瀏覽器載入通過。3 個未引用來源已清理，中秋與聖誕的 8 個舊物件待本次部署成功後清理；對照見 `maintenance/r2/2026-10-09-folder-reorganization-03.json`。本批不涉及暫緩遷移的 Minecraft／Live2D 執行資源，提交與部署狀態依當次證據判斷。
+
 ### 新素材目錄規劃
 
 以「用途 → 穩定的作品或文章識別碼 → 素材角色」組織，不必沿用舊目錄。下列是遷移時採用的規劃與範例，不代表 R2 已有這些物件：
@@ -171,7 +173,7 @@ rclone lsf cloudflare-r2:miguo-website-cdn --max-depth 1
 
 - 遠端：`origin` → `https://github.com/miguotw/MiGuo-Website.git`。
 - 專案使用 `pre-release` 整理變更，`main` 供正式部署；開始工作時仍須確認目前分支，不假設一定在 pre-release。
-- 提交、推送與合併依本次使用者授權執行；先前任務的部署授權不視為往後每次修改的永久授權。
+- 使用者於 2026-10-09 授權：後續每批 R2 素材遷移／路徑整理驗證完成後，直接建立 commit、推送 main 並部署，不需逐次詢問。確認 Actions 成功與正式網站新連結可用後，再清理仍被上一版使用的舊物件，補上維護紀錄。此持續授權限於素材遷移工作；其他提交、推送與合併仍依當次授權執行。
 - 推送前確認遠端差異，只提交本次相關檔案，不強制推送或覆寫使用者歷史。
 - `.github/workflows/jekyll.yml` 在 push 到 `main` 或手動觸發時，建置並部署至 GitHub Pages。推送 pre-release 不會自動觸發此正式部署流程。
 - 合併 main 前取得最新遠端狀態，處理差異並建置。除非使用者要求，不自行改動部署流程。

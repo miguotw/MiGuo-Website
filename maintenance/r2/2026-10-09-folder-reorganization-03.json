@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-09",
+  "bucket": "miguo-website-cdn",
+  "scope": "folder-reorganization-03",
+  "status": "verified-referenced-source-cleanup-pending-deployment",
+  "entries": [
+    {
+      "source_key": "works/mid-autumn-moon/cover.jpg",
+      "target_key": "works/mid-autumn-2025/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-2025/cover.jpg",
+      "bytes": 626577,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "9d0079dbe136dd8c1edef64f31dd310e191f8c0a15f0e8325fff5b9e8bf860f2",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-moon/image-01.jpg",
+      "target_key": "works/mid-autumn-2025/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-2025/image-01.jpg",
+      "bytes": 646822,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "cccefc63e368c97878b5d21fca77dcabad47ffee8a51f9e5e972e165216f7ce0",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-moon/image-02.jpg",
+      "target_key": "works/mid-autumn-2025/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/mid-autumn-2025/image-02.jpg",
+      "bytes": 648456,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "93d5f2797907ff834f10dd0ba193a20adddc30e152e3b534dd855519d94c3796",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/your-christmas-present/cover.jpg",
+      "target_key": "works/christmas-2025/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/cover.jpg",
+      "bytes": 604347,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "461b42110586b466010f25d1f06b87eea8814738e179d7a7c41a7039be77bef1",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/your-christmas-present/image-01.jpg",
+      "target_key": "works/christmas-2025/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/image-01.jpg",
+      "bytes": 670387,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "e196db3833f3999e81bcd55983026b176e7f233f8af84495e0493190d450baf8",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/your-christmas-present/image-02.jpg",
+      "target_key": "works/christmas-2025/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/image-02.jpg",
+      "bytes": 682355,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "7c0f2ccfe606a6c2798be09404db4492fd3407cc76f0af44ac8751c1b5e7c6f2",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/your-christmas-present/image-03.jpg",
+      "target_key": "works/christmas-2025/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/image-03.jpg",
+      "bytes": 678662,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "8b3a0e78067ada53f100fb0c1767a102b088e45d6d4d6865c5375215099d0005",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/your-christmas-present/image-04.jpg",
+      "target_key": "works/christmas-2025/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/image-04.jpg",
+      "bytes": 692931,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "54dba00c7cbc0dc058f99dbff4251484d9f793e290eef08965554ec4eb7516b1",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/mitsuru-live2d/preview.mp4",
+      "target_key": "articles/mitsuru/preview.mp4",
+      "cdn_url": "https://cdn.miguo.art/articles/mitsuru/preview.mp4",
+      "bytes": 34359509,
+      "content_type": "video/mp4",
+      "references": [],
+      "sha256": "de50d2456383ff730cf5941515f4fd8320720ae5683c44cf79832aa3e3135b2b",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/mitsuru-live2d/texture.png",
+      "target_key": "articles/mitsuru/texture.png",
+      "cdn_url": "https://cdn.miguo.art/articles/mitsuru/texture.png",
+      "bytes": 1531449,
+      "content_type": "image/png",
+      "references": [],
+      "sha256": "a9f8064e8c85f5cfa497a8dfb1e5385759b5dea4fa2e402d9238be083a3c2557",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/zzz-commissions/image-05.jpg",
+      "target_key": "articles/shapes-of-days/image-05.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/image-05.jpg",
+      "bytes": 452274,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "aecaa2fb2bc26b1efe724530112220793f4243de606cc2e4a9aa7b38adb9cd9a",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    }
+  ],
+  "deployment": "pending",
+  "updated_project_files": [
+    "_projects/2025-09-27-中秋の名月.md",
+    "_projects/2025-12-19-君のクリスマスプレゼント.md"
+  ],
+  "updated_url_occurrences": 8,
+  "bucket_object_count": 189,
+  "validation_summary": {
+    "build": "passed",
+    "source_diff": "only-8-url-replacements",
+    "browser": {
+      "scope": "Local production HTML at official origin via interception; real CDN images.",
+      "pages": [
+        {
+          "page": "/project/中秋の名月",
+          "title": "米淉 MiGuo | 中秋の名月🌕✨",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/中秋の名月",
+          "images": 7
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "images": 9
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    },
+    "unreferenced_sources_removed": 3,
+    "referenced_sources_retained": 8
+  },
+  "completed_at": "2026-10-09T14:48:55.000659+08:00"
+}

@@ -122,3 +122,15 @@
 - 本次已隨提交 `e6cb79f` 推送 main 並[部署成功](https://github.com/miguotw/MiGuo-Website/actions/runs/37894460786)；正式網站兩個作品頁、列表與首頁新 CDN 圖片載入通過，沒有舊 URL。部署後重新比對 8 組來源與目標 SHA-256，再精確清理 8 個舊物件；全部 16 個來源已不存在、16 個新目標及 10 個手動搬移目標均保留，清理後 R2 為 181 個物件。
 
 - 上述待部署清理已於 GitHub Pages run `37894460786` 成功且正式網站驗證後完成；沒有主動清除 CDN 舊 URL 快取。
+
+## 2026-10-09：中秋、聖誕與文章素材整理
+
+對照及驗證見 [2026-10-09-folder-reorganization-03.json](2026-10-09-folder-reorganization-03.json)。
+
+- 共 11 個物件：`mid-autumn-moon` 3 張移至 `works/mid-autumn-2025/`；`your-christmas-present` 5 張移至 `works/christmas-2025/`；`mitsuru-live2d` 的 `preview.mp4`、`texture.png` 移至 `articles/mitsuru/`；`zzz-commissions/image-05.jpg` 移至 `articles/shapes-of-days/`。全部保留檔名，不新增子資料夾、不覆寫既有物件。
+- 僅整理圖片及影片，不涉及 `assets/OhMyLive2D` 或 `assets/minecraft-model-viewer` 的執行資源。
+- 先 dry-run 再以 immutable／metadata 建立新物件。11 個來源、新 S3 物件及 CDN 完整 GET 的 SHA-256 全數匹配，Content-Type、Cache-Control 等內容中繼資料保持一致。影片完成整檔內容比對，未宣稱影片播放器互動測試。
+- 中秋與聖誕兩份作品文件共更新 8 處 URL，逐檔證明除 URL 外內文、順序、換行及公開路由不變。
+- Jekyll 建置成功；兩個作品頁、作品列表、首頁的圖片及 OG 封面在瀏覽器載入成功，另檢查作品頁與列表手機寬度。使用本機正式 HTML 模擬官網來源並實際讀取 CDN，尚未部署。
+- 3 個未被網站引用的舊物件已精確清理。中秋與聖誕作品的 8 個舊物件仍由已部署版本使用，保留至本次更新正式部署成功後再清理。
+- 本批未 commit、push 或部署；新目標均可讀取，清理進度見本批清單。

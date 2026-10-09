@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-09",
+  "scope": "aod-folder-reorganization",
+  "bucket": "miguo-website-cdn",
+  "status": "completed",
+  "entries": [
+    {
+      "source_key": "works/aod-aria/image-01.jpg",
+      "target_key": "works/zzz-aod-01/aria-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-aod-01/aria-image-01.jpg",
+      "bytes": 495919,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "1c919ba970b2331b24c2a6fa68a664bd23d5d5edba1e6c5e92bf4747bdd41c96",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/aod-chinatsu/image-01.jpg",
+      "target_key": "works/zzz-aod-01/chinatsu-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-aod-01/chinatsu-image-01.jpg",
+      "bytes": 478550,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "f28800413798d91a0461949136ed972a74573d0eded8bd2c2e16309190210fa4",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/aod-nanguhane/image-01.jpg",
+      "target_key": "works/zzz-aod-01/nanguhane-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/zzz-aod-01/nanguhane-image-01.jpg",
+      "bytes": 465682,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "b7bca1d152da22e6d7edf2d48d0375efb7ea565e01146819b985e389e1fadfbb",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/zzz-collection/image-01.jpg",
+      "target_key": "articles/zzz-aod-02/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-01.jpg",
+      "bytes": 87261,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "dba3c6dd5888c59643bf40a6b35110779caa7f2ef43f331cd25882ccc9d32273",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-01.jpg"
+    },
+    {
+      "source_key": "works/zzz-collection/image-02.jpg",
+      "target_key": "articles/zzz-aod-02/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-02.jpg",
+      "bytes": 83781,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "580b3ea94c8c3a6e0d273b631245c1cd540a29b77ca33daebbd76599e0409d5d",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-02.jpg"
+    },
+    {
+      "source_key": "works/zzz-collection/image-03.jpg",
+      "target_key": "articles/zzz-aod-02/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-03.jpg",
+      "bytes": 96371,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "22d8816769ff6acee658768e7a7113e2969af64e332d69dbe9887f91c4a89667",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-03.jpg"
+    },
+    {
+      "source_key": "works/zzz-collection/image-04.jpg",
+      "target_key": "articles/zzz-aod-02/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-04.jpg",
+      "bytes": 1145510,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "e07e09b91ba5e601bf03961e816adc4d0634eea90c252758f68e506f4192396f",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-04.jpg"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-02.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-02.jpg",
+      "bytes": 1328054,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/commissions-image-02.jpg"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-02.png",
+      "target_key": "articles/zzz-aod-02/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-02.png",
+      "bytes": 5205659,
+      "content_type": "image/png",
+      "references": [],
+      "sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-02.png"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-03.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-03.jpg",
+      "bytes": 1146609,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "d684cf830fd8b8e7c5b4384e299d9ad54cdd95572ac400c43195cfb7657b6666",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/commissions-image-03.jpg"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-04.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-04.jpg",
+      "bytes": 651532,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "10663d16168bb1fa008cc80b34d6c5ff7a24e7ea6801821b4559c0ac01c05c3a",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/commissions-image-04.jpg"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-06.gif",
+      "target_key": "articles/zzz-aod-02/image-06.gif",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-06.gif",
+      "bytes": 9915330,
+      "content_type": "image/gif",
+      "references": [],
+      "sha256": "413c298ceb4058893836022c43779189060117424d4c3d2e179827008e4b04a7",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-06.gif"
+    },
+    {
+      "source_key": "works/zzz-commissions/image-07.gif",
+      "target_key": "articles/zzz-aod-02/image-07.gif",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-07.gif",
+      "bytes": 13088714,
+      "content_type": "image/gif",
+      "references": [],
+      "sha256": "ce2e3e8e6e0a2e337a75aad14832ab846a4f6eed0dd062c411872e7e142b4018",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted",
+        "manual_followup_move": "s3-and-cdn-sha256-matched"
+      },
+      "previous_target_key": "works/zzz-aod-02/image-07.gif"
+    }
+  ],
+  "unchanged_key": "works/zzz-commissions/image-05.jpg",
+  "updated_url_occurrences": 0,
+  "bucket_object_count": 181,
+  "completed_at": "2026-10-09T14:21:08.970858+08:00",
+  "website_reference_check": "no-source-references-found",
+  "commit_status": "not-committed",
+  "followup_manual_move": {
+    "from": "works/zzz-aod-02",
+    "to": "articles/zzz-aod-02",
+    "verified_objects": 10
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "date": "2026-10-09",
+  "scope": "user-directed-folder-reorganization-02",
+  "bucket": "miguo-website-cdn",
+  "status": "links-verified-referenced-source-cleanup-pending-deployment",
+  "entries": [
+    {
+      "source_key": "works/commission-01/image-01.jpg",
+      "target_key": "articles/shapes-of-days/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/image-01.jpg",
+      "bytes": 711708,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "33b81cc53e4de68489bc40d83ce77a9716a2d603d2d3ea94e2eca0fdab16c6b9",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/minecraft-collection/image-01.jpg",
+      "target_key": "articles/shapes-of-days/minecraft-collection-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/minecraft-collection-image-01.jpg",
+      "bytes": 125840,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "c0285648a9c46aad996a116fb96014ff6492e5c08cea78eaed434acef604b78c",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/minecraft-collection/image-02.jpg",
+      "target_key": "articles/shapes-of-days/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/image-02.jpg",
+      "bytes": 119618,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "33c5917abf8052adb42d513a890b9c835bdf9e8ecbd216c15675eef3a6e7fbd5",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/minecraft-collection/image-03.jpg",
+      "target_key": "articles/shapes-of-days/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/image-03.jpg",
+      "bytes": 80804,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "591f628309fdd1aa5ba6f3b7a7bf5925ffe57a5426585fea1dc8e14308683baf",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/nc-collection/image-01.jpg",
+      "target_key": "articles/shapes-of-days/nc-collection-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/nc-collection-image-01.jpg",
+      "bytes": 890862,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "8a5aa86ac28d66ddad720a082f00aa63f1dc2d7c2d8a5c827b1a9619a3491fe7",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/nc-collection/image-02.png",
+      "target_key": "articles/shapes-of-days/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/articles/shapes-of-days/image-02.png",
+      "bytes": 2858527,
+      "content_type": "image/png",
+      "references": [],
+      "sha256": "ebfd69779025de18582e0925ea5fd06e4c5e642720d940c99ad118940db603e9",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/fan-art/image-01.jpg",
+      "target_key": "works/tokoyami-towa/fan-art-image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/tokoyami-towa/fan-art-image-01.jpg",
+      "bytes": 592159,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "bfc82573e5de10a61b2a609e0e6ac91b0203359b174136723f030136a7f998f9",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/new-year-vol-2/cover.jpg",
+      "target_key": "works/new-year-2024/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2024/cover.jpg",
+      "bytes": 597607,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "d4c38782eadef0f7db1ec1144e44c69fc43eff1f65a040798c94b52d90b9a6f4",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/new-year-vol-2/image-01.jpg",
+      "target_key": "works/new-year-2024/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2024/image-01.jpg",
+      "bytes": 635599,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "312239dd23d221ef637298fed7df64b4779431f42893d366ffda2dfe5031b830",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/new-year-vol-2/image-02.jpg",
+      "target_key": "works/new-year-2024/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/new-year-2024/image-02.jpg",
+      "bytes": 631670,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "163189e4c38bff57e87e1614e5923d2a9a8c86cb82b98ac506e5d19baa99cbe8",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/greeting-cards/print-layout.png",
+      "target_key": "works/christmas-2025/print-layout.png",
+      "cdn_url": "https://cdn.miguo.art/works/christmas-2025/print-layout.png",
+      "bytes": 5014703,
+      "content_type": "image/png",
+      "references": [],
+      "sha256": "ba9125deb5f526cd2f1ed0f110398e039c5a95500f25cc63be19fbb8e513f1b5",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted"
+      }
+    },
+    {
+      "source_key": "works/roar/cover.jpg",
+      "target_key": "works/halloween-2025/cover.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/cover.jpg",
+      "bytes": 589005,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "c629b55984130f7d9b1e5ffd801ab994d68ede9328e7ffef36930265bfa5b367",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/roar/image-01.jpg",
+      "target_key": "works/halloween-2025/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/image-01.jpg",
+      "bytes": 651491,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "f503deae7e685a23d08f075deccc47058437522835697220f8ca3bffaa606e94",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/roar/image-02.jpg",
+      "target_key": "works/halloween-2025/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/image-02.jpg",
+      "bytes": 661846,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "5998223ae09ae08a42a75ce1dd93d930855895201d08e8564904a532113af53e",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/roar/image-03.jpg",
+      "target_key": "works/halloween-2025/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/image-03.jpg",
+      "bytes": 660188,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "53a5dfe842dddf5e59ed865f255017baa37693c207d3b2d9375a506f9174b7a6",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    },
+    {
+      "source_key": "works/roar/image-04.jpg",
+      "target_key": "works/halloween-2025/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/works/halloween-2025/image-04.jpg",
+      "bytes": 661032,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "a65e6aca1081f4f3ff079fb6dc279fca137b88782992d0bb2d2fb271a4040065",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "source_retained": true,
+        "cleanup": "pending-deployment-to-preserve-live-links"
+      }
+    }
+  ],
+  "manual_aod_move": [
+    {
+      "source_key": "works/zzz-aod-02/image-01.jpg",
+      "target_key": "articles/zzz-aod-02/image-01.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-01.jpg",
+      "sha256": "dba3c6dd5888c59643bf40a6b35110779caa7f2ef43f331cd25882ccc9d32273",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-02.jpg",
+      "target_key": "articles/zzz-aod-02/image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-02.jpg",
+      "sha256": "580b3ea94c8c3a6e0d273b631245c1cd540a29b77ca33daebbd76599e0409d5d",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-03.jpg",
+      "target_key": "articles/zzz-aod-02/image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-03.jpg",
+      "sha256": "22d8816769ff6acee658768e7a7113e2969af64e332d69dbe9887f91c4a89667",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-04.jpg",
+      "target_key": "articles/zzz-aod-02/image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-04.jpg",
+      "sha256": "e07e09b91ba5e601bf03961e816adc4d0634eea90c252758f68e506f4192396f",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/commissions-image-02.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-02.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-02.jpg",
+      "sha256": "4cc531c7fe3af7543af32e3448e1f0f9b30104865b18f736f471398be5e657c5",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-02.png",
+      "target_key": "articles/zzz-aod-02/image-02.png",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-02.png",
+      "sha256": "7538b623cb9b24b459772698a7e118d806054906927ca71764ee5a581d8c687e",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/commissions-image-03.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-03.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-03.jpg",
+      "sha256": "d684cf830fd8b8e7c5b4384e299d9ad54cdd95572ac400c43195cfb7657b6666",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/commissions-image-04.jpg",
+      "target_key": "articles/zzz-aod-02/commissions-image-04.jpg",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/commissions-image-04.jpg",
+      "sha256": "10663d16168bb1fa008cc80b34d6c5ff7a24e7ea6801821b4559c0ac01c05c3a",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-06.gif",
+      "target_key": "articles/zzz-aod-02/image-06.gif",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-06.gif",
+      "sha256": "413c298ceb4058893836022c43779189060117424d4c3d2e179827008e4b04a7",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    },
+    {
+      "source_key": "works/zzz-aod-02/image-07.gif",
+      "target_key": "articles/zzz-aod-02/image-07.gif",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-02/image-07.gif",
+      "sha256": "ce2e3e8e6e0a2e337a75aad14832ab846a4f6eed0dd062c411872e7e142b4018",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched"
+      }
+    }
+  ],
+  "deployment": "pending",
+  "updated_project_files": [
+    "_projects/2024-02-09-年賀絵 Vol.2.md",
+    "_projects/2025-10-25-ガオー！.md"
+  ],
+  "updated_url_occurrences": 8,
+  "bucket_object_count": 189,
+  "validation_summary": {
+    "jekyll_build": "passed",
+    "source_diff": "only-8-url-replacements",
+    "browser": {
+      "scope": "Local production HTML at official origin via interception; real CDN images.",
+      "pages": [
+        {
+          "page": "/project/年賀絵-vol-2",
+          "title": "米淉 MiGuo | 年賀絵 Vol.2",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/ガオー",
+          "title": "米淉 MiGuo | ガオー！🐾",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/年賀絵-vol-2",
+          "images": 7
+        },
+        {
+          "page": "/project/ガオー",
+          "images": 9
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    },
+    "unreferenced_sources_removed": 8,
+    "referenced_sources_retained": 8
+  },
+  "completed_at": "2026-10-09T14:34:30.432752+08:00"
+}

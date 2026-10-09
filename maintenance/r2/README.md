@@ -97,3 +97,26 @@
 - 無頭 Chrome 以本機正式建置 HTML 模擬官網來源並實際存取 CDN，14 個作品頁、作品列表與首頁均可載入圖片及 OG 封面；另檢查雪の妖精、水色の夢與作品列表的手機寬度。包含延遲載入圖片的解碼驗證，沒有宣稱完整視覺版面驗收或本機來源防盜連例外已設定。
 - 驗證後精確移除 61 張本機來源與空目錄，釋出約 55.1 MiB。清理後 Jekyll 重建成功，兩份建置輸出均無舊素材副本或舊路徑引用，維護記錄未公開輸出。
 - 本批後 R2 有 181 個物件。本批與賀卡／首頁批次已一併提交 `88a93e2`、推送 main 並[部署成功](https://github.com/miguotw/MiGuo-Website/actions/runs/37817404857)。正式網站 14 個作品頁、作品列表及首頁已實際讀取 CDN 圖片與社群封面成功，沒有本批舊作品圖片路徑；另檢查三個頁面的手機寬度。
+
+## 2026-10-09：AOD 素材資料夾重新整理
+
+目前路徑對照見 [2026-10-09-aod-reorganization.json](2026-10-09-aod-reorganization.json)。早期清單保留當次歷史路徑；本批清單記錄其後續變動。
+
+- 依使用者指定搬移 13 個物件，不新增子資料夾：三張角色圖合併至 `works/zzz-aod-01/`，`zzz-collection` 四張圖片及六個指定委託素材合併至 `works/zzz-aod-02/`。
+- 三張角色圖使用 `aria-image-01.jpg`、`chinatsu-image-01.jpg`、`nanguhane-image-01.jpg`；集合圖片保留 `image-01.jpg` 至 `image-04.jpg`，撞名的三張委託 JPG 加 `commissions-` 前綴。其餘 PNG／GIF 保留原檔名。
+- `works/zzz-commissions/image-05.jpg` 未在搬移範圍內，保留原位。
+- 搜尋全部 Git 追蹤網站來源，沒有這 13 個舊路徑引用，因此無須修改頁面 URL；歷史維護清單中的舊路徑不屬於網站引用。
+- 先 dry-run 再 copyto，保留中繼資料且使用 immutable。13 個來源、新 S3 物件及 CDN GET 的 SHA-256 全數匹配；內容標頭已比對。刪除前重新確認來源內容未變，再精確刪除 13 個舊 key，沒有清空任何前綴。
+- 本批未提交或推送，沒有更動模型、Live2D、頁面路由或部署設定。
+
+## 2026-10-09：使用者指定的後續資料夾整理
+
+路徑、撞名處理與驗證見 [2026-10-09-folder-reorganization-02.json](2026-10-09-folder-reorganization-02.json)。
+
+- 使用者已自行將 `works/zzz-aod-02/` 移至 `articles/zzz-aod-02/`，10 個物件的 S3／CDN SHA-256 均與上批紀錄相符；AOD 清單已更新目前目標並保留 previous_target_key，網站未引用這批路徑。
+- 16 個物件依指示複製到 `articles/shapes-of-days/`（6 個）、`works/tokoyami-towa/`（1 個）、`works/new-year-2024/`（3 個）、`works/christmas-2025/`（1 個）、`works/halloween-2025/`（5 個），不新增子資料夾。
+- 撞名檔案改為 `minecraft-collection-image-01.jpg`、`nc-collection-image-01.jpg`、`fan-art-image-01.jpg`；其他檔案保留原名。既有目標素材未覆寫。
+- 16 個新物件的來源／S3／CDN SHA-256 全數匹配，內容中繼資料保留。兩份作品文件更新 8 處 URL，逐檔證明除 URL 外內容與換行不變，作品標題及公開路由保留。
+- Jekyll 建置、兩個作品頁、作品列表、首頁圖片與 OG 封面載入通過；另檢查作品頁與列表手機寬度。瀏覽器使用本機正式 HTML 模擬官網來源，實際讀取 CDN，不表示已部署。
+- 8 個未被網站引用的來源已精確清理。`works/new-year-vol-2/` 與 `works/roar/` 共 8 個舊物件仍被已部署版本使用，先保留至本次更新部署成功後再清理；新的目的地已可使用。
+- 本次尚未 commit、push 或部署；本批 R2 物件數為 189，其中包含 8 個待上線後清理的舊物件。

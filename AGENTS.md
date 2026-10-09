@@ -97,6 +97,10 @@ bundle exec jekyll build
 
 - 賀卡／首頁與作品圖片兩批共 75 個素材已隨提交 `88a93e2` 推送 main；GitHub Pages run `37817404857` 部署成功。正式網站 14 個作品頁、作品列表及首頁的 CDN 圖片檢查通過，兩份批次清單已補上實際部署證據。
 
+- 2026-10-09 依使用者指定將 13 個 AOD 素材重新整理至 `works/zzz-aod-01/` 與 `works/zzz-aod-02/`，後者已由使用者移至 `articles/zzz-aod-02/` 並完成 10 個物件的 S3／CDN 比對；兩目錄均為扁平結構；衝突檔名加入角色名稱或 `commissions-`。R2／CDN SHA-256 與中繼資料驗證後已精確清理舊 key。網站來源沒有引用這批舊路徑；`works/zzz-commissions/image-05.jpg` 保留。後續路徑對照見 `maintenance/r2/2026-10-09-aod-reorganization.json`，歷史清單保留當次路徑。
+
+- 2026-10-09 後續依使用者分類重新整理 16 個素材：移至 shapes-of-days、tokoyami-towa、new-year-2024、christmas-2025 與 halloween-2025 的平面目錄，保留既有目的地物件，撞名加來源識別碼。更新兩份作品文件的 8 處 URL，建置與瀏覽器載入通過；8 個未引用來源已清理，new-year-vol-2 與 roar 共 8 個舊來源需等本次部署成功才清理。對照見 `maintenance/r2/2026-10-09-folder-reorganization-02.json`，提交與部署狀態依當次證據判斷。
+
 ### 新素材目錄規劃
 
 以「用途 → 穩定的作品或文章識別碼 → 素材角色」組織，不必沿用舊目錄。下列是遷移時採用的規劃與範例，不代表 R2 已有這些物件：

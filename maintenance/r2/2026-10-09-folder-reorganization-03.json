@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "bucket": "miguo-website-cdn",
   "scope": "folder-reorganization-03",
-  "status": "verified-referenced-source-cleanup-pending-deployment",
+  "status": "deployed-and-old-sources-removed",
   "entries": [
     {
       "source_key": "works/mid-autumn-moon/cover.jpg",
@@ -21,8 +21,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -42,8 +42,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -63,8 +63,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -84,8 +84,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -105,8 +105,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -126,8 +126,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -147,8 +147,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -168,8 +168,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -221,13 +221,65 @@
       }
     }
   ],
-  "deployment": "pending",
+  "deployment": {
+    "status": "success",
+    "commit": "acf6f458544f9f22ad8f8517e2297d14429f74a9",
+    "run_id": 37895621327,
+    "run_url": "https://github.com/miguotw/MiGuo-Website/actions/runs/37895621327",
+    "production_browser": {
+      "scope": "Live production pages and real CDN images; no page interception.",
+      "pages": [
+        {
+          "page": "/project/中秋の名月",
+          "title": "米淉 MiGuo | 中秋の名月🌕✨",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/中秋の名月",
+          "images": 7
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "images": 9
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    }
+  },
   "updated_project_files": [
     "_projects/2025-09-27-中秋の名月.md",
     "_projects/2025-12-19-君のクリスマスプレゼント.md"
   ],
   "updated_url_occurrences": 8,
-  "bucket_object_count": 189,
+  "bucket_object_count": 181,
   "validation_summary": {
     "build": "passed",
     "source_diff": "only-8-url-replacements",
@@ -279,7 +331,9 @@
       ]
     },
     "unreferenced_sources_removed": 3,
-    "referenced_sources_retained": 8
+    "referenced_sources_retained": 0,
+    "total_old_sources_removed": 11
   },
-  "completed_at": "2026-10-09T14:48:55.000659+08:00"
+  "completed_at": "2026-10-09T14:48:55.000659+08:00",
+  "cleanup_completed_at": "2026-10-09T14:52:29.199396+08:00"
 }

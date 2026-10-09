@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "scope": "user-directed-folder-reorganization-02",
   "bucket": "miguo-website-cdn",
-  "status": "links-verified-referenced-source-cleanup-pending-deployment",
+  "status": "deployed-and-old-sources-removed",
   "entries": [
     {
       "source_key": "works/commission-01/image-01.jpg",
@@ -125,8 +125,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -145,8 +145,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -165,8 +165,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -200,8 +200,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -220,8 +220,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -240,8 +240,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -260,8 +260,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     },
     {
@@ -280,8 +280,8 @@
       "verification": {
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
-        "source_retained": true,
-        "cleanup": "pending-deployment-to-preserve-live-links"
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-successful-deployment"
       }
     }
   ],
@@ -387,13 +387,65 @@
       }
     }
   ],
-  "deployment": "pending",
+  "deployment": {
+    "status": "success",
+    "commit": "e6cb79fbf69ce706ed32c75ad796682aa6d660a9",
+    "run_id": 37894460786,
+    "run_url": "https://github.com/miguotw/MiGuo-Website/actions/runs/37894460786",
+    "production_browser": {
+      "scope": "Live production pages and real CDN images; no page interception.",
+      "pages": [
+        {
+          "page": "/project/年賀絵-vol-2",
+          "title": "米淉 MiGuo | 年賀絵 Vol.2",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/ガオー",
+          "title": "米淉 MiGuo | ガオー！🐾",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/年賀絵-vol-2",
+          "images": 7
+        },
+        {
+          "page": "/project/ガオー",
+          "images": 9
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    }
+  },
   "updated_project_files": [
     "_projects/2024-02-09-年賀絵 Vol.2.md",
     "_projects/2025-10-25-ガオー！.md"
   ],
   "updated_url_occurrences": 8,
-  "bucket_object_count": 189,
+  "bucket_object_count": 181,
   "validation_summary": {
     "jekyll_build": "passed",
     "source_diff": "only-8-url-replacements",
@@ -445,7 +497,9 @@
       ]
     },
     "unreferenced_sources_removed": 8,
-    "referenced_sources_retained": 8
+    "referenced_sources_retained": 0,
+    "total_old_sources_removed": 16
   },
-  "completed_at": "2026-10-09T14:34:30.432752+08:00"
+  "completed_at": "2026-10-09T14:34:30.432752+08:00",
+  "cleanup_completed_at": "2026-10-09T14:39:34.591029+08:00"
 }

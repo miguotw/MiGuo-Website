@@ -238,10 +238,11 @@
   "bucket_object_count": 181,
   "completed_at": "2026-10-09T14:21:08.970858+08:00",
   "website_reference_check": "no-source-references-found",
-  "commit_status": "not-committed",
+  "commit_status": "committed-and-pushed",
   "followup_manual_move": {
     "from": "works/zzz-aod-02",
     "to": "articles/zzz-aod-02",
     "verified_objects": 10
-  }
+  },
+  "maintenance_commit": "e6cb79fbf69ce706ed32c75ad796682aa6d660a9"
 }

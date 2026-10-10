@@ -146,3 +146,9 @@
 - 依持續授權直接提交推送 main 並部署；69 個舊物件保留至 Actions 成功、正式網站新連結驗證通過後才精確清理。本批未修改 Minecraft／Live2D 執行資源。
 
 - 本批提交 `c7e6aed` 已推送 main 並[部署成功](https://github.com/miguotw/MiGuo-Website/actions/runs/38068731346)。正式網站 14 個作品頁、列表及首頁確認使用新連結且圖片解碼成功；部署後重新比對 69 組來源與目標 SHA-256，先 dry-run 再精確刪除 69 個舊 key，所有新目標保留，清理後 R2 為 181 個物件。未主動清除舊 URL 的 CDN 快取。
+
+## 2026-10-11：刪除未引用的作品素材
+
+- 依使用者明確授權，精確刪除 `works/original-illustrations/` 的 11 張 JPG 與 `works/miyako-swimsuit/character.png`，共 12 個物件。刪除前再次搜尋所有 Git 追蹤網站來源，未發現目錄引用；歷史遷移紀錄保持原樣。
+- 刪除前下載比對並記錄 SHA-256，先 dry-run 再 deletefile，未清空其他前綴。刪除後完整列舉貯體確認兩個前綴均無物件；R2 為 169 個物件。網站來源沒有變更，無需重新部署頁面；未主動清除 CDN 舊網址快取。
+- 詳細清單見 [2026-10-11-unused-works-deletion.json](2026-10-11-unused-works-deletion.json)。

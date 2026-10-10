@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-11",
+  "bucket": "miguo-website-cdn",
+  "scope": "user-authorized-unused-works-deletion",
+  "prefixes": [
+    "works/original-illustrations/",
+    "works/miyako-swimsuit/"
+  ],
+  "website_references": 0,
+  "entries": [
+    {
+      "source_key": "works/original-illustrations/image-01.jpg",
+      "bytes": 1083263,
+      "content_type": "image/jpeg",
+      "sha256": "0b568c892b1a8112391b2353ac5b01a8363ea3a63632a997d95fd8f5701dd5f4",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-02.jpg",
+      "bytes": 761795,
+      "content_type": "image/jpeg",
+      "sha256": "5c0b839aeeaecada1128a966a85e71e49f6a94871f23e6965296eec07b2b4bd5",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-03.jpg",
+      "bytes": 669004,
+      "content_type": "image/jpeg",
+      "sha256": "bea52dc1f65e760cf9015ab150cbc9498e24eaa1faaba2b17eb55aabd57b914a",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-04.jpg",
+      "bytes": 675584,
+      "content_type": "image/jpeg",
+      "sha256": "1b5ef617b12e123549002b4119d857883d23c5e5c0c2d20573a81370b70b0810",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-05.jpg",
+      "bytes": 670865,
+      "content_type": "image/jpeg",
+      "sha256": "19790536a1bef0a3cdeffa5aa88ce2a957f07b1682e7634943b1d3c0fd4ce630",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-06.jpg",
+      "bytes": 654999,
+      "content_type": "image/jpeg",
+      "sha256": "1438cb810fff28618512de477cf4cd6aa716b499973026157c801e6ca7f2d0be",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-07.jpg",
+      "bytes": 652667,
+      "content_type": "image/jpeg",
+      "sha256": "151fe2d41b7453351084b557594ab11b5adf933343ff0bfcd370954b3506d7a2",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-08.jpg",
+      "bytes": 654830,
+      "content_type": "image/jpeg",
+      "sha256": "dc03b65fe43fbde090a71a1e33601a3f15aec0b6c0374bd4ad47fff9f86a99d1",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-09.jpg",
+      "bytes": 476443,
+      "content_type": "image/jpeg",
+      "sha256": "f26c0bc0d29dc30331e5c5b0451c7ecbb69e6a837b68ac1ba6d15ee42de4347a",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-10.jpg",
+      "bytes": 649513,
+      "content_type": "image/jpeg",
+      "sha256": "13f01d9909f5a09aa0886708105394f9075a5e0cae2756920352bba8a4ad3648",
+      "deleted": true
+    },
+    {
+      "source_key": "works/original-illustrations/image-11.jpg",
+      "bytes": 612183,
+      "content_type": "image/jpeg",
+      "sha256": "e45b7b01983a1d800e9a2ee5b7a7fade6199763340d29927f1f40d9f5bb156f0",
+      "deleted": true
+    },
+    {
+      "source_key": "works/miyako-swimsuit/character.png",
+      "bytes": 1377550,
+      "content_type": "image/png",
+      "sha256": "8e27c14153dd8bde30df0cb8993ecf34d5029082be22582ce3ca8fa74206ead6",
+      "deleted": true
+    }
+  ],
+  "status": "deleted-and-verified",
+  "bucket_object_count": 169,
+  "completed_at": "2026-10-11T00:54:34.026243+08:00"
+}

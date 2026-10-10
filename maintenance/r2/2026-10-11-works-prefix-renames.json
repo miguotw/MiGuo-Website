@@ -1,0 +1,1518 @@
+{
+  "date": "2026-10-11",
+  "bucket": "miguo-website-cdn",
+  "scope": "16-works-directory-renames",
+  "directory_mapping": {
+    "christmas-2025": "myk-christmas-2025",
+    "ff40-2023": "myk-ff40-2023",
+    "good-night": "myk-good-night-01",
+    "halloween-2025": "myk-halloween-2025",
+    "lunar-new-year-2025": "myk-lunar-new-year-2025",
+    "mid-autumn-2025": "myk-mid-autumn-2025",
+    "new-year-2024": "myk-new-year-2024",
+    "new-year-2025": "myk-new-year-2025",
+    "new-year-2026": "myk-new-year-2026",
+    "new-year-afternoon": "myk-lunar-new-year-2026",
+    "seaside-rendezvous": "myk-seaside-rendezvous-01",
+    "shimoe-koharu": "ba-shimoe-koharu-01",
+    "tokoyami-towa": "ho-tokoyami-towa-01",
+    "water-blue-dream": "myk-water-blue-dream-01",
+    "wet-hair": "myk-lwet-hair-01",
+    "winter-fairy": "myk-winter-fairy-01"
+  },
+  "status": "verified-awaiting-deployment",
+  "entries": [
+    {
+      "source_key": "works/christmas-2025/cover.jpg",
+      "target_key": "works/myk-christmas-2025/cover.jpg",
+      "bytes": 604347,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "461b42110586b466010f25d1f06b87eea8814738e179d7a7c41a7039be77bef1",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/greeting-card.jpg",
+      "target_key": "works/myk-christmas-2025/greeting-card.jpg",
+      "bytes": 1498444,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "b7ed40bf2b67105a30ddc19a3fc7725909d6509decbee69ea232cd87a716330b",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/image-01.jpg",
+      "target_key": "works/myk-christmas-2025/image-01.jpg",
+      "bytes": 670387,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "e196db3833f3999e81bcd55983026b176e7f233f8af84495e0493190d450baf8",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/image-02.jpg",
+      "target_key": "works/myk-christmas-2025/image-02.jpg",
+      "bytes": 682355,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "7c0f2ccfe606a6c2798be09404db4492fd3407cc76f0af44ac8751c1b5e7c6f2",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/image-03.jpg",
+      "target_key": "works/myk-christmas-2025/image-03.jpg",
+      "bytes": 678662,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "8b3a0e78067ada53f100fb0c1767a102b088e45d6d4d6865c5375215099d0005",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/image-04.jpg",
+      "target_key": "works/myk-christmas-2025/image-04.jpg",
+      "bytes": 692931,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-12-19-君のクリスマスプレゼント.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "54dba00c7cbc0dc058f99dbff4251484d9f793e290eef08965554ec4eb7516b1",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/image-04.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/christmas-2025/print-layout.png",
+      "target_key": "works/myk-christmas-2025/print-layout.png",
+      "bytes": 5014703,
+      "content_type": "image/png",
+      "references": [],
+      "sha256": "ba9125deb5f526cd2f1ed0f110398e039c5a95500f25cc63be19fbb8e513f1b5",
+      "cdn_url": "https://cdn.miguo.art/works/myk-christmas-2025/print-layout.png",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/ff40-2023/greeting-card.jpg",
+      "target_key": "works/myk-ff40-2023/greeting-card.jpg",
+      "bytes": 504971,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "ad3d9a7e7763dccfb7b14a3b9e493eae25517485a3271580a6f5d32bcab751c8",
+      "cdn_url": "https://cdn.miguo.art/works/myk-ff40-2023/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/good-night/cover.jpg",
+      "target_key": "works/myk-good-night-01/cover.jpg",
+      "bytes": 516217,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "97325441a73907cd656372b5c374920bd9a1a69c94c2ffe566b76a4d3a09d13d",
+      "cdn_url": "https://cdn.miguo.art/works/myk-good-night-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/good-night/image-01.jpg",
+      "target_key": "works/myk-good-night-01/image-01.jpg",
+      "bytes": 533532,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "bc7e5db70cbf46a3e69eb9f6f070f740b933fc4318a588a9c328db440be8642e",
+      "cdn_url": "https://cdn.miguo.art/works/myk-good-night-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/good-night/image-02.jpg",
+      "target_key": "works/myk-good-night-01/image-02.jpg",
+      "bytes": 534837,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "900712861056f0ef4e60608c14ed19dbf617d7a1f7cfa1cd52a7e5b4432e94ca",
+      "cdn_url": "https://cdn.miguo.art/works/myk-good-night-01/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/good-night/image-03.jpg",
+      "target_key": "works/myk-good-night-01/image-03.jpg",
+      "bytes": 543752,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-07-24-おやすみ〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "2edc426d9ec696e8e2629f0edc83a14d618d143448a6c5c2e9c6f3f5499361a2",
+      "cdn_url": "https://cdn.miguo.art/works/myk-good-night-01/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/cover.jpg",
+      "target_key": "works/myk-halloween-2025/cover.jpg",
+      "bytes": 589005,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "c629b55984130f7d9b1e5ffd801ab994d68ede9328e7ffef36930265bfa5b367",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/greeting-card.jpg",
+      "target_key": "works/myk-halloween-2025/greeting-card.jpg",
+      "bytes": 629274,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "b462ac198e3ab7f0601d0cf5985f545832814cad4ba11caa409377cd5e254e5e",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/image-01.jpg",
+      "target_key": "works/myk-halloween-2025/image-01.jpg",
+      "bytes": 651491,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "f503deae7e685a23d08f075deccc47058437522835697220f8ca3bffaa606e94",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/image-02.jpg",
+      "target_key": "works/myk-halloween-2025/image-02.jpg",
+      "bytes": 661846,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "5998223ae09ae08a42a75ce1dd93d930855895201d08e8564904a532113af53e",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/image-03.jpg",
+      "target_key": "works/myk-halloween-2025/image-03.jpg",
+      "bytes": 660188,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "53a5dfe842dddf5e59ed865f255017baa37693c207d3b2d9375a506f9174b7a6",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/halloween-2025/image-04.jpg",
+      "target_key": "works/myk-halloween-2025/image-04.jpg",
+      "bytes": 661032,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-10-25-ガオー！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "a65e6aca1081f4f3ff079fb6dc279fca137b88782992d0bb2d2fb271a4040065",
+      "cdn_url": "https://cdn.miguo.art/works/myk-halloween-2025/image-04.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/cover.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/cover.jpg",
+      "bytes": 734795,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "41728267c3a32acd9a7167101df349b2770cebcefb133328b204e3cb643b0d8b",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-01.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-01.jpg",
+      "bytes": 842236,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "89d283fac29e56ab4715b6b3ee40c54fb5a27b69775ab6fcba52fbbd04d191d1",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-02.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-02.jpg",
+      "bytes": 849216,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "eba4550d317e251016c343094c60fab12c95c483bfce64e63182ed8b8ea3cfaf",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-03.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-03.jpg",
+      "bytes": 837281,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "05807721cfb40d711f0157d7c2f72cf32cbe8fc2344318e0ad3ea764a9e05f75",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-04.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-04.jpg",
+      "bytes": 834649,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "703dba559b550e358b04d231e149932274d3e772d5ee0774a73048194a4d57f4",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-04.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-05.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-05.jpg",
+      "bytes": 830298,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "417a08aeea6c14547a064549d0b31308d82b1b08767975d9c9356170623e0eb1",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-05.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/lunar-new-year-2025/image-06.jpg",
+      "target_key": "works/myk-lunar-new-year-2025/image-06.jpg",
+      "bytes": 846375,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-24-旧正月おめでとう！.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "f93b55975fab5bfe6365b56e4af0c0f2d919032c9f7dfa8889c69cb775a908d4",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2025/image-06.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-2025/cover.jpg",
+      "target_key": "works/myk-mid-autumn-2025/cover.jpg",
+      "bytes": 626577,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "9d0079dbe136dd8c1edef64f31dd310e191f8c0a15f0e8325fff5b9e8bf860f2",
+      "cdn_url": "https://cdn.miguo.art/works/myk-mid-autumn-2025/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-2025/greeting-card.jpg",
+      "target_key": "works/myk-mid-autumn-2025/greeting-card.jpg",
+      "bytes": 482853,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "e6a5e0ca8555deec21fdb2bce4b7505d45f27e0108682fa37a70f5e0e963d737",
+      "cdn_url": "https://cdn.miguo.art/works/myk-mid-autumn-2025/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-2025/image-01.jpg",
+      "target_key": "works/myk-mid-autumn-2025/image-01.jpg",
+      "bytes": 646822,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "cccefc63e368c97878b5d21fca77dcabad47ffee8a51f9e5e972e165216f7ce0",
+      "cdn_url": "https://cdn.miguo.art/works/myk-mid-autumn-2025/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/mid-autumn-2025/image-02.jpg",
+      "target_key": "works/myk-mid-autumn-2025/image-02.jpg",
+      "bytes": 648456,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-09-27-中秋の名月.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "93d5f2797907ff834f10dd0ba193a20adddc30e152e3b534dd855519d94c3796",
+      "cdn_url": "https://cdn.miguo.art/works/myk-mid-autumn-2025/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2024/cover.jpg",
+      "target_key": "works/myk-new-year-2024/cover.jpg",
+      "bytes": 597607,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "d4c38782eadef0f7db1ec1144e44c69fc43eff1f65a040798c94b52d90b9a6f4",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2024/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2024/greeting-card.jpg",
+      "target_key": "works/myk-new-year-2024/greeting-card.jpg",
+      "bytes": 337420,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "bcd0205c3ee3578c9d436de1bb3746a97316e06d54418f9c3538264b85e9ba87",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2024/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2024/image-01.jpg",
+      "target_key": "works/myk-new-year-2024/image-01.jpg",
+      "bytes": 635599,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "312239dd23d221ef637298fed7df64b4779431f42893d366ffda2dfe5031b830",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2024/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2024/image-02.jpg",
+      "target_key": "works/myk-new-year-2024/image-02.jpg",
+      "bytes": 631670,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2024-02-09-年賀絵 Vol.2.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "163189e4c38bff57e87e1614e5923d2a9a8c86cb82b98ac506e5d19baa99cbe8",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2024/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2025/greeting-card.jpg",
+      "target_key": "works/myk-new-year-2025/greeting-card.jpg",
+      "bytes": 644651,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "476764331f7fd7739d146ade01b19cb546064587aa13a53d0eaacdcc156b5217",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2025/greeting-card.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2026/cover.jpg",
+      "target_key": "works/myk-new-year-2026/cover.jpg",
+      "bytes": 744921,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-01-新年あけましておめでとう.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "3e4ded2ad92b06c72f31d0831626b6d85382c0be69201b912f9a536dab9747f8",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2026/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-2026/image-01.jpg",
+      "target_key": "works/myk-new-year-2026/image-01.jpg",
+      "bytes": 2519475,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-01-新年あけましておめでとう.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "880895aa73caeaa60c40c1eba39fcd8e04baf29f5d2d199578cb63d54c603181",
+      "cdn_url": "https://cdn.miguo.art/works/myk-new-year-2026/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-afternoon/cover.jpg",
+      "target_key": "works/myk-lunar-new-year-2026/cover.jpg",
+      "bytes": 610010,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "7bb386ed7c910695526bf3482b1c6a810331bb5a41fc486511b36d1fb624ecc2",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2026/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-afternoon/image-01.png",
+      "target_key": "works/myk-lunar-new-year-2026/image-01.png",
+      "bytes": 3395759,
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "10d51770311a933847aacff85f3a1febbaede77641937e4abbf08a5bd575fd63",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2026/image-01.png",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/new-year-afternoon/image-02.png",
+      "target_key": "works/myk-lunar-new-year-2026/image-02.png",
+      "bytes": 3362949,
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-02-13-新年の午後.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "ee8fee3dae08c6b91afdc1c3df5fe43c14c82deb2f63aeeabb27cf3d544521e4",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lunar-new-year-2026/image-02.png",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/cover.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/cover.jpg",
+      "bytes": 634577,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "7a1674f56323bd2327f95a19d63e602f22a56b7928334af5f572be62e550e355",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-01.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-01.jpg",
+      "bytes": 676849,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "222826c63ccd9c40a6a67638198d0cba593e01977da025fbf67139aba02dd1b7",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-02.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-02.jpg",
+      "bytes": 678354,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "occurrences": 2
+        }
+      ],
+      "sha256": "c370f0b360ff6ac9774c1da3aeefb107a3336284720258a39f3e3eb95844d02f",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-03.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-03.jpg",
+      "bytes": 673653,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "22f2bd42a578a81ba52bf04c7b22bc22884d376a6d16f4ce0ceff9df037e9eba",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-04.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-04.jpg",
+      "bytes": 683645,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "occurrences": 2
+        }
+      ],
+      "sha256": "4f382af2fc72f5960fc70f45abd0d56b4005abcf811a3ba626b2684cf4c3f041",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-04.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-05.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-05.jpg",
+      "bytes": 741791,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "74a5bfee3510e820f938a8cb18ae0d822a39894079ca2cd97864503244be85a1",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-05.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/seaside-rendezvous/image-06.jpg",
+      "target_key": "works/myk-seaside-rendezvous-01/image-06.jpg",
+      "bytes": 744747,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-08-07-浜辺で密会〜.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "4b989dba100bd57aa3310ac1cf01bc050fdcff40f6da3bc8674167a2ab318c35",
+      "cdn_url": "https://cdn.miguo.art/works/myk-seaside-rendezvous-01/image-06.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/shimoe-koharu/cover.jpg",
+      "target_key": "works/ba-shimoe-koharu-01/cover.jpg",
+      "bytes": 579397,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2023-09-14-下江コハル.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "e350d434a2dd75c1d87e57bf208b4c908ddaf0aeb8ec7f8e38157af32c27ee8d",
+      "cdn_url": "https://cdn.miguo.art/works/ba-shimoe-koharu-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/shimoe-koharu/image-01.jpg",
+      "target_key": "works/ba-shimoe-koharu-01/image-01.jpg",
+      "bytes": 786538,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2023-09-14-下江コハル.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "f3a699da49436e59081e17fd3a7e3318cb6249cee7620bda87a0a2cca08296a5",
+      "cdn_url": "https://cdn.miguo.art/works/ba-shimoe-koharu-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/tokoyami-towa/cover.jpg",
+      "target_key": "works/ho-tokoyami-towa-01/cover.jpg",
+      "bytes": 485263,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-10-小悪魔常闇トワ.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "cf6b111f5430b0a1250ff420f8a1a756a3f83cc0ab858877e05037b322638aee",
+      "cdn_url": "https://cdn.miguo.art/works/ho-tokoyami-towa-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/tokoyami-towa/fan-art-image-01.jpg",
+      "target_key": "works/ho-tokoyami-towa-01/fan-art-image-01.jpg",
+      "bytes": 592159,
+      "content_type": "image/jpeg",
+      "references": [],
+      "sha256": "bfc82573e5de10a61b2a609e0e6ac91b0203359b174136723f030136a7f998f9",
+      "cdn_url": "https://cdn.miguo.art/works/ho-tokoyami-towa-01/fan-art-image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/tokoyami-towa/image-01.jpg",
+      "target_key": "works/ho-tokoyami-towa-01/image-01.jpg",
+      "bytes": 667924,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-01-10-小悪魔常闇トワ.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "3db10c610f01a25b94b3095dd2e95dd424ac9e6f07463b0a82b143e6a8e55a51",
+      "cdn_url": "https://cdn.miguo.art/works/ho-tokoyami-towa-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/cover.jpg",
+      "target_key": "works/myk-water-blue-dream-01/cover.jpg",
+      "bytes": 532688,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "ad1a222cee3854f231ef0260b9a29efd7bd5ea48535a0ab34265e2ed049d921b",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-01.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-01.jpg",
+      "bytes": 798467,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "4fcd4fde409bcca5fa6735f81544e3b82e47d4a5482474126bb63a6fd63ac862",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-02.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-02.jpg",
+      "bytes": 796402,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "391dc1fb7f68457d2c03b10a2066e6466ca78bbc3b11d06535a9cdef2a849818",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-02.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-03.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-03.jpg",
+      "bytes": 801903,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "d876ef5a9e9f852be7302c015255d337bf2b77da8fd7fd1116014e381a71173c",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-03.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-04.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-04.jpg",
+      "bytes": 800402,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "441bd929760e2f163e30f8a584f6b712a200ddb856006ff0f6b2a606e511dfd6",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-04.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-05.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-05.jpg",
+      "bytes": 800946,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "ddb7ed2070d669400fe7a73da38a2dae10aeeeb941763a8f30a313130c9781a6",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-05.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-06.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-06.jpg",
+      "bytes": 791572,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "843454f84c0273aceba0207fc4669f8ba0bfdb8a7da07cec58c67d079b0d06bd",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-06.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-07.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-07.jpg",
+      "bytes": 730858,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "e253d57c8a434c265ffa167086d742e1f78a0a45e0aef053b52ab076ddf5616e",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-07.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-08.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-08.jpg",
+      "bytes": 792569,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "3853ed543c25bcfb7675d726e9de165b8f5b81b0460095fc4d8c625417c58dc9",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-08.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-09.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-09.jpg",
+      "bytes": 735274,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "a431bb3987e5681a38de448fe8f90843c5f3cdbb3b49fb1a90ba9debe4f886ab",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-09.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-10.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-10.jpg",
+      "bytes": 654639,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "5d2eb05bead2bb775baa0ee4a198a91fcf01c3aa89740d574942e403ffeb72bb",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-10.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-11.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-11.jpg",
+      "bytes": 732996,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "f2243c117abc79ca8380f05b10957691febab4c1ffed66b25bc96ed9e31a6c7d",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-11.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/water-blue-dream/image-12.jpg",
+      "target_key": "works/myk-water-blue-dream-01/image-12.jpg",
+      "bytes": 657811,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2025-11-07-水色の夢.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "0266b8213318ea1ba8d2e57451a7818f6e097644d3352f0bff7b297b187c9828",
+      "cdn_url": "https://cdn.miguo.art/works/myk-water-blue-dream-01/image-12.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/wet-hair/cover.jpg",
+      "target_key": "works/myk-lwet-hair-01/cover.jpg",
+      "bytes": 2796627,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "2ebc8936534132cd0dd3f4e059cc3dc1a211559d506d33f822cf277c32fdae63",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lwet-hair-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/wet-hair/image-01.png",
+      "target_key": "works/myk-lwet-hair-01/image-01.png",
+      "bytes": 3938180,
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "441b16aea7540da2bcca37189fcf9de6348d6e3c035c2d62b6f69a0dc2bf8aaf",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lwet-hair-01/image-01.png",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/wet-hair/image-02.png",
+      "target_key": "works/myk-lwet-hair-01/image-02.png",
+      "bytes": 3908317,
+      "content_type": "image/png",
+      "references": [
+        {
+          "file": "_projects/2026-01-16-濡れた髪 copy.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "26672757204c5e2b452c351a8327c66d55aacc62dcc1661aa9533a2e79bcf733",
+      "cdn_url": "https://cdn.miguo.art/works/myk-lwet-hair-01/image-02.png",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/winter-fairy/cover.jpg",
+      "target_key": "works/myk-winter-fairy-01/cover.jpg",
+      "bytes": 602752,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-19-雪の妖精.md",
+          "occurrences": 1
+        },
+        {
+          "file": "_projects/_draft/2001-01-01-test.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "05a23a07c1c3ea1c3d28d6430a25a1fdc1a3f2eafa64265a28742dadc065682a",
+      "cdn_url": "https://cdn.miguo.art/works/myk-winter-fairy-01/cover.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    },
+    {
+      "source_key": "works/winter-fairy/image-01.jpg",
+      "target_key": "works/myk-winter-fairy-01/image-01.jpg",
+      "bytes": 675475,
+      "content_type": "image/jpeg",
+      "references": [
+        {
+          "file": "_projects/2026-02-19-雪の妖精.md",
+          "occurrences": 1
+        },
+        {
+          "file": "_projects/_draft/2001-01-01-test.md",
+          "occurrences": 1
+        }
+      ],
+      "sha256": "67c2c36e9e919efadaa7f8d9c58403600fc28ff8e60e2825d74ec0f2255ce591",
+      "cdn_url": "https://cdn.miguo.art/works/myk-winter-fairy-01/image-01.jpg",
+      "verification": {
+        "s3": "sha256-matched",
+        "cdn": "sha256-matched",
+        "metadata": "content-headers-preserved",
+        "source_retained": true
+      }
+    }
+  ],
+  "deployment": "pending",
+  "updated_project_files": [
+    "_projects/2023-09-14-下江コハル.md",
+    "_projects/2024-02-09-年賀絵 Vol.2.md",
+    "_projects/2025-01-10-小悪魔常闇トワ.md",
+    "_projects/2025-01-24-旧正月おめでとう！.md",
+    "_projects/2025-07-24-おやすみ〜.md",
+    "_projects/2025-08-07-浜辺で密会〜.md",
+    "_projects/2025-09-27-中秋の名月.md",
+    "_projects/2025-10-25-ガオー！.md",
+    "_projects/2025-11-07-水色の夢.md",
+    "_projects/2025-12-19-君のクリスマスプレゼント.md",
+    "_projects/2026-01-01-新年あけましておめでとう.md",
+    "_projects/2026-01-16-濡れた髪 copy.md",
+    "_projects/2026-02-13-新年の午後.md",
+    "_projects/2026-02-19-雪の妖精.md",
+    "_projects/_draft/2001-01-01-test.md"
+  ],
+  "updated_url_occurrences": 63,
+  "validation_summary": {
+    "jekyll_build": "passed",
+    "source_diff": "only-63-url-replacements",
+    "browser": {
+      "scope": "Local production HTML at official origin via interception; real CDN images.",
+      "pages": [
+        {
+          "page": "/project/新年あけましておめでとう",
+          "title": "米淉 MiGuo | 新年あけましておめでとう‼️🎍",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/水色の夢",
+          "title": "米淉 MiGuo | 水色の夢🩵✨",
+          "images": 20,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/年賀絵-vol-2",
+          "title": "米淉 MiGuo | 年賀絵 Vol.2",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/小悪魔常闇トワ",
+          "title": "米淉 MiGuo | 小悪魔常闇トワ👿✨💖",
+          "images": 8,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/濡れた髪-copy",
+          "title": "米淉 MiGuo | 濡れた髪...💧🫧",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/おやすみ",
+          "title": "米淉 MiGuo | おやすみ〜💕🌙",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/新年の午後",
+          "title": "米淉 MiGuo | 新年の午後🏮✨",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/中秋の名月",
+          "title": "米淉 MiGuo | 中秋の名月🌕✨",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/下江コハル",
+          "title": "米淉 MiGuo | 下江コハル",
+          "images": 8,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/浜辺で密会",
+          "title": "米淉 MiGuo | 浜辺で密会〜🏝️✨",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/旧正月おめでとう",
+          "title": "米淉 MiGuo | 旧正月おめでとう！🪭✨",
+          "images": 15,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/ガオー",
+          "title": "米淉 MiGuo | ガオー！🐾",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/雪の妖精",
+          "title": "米淉 MiGuo | 雪の妖精❄️✨",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/雪の妖精",
+          "images": 5
+        },
+        {
+          "page": "/project/水色の夢",
+          "images": 17
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    }
+  }
+}

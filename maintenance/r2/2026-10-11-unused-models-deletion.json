@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-11",
+  "bucket": "miguo-website-cdn",
+  "scope": "user-authorized-unused-r2-models-deletion",
+  "prefix": "models/",
+  "website_references": 0,
+  "entries": [
+    {
+      "source_key": "models/minecraft/brick/models/model.json",
+      "bytes": 10679,
+      "content_type": "application/json",
+      "sha256": "1ffcbf7c3a3835b747b98f651c154b5f0e5d25f6cb62e27234f982129ef4e798",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/brick/textures/texture.png",
+      "bytes": 2441,
+      "content_type": "image/png",
+      "sha256": "64dbd45ae7e5711677bb41d6ac2f312ea355c3dab64fcef88f2448bb4104e9e9",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/event-7th-graduate-purple/models/model.json",
+      "bytes": 8068,
+      "content_type": "application/json",
+      "sha256": "0950dee8934ae91423b4497e3df2127a38f407b91f88dfb70bd3dd64d5fd7b43",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/event-7th-graduate-purple/textures/texture.png",
+      "bytes": 7077,
+      "content_type": "image/png",
+      "sha256": "2e399ea02a6020ed78ee9d4dc32015719b2b99d3c4f7cb54f5d476d71bd3f096",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/nether-brick/models/model.json",
+      "bytes": 10679,
+      "content_type": "application/json",
+      "sha256": "1ffcbf7c3a3835b747b98f651c154b5f0e5d25f6cb62e27234f982129ef4e798",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/nether-brick/textures/texture.png",
+      "bytes": 2952,
+      "content_type": "image/png",
+      "sha256": "df16ac4d1d050b8600ad3793efb4ae091662d2ca78dd2aade3ffc4de1e9b774a",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/netherite-sword/models/model.json",
+      "bytes": 51646,
+      "content_type": "application/json",
+      "sha256": "c34e201318a9008faa0a9142c85112efc93153ee34040face320cf245e3cea03",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/netherite-sword/textures/texture.png",
+      "bytes": 2836,
+      "content_type": "image/png",
+      "sha256": "4c61e429ac44315990f05d0934e62bff3d0664d95372c1b6ffaef4bc71020da7",
+      "deleted": true
+    },
+    {
+      "source_key": "models/minecraft/skins/7c653b1c4bfacc1e.png",
+      "bytes": 2402,
+      "content_type": "image/png",
+      "sha256": "0e9dd10eee9fdd282bdfedf672569e722dcefaacfa468b4eebb22237343f4a70",
+      "deleted": true
+    }
+  ],
+  "status": "deleted-and-verified",
+  "local_models": "retained",
+  "bucket_object_count": 160,
+  "local_files_verified_unchanged": 11,
+  "completed_at": "2026-10-11T00:59:05.550786+08:00"
+}

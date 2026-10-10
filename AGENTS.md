@@ -113,6 +113,8 @@ bundle exec jekyll build
 
 - 2026-10-11 經使用者明確授權刪除未引用的 `works/original-illustrations/` 與 `works/miyako-swimsuit/` 共 12 個物件，刪除前再次核對網站引用並記錄 SHA-256，刪除後確認兩個前綴無物件；R2 為 169 個物件，清單見 `maintenance/r2/2026-10-11-unused-works-deletion.json`。
 
+- 2026-10-11 經使用者明確授權刪除未引用的 R2 `models/` 共 9 個 Minecraft 模型／材質／skin 副本，刪除後確認前綴無物件；專案內 `assets/minecraft-model-viewer/` 全部檔案雜湊未變，首頁 Live2D 未修改。早期模型遷移清單保留歷史紀錄，目前網站仍使用本機模型。清理後 R2 為 160 個物件，詳見 `maintenance/r2/2026-10-11-unused-models-deletion.json`。
+
 ### 新素材目錄規劃
 
 以「用途 → 穩定的作品或文章識別碼 → 素材角色」組織，不必沿用舊目錄。下列是遷移時採用的規劃與範例，不代表 R2 已有這些物件：

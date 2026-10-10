@@ -152,3 +152,12 @@
 - 依使用者明確授權，精確刪除 `works/original-illustrations/` 的 11 張 JPG 與 `works/miyako-swimsuit/character.png`，共 12 個物件。刪除前再次搜尋所有 Git 追蹤網站來源，未發現目錄引用；歷史遷移紀錄保持原樣。
 - 刪除前下載比對並記錄 SHA-256，先 dry-run 再 deletefile，未清空其他前綴。刪除後完整列舉貯體確認兩個前綴均無物件；R2 為 169 個物件。網站來源沒有變更，無需重新部署頁面；未主動清除 CDN 舊網址快取。
 - 詳細清單見 [2026-10-11-unused-works-deletion.json](2026-10-11-unused-works-deletion.json)。
+
+## 2026-10-11：刪除未引用的 R2 模型副本
+
+- 依使用者明確授權刪除 R2 `models/` 全部 9 個物件：4 個 Minecraft JSON、4 張材質 PNG 與 1 張 skin。再次搜尋所有 Git 追蹤網站來源，未發現 `cdn.miguo.art/models` 引用。
+- 刪除前下載比對大小、記錄 SHA-256 並 dry-run，再精確 deletefile；刪除後完整列舉貯體確認 `models/` 無物件。專案 `assets/minecraft-model-viewer/` 所有本機檔案雜湊確認未變，首頁 Live2D 未修改。
+- 網站來源及載入路徑不變，無需重新部署頁面；未主動清除 CDN 舊 URL 快取。原始模型遷移清單保留當次歷史紀錄。
+- 詳細清單見 [2026-10-11-unused-models-deletion.json](2026-10-11-unused-models-deletion.json)。
+
+- 本批清理後 R2 為 160 個物件。

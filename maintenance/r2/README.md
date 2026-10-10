@@ -144,3 +144,5 @@
 - 先 dry-run 再以 immutable／metadata 複製，未覆寫既有目標。69 個來源、新 S3 物件及 CDN 完整 GET 的 SHA-256 全數一致，Content-Type、Cache-Control 等內容中繼資料保持一致。
 - Jekyll 建置與舊 URL 檢查通過；14 個作品頁、作品列表與首頁的實際 CDN 圖片及 OG 封面載入成功，另檢查手機寬度。建置版瀏覽器使用本機 HTML 模擬官網來源，部署結果另補。
 - 依持續授權直接提交推送 main 並部署；69 個舊物件保留至 Actions 成功、正式網站新連結驗證通過後才精確清理。本批未修改 Minecraft／Live2D 執行資源。
+
+- 本批提交 `c7e6aed` 已推送 main 並[部署成功](https://github.com/miguotw/MiGuo-Website/actions/runs/38068731346)。正式網站 14 個作品頁、列表及首頁確認使用新連結且圖片解碼成功；部署後重新比對 69 組來源與目標 SHA-256，先 dry-run 再精確刪除 69 個舊 key，所有新目標保留，清理後 R2 為 181 個物件。未主動清除舊 URL 的 CDN 快取。

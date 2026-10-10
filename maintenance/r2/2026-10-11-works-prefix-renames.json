@@ -20,7 +20,7 @@
     "wet-hair": "myk-lwet-hair-01",
     "winter-fairy": "myk-winter-fairy-01"
   },
-  "status": "verified-awaiting-deployment",
+  "status": "deployed-and-old-sources-removed",
   "entries": [
     {
       "source_key": "works/christmas-2025/cover.jpg",
@@ -39,7 +39,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -54,7 +55,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -74,7 +76,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -94,7 +97,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -114,7 +118,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -134,7 +139,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -149,7 +155,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -164,7 +171,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -184,7 +192,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -204,7 +213,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -224,7 +234,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -244,7 +255,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -264,7 +276,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -279,7 +292,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -299,7 +313,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -319,7 +334,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -339,7 +355,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -359,7 +376,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -379,7 +397,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -399,7 +418,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -419,7 +439,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -439,7 +460,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -459,7 +481,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -479,7 +502,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -499,7 +523,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -519,7 +544,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -534,7 +560,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -554,7 +581,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -574,7 +602,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -594,7 +623,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -609,7 +639,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -629,7 +660,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -649,7 +681,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -664,7 +697,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -684,7 +718,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -704,7 +739,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -724,7 +760,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -744,7 +781,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -764,7 +802,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -784,7 +823,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -799,7 +839,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -819,7 +860,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -834,7 +876,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -854,7 +897,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -874,7 +918,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -894,7 +939,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -914,7 +960,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -934,7 +981,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -954,7 +1002,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -969,7 +1018,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -989,7 +1039,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1009,7 +1060,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1029,7 +1081,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1049,7 +1102,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1069,7 +1123,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1089,7 +1144,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1109,7 +1165,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1129,7 +1186,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1149,7 +1207,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1169,7 +1228,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1189,7 +1249,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1209,7 +1270,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1229,7 +1291,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1249,7 +1312,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1269,7 +1333,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1289,7 +1354,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1309,7 +1375,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1333,7 +1400,8 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     },
     {
@@ -1357,11 +1425,148 @@
         "s3": "sha256-matched",
         "cdn": "sha256-matched",
         "metadata": "content-headers-preserved",
-        "source_retained": true
+        "source_retained": false,
+        "cleanup": "exact-source-key-deleted-after-deployment"
       }
     }
   ],
-  "deployment": "pending",
+  "deployment": {
+    "status": "success",
+    "commit": "c7e6aedcbab82c1d89335935a4100ab484043da0",
+    "run_id": 38068731346,
+    "run_url": "https://github.com/miguotw/MiGuo-Website/actions/runs/38068731346",
+    "production_browser": {
+      "scope": "Live production pages and real CDN images; no page interception.",
+      "pages": [
+        {
+          "page": "/project/新年あけましておめでとう",
+          "title": "米淉 MiGuo | 新年あけましておめでとう‼️🎍",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/水色の夢",
+          "title": "米淉 MiGuo | 水色の夢🩵✨",
+          "images": 21,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/年賀絵-vol-2",
+          "title": "米淉 MiGuo | 年賀絵 Vol.2",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/小悪魔常闇トワ",
+          "title": "米淉 MiGuo | 小悪魔常闇トワ👿✨💖",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/濡れた髪-copy",
+          "title": "米淉 MiGuo | 濡れた髪...💧🫧",
+          "images": 11,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/君のクリスマスプレゼント",
+          "title": "米淉 MiGuo | 君のクリスマスプレゼント🎁🎄",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/おやすみ",
+          "title": "米淉 MiGuo | おやすみ〜💕🌙",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/新年の午後",
+          "title": "米淉 MiGuo | 新年の午後🏮✨",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/中秋の名月",
+          "title": "米淉 MiGuo | 中秋の名月🌕✨",
+          "images": 10,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/下江コハル",
+          "title": "米淉 MiGuo | 下江コハル",
+          "images": 9,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/浜辺で密会",
+          "title": "米淉 MiGuo | 浜辺で密会〜🏝️✨",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/旧正月おめでとう",
+          "title": "米淉 MiGuo | 旧正月おめでとう！🪭✨",
+          "images": 15,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/ガオー",
+          "title": "米淉 MiGuo | ガオー！🐾",
+          "images": 13,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/project/雪の妖精",
+          "title": "米淉 MiGuo | 雪の妖精❄️✨",
+          "images": 8,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/projects/",
+          "title": "米淉 MiGuo | 插畫作品 Illustration Works",
+          "images": 17,
+          "failed": [],
+          "oldProjectUrls": false
+        },
+        {
+          "page": "/",
+          "title": "米淉 MiGuo | 首頁 Home",
+          "images": 12,
+          "failed": [],
+          "oldProjectUrls": false
+        }
+      ],
+      "mobile": [
+        {
+          "page": "/project/雪の妖精",
+          "images": 5
+        },
+        {
+          "page": "/project/水色の夢",
+          "images": 17
+        },
+        {
+          "page": "/projects/",
+          "images": 14
+        }
+      ]
+    }
+  },
   "updated_project_files": [
     "_projects/2023-09-14-下江コハル.md",
     "_projects/2024-02-09-年賀絵 Vol.2.md",
@@ -1514,5 +1719,7 @@
         }
       ]
     }
-  }
+  },
+  "bucket_object_count": 181,
+  "cleanup_completed_at": "2026-10-11T00:45:26.391254+08:00"
 }

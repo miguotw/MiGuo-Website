@@ -62,14 +62,14 @@ home_cover_image: https://cdn.miguo.art/site/home/hero-background.png
 # 作者設定 Author Settings
 author:
   author_name: 米淉 MiGuo
-  author_avatar: https://cdn.miguo.art/site/author/avatar.gif
+  author_avatar: https://cdn.miguo.art/site/author/avatar-02.jpg
 
 
 #-------------------------------
 # 英雄設定 Hero Settings
 hero:
   enable: true
-  hero_avatar: https://cdn.miguo.art/site/author/avatar.gif
+  hero_avatar: https://cdn.miguo.art/site/author/avatar-02.jpg
   hero_title: 米淉 MiGuo
   hero_description: <p>插畫繪製｜V皮繪製｜Live2D<br><br>歡畫可愛的女孩子～<br>如果有任何委託的需求，歡迎來信詢問～<br><br>かわいい女の子を描くのが好きにゃ～！<br>もしご依頼があれば、ぜひご連絡ください～<br><br>Email | <a href="mailto:hi@miguo.art">hi@miguo.art</a></p>
 

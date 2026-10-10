@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-11",
+  "scope": "author-and-hero-avatar-switch",
+  "bucket": "miguo-website-cdn",
+  "old_key": "site/author/avatar.gif",
+  "renamed_key": "site/author/avatar-01.gif",
+  "active_key": "site/author/avatar-02.jpg",
+  "entries": [
+    {
+      "key": "site/author/avatar-01.gif",
+      "bytes": 2609637,
+      "sha256": "14f87d45a223a8571ba3a83e72f3da73e848b28dadb6b644b08d2b6c45ce58a2",
+      "s3": "verified",
+      "cdn": "sha256-matched"
+    },
+    {
+      "key": "site/author/avatar-02.jpg",
+      "bytes": 61133,
+      "sha256": "b36927bdfa6856f2d9dc173d04ebc795ef6497b1ac07be876e7efd0358c5be5f",
+      "s3": "verified",
+      "cdn": "sha256-matched"
+    }
+  ],
+  "updated_url_occurrences": 2,
+  "updated_file": "_data/settings.yml",
+  "status": "verified-awaiting-deployment",
+  "old_source_retained": true,
+  "browser_validation": "Homepage and project author avatar: 1280px/390px, light/dark, real CDN JPEG decode passed"
+}

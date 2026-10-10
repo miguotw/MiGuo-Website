@@ -188,3 +188,5 @@ rclone lsf cloudflare-r2:miguo-website-cdn --max-depth 1
 - `.github/workflows/jekyll.yml` 在 push 到 `main` 或手動觸發時，建置並部署至 GitHub Pages。推送 pre-release 不會自動觸發此正式部署流程。
 - 合併 main 前取得最新遠端狀態，處理差異並建置。除非使用者要求，不自行改動部署流程。
 - 回報時區分「本機完成」、「已推送」與「已部署成功」；只有取得部署成功的證據，才宣稱網站已更新。
+
+- 2026-10-11 作者與首頁頭像改用 `site/author/avatar-02.jpg`；舊 GIF 保留為 `site/author/avatar-01.gif`。對照與部署／清理證據見 `maintenance/r2/2026-10-11-avatar-switch.json`。

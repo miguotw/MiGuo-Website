@@ -167,3 +167,5 @@
 - 作者頭像與首頁 hero 頭像改為 `site/author/avatar-02.jpg`，只更新 `_data/settings.yml` 的兩處 URL。既有 GIF 複製更名為 `site/author/avatar-01.gif` 並保留原內容與中繼資料。
 - JPG 與更名 GIF 的 S3／CDN 完整內容 SHA-256 均驗證通過；舊 `avatar.gif` 保留至正式網站切換成功後精確刪除。
 - 詳細紀錄見 [2026-10-11-avatar-switch.json](2026-10-11-avatar-switch.json)，部署與清理結果另補。
+
+部署 `a144126`／GitHub Pages run `38070771451` 成功，正式首頁與作品頁於桌面、手機及深淺色模式確認使用新 JPEG。重新比對 GIF 雜湊後已移除舊 `site/author/avatar.gif`；作者目錄保留 `avatar-01.gif` 與 `avatar-02.jpg`。

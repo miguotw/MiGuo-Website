@@ -23,7 +23,22 @@
   ],
   "updated_url_occurrences": 2,
   "updated_file": "_data/settings.yml",
-  "status": "verified-awaiting-deployment",
-  "old_source_retained": true,
-  "browser_validation": "Homepage and project author avatar: 1280px/390px, light/dark, real CDN JPEG decode passed"
+  "status": "deployed-old-key-removed",
+  "old_source_retained": false,
+  "browser_validation": "Homepage and project author avatar: 1280px/390px, light/dark, real CDN JPEG decode passed",
+  "deployment": {
+    "commit": "a1441266b06573048dc198e8c5b979d1516d2059",
+    "run": 38070771451,
+    "conclusion": "success",
+    "url": "https://github.com/miguotw/MiGuo-Website/actions/runs/38070771451"
+  },
+  "live_validation": "Homepage and project author avatar passed at 1280px/390px in light/dark; JPEG decoded; no old avatar URL",
+  "cleanup": {
+    "date": "2026-10-11",
+    "deleted_key": "site/author/avatar.gif",
+    "remaining_author_keys": [
+      "avatar-01.gif",
+      "avatar-02.jpg"
+    ]
+  }
 }

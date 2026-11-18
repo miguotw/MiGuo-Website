@@ -175,7 +175,7 @@
 - 依使用者指定的「桌布／壓縮」資料夾上傳 8 張完整版 PNG、8 張預覽 WebP，共 71,617,334 bytes。未上傳預覽 PNG、JPG 或 PSD，本機來源全部保留。
 - 完整版使用 `downloads/zzz-aod-wallpapers/`，預覽使用 `articles/zzz-aod-wallpapers/`，保留使用者的 pc、padh、padv、phone 檔名。先核對新 key 無撞名與 dry-run，再以 immutable 上傳；未覆寫或刪除既有物件。
 - 16 個 R2 物件與 CDN 完整 GET 回應的 SHA-256 均與來源相符。Content-Type 正確，Cache-Control 為 `public, max-age=14400`；PNG 提供 attachment Content-Disposition 與原檔名，供下載按鈕使用。
-- 新增 `_posts/2026-11-19-zzz-aod-wallpapers.md`，沿用 post、gallery 與 button 版型，提供四種版型的深淺色預覽與八個原圖下載入口；文案依使用者編輯保留顏文字，標題與下載按鈕均未使用 Font Awesome 圖示。
+- 新增 `_posts/2026-11-19-zzz-aod-wallpapers.md`，沿用 post、gallery 與 button 版型，提供四種版型的深淺色預覽與八個原圖下載入口；文案依使用者編輯保留顏文字，段落標題維持純文字，下載按鈕保留 Font Awesome 的 `fa-solid fa-circle-down` 圖示。
 - Jekyll 隔離建置、其他專案列表、sitemap、搜尋索引及維護資料排除檢查通過。無頭 Chrome 在 1440 × 1000 與 390 × 844、深淺色四種組合，均解碼八張實際 CDN 預覽圖、確認八個下載連結且無水平溢出；桌面淺色與手機深色截圖已檢視。未進行瀏覽器點擊下載測試；原圖已透過完整 CDN GET 與附件標頭驗證。
 - 此次為新增素材與貼文，素材已上傳 R2。依使用者要求，今日貼文、封面、維護紀錄與繁體中文 commit 規則僅提交並推送至 `pre-release`，尚未到正式發布時機；不推送 `main` 或觸發正式部署。沒有變更既有預覽服務、網站樣式與部署流程。
 - 詳細對照、來源 SHA-256、中繼資料、引用行號與驗證結果見 [2026-11-19-zzz-aod-wallpapers.json](2026-11-19-zzz-aod-wallpapers.json)。

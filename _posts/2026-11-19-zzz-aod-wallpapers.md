@@ -28,8 +28,8 @@ toc: true
 </div>
 
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png" download>下載電腦淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png" download>下載電腦深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦淺色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦深色版 PNG</a>
 </div>
 
 ***
@@ -44,8 +44,8 @@ toc: true
 </div>
 
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png" download>下載平板橫向淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png" download>下載平板橫向深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向淺色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向深色版 PNG</a>
 </div>
 
 ***
@@ -60,8 +60,8 @@ toc: true
 </div>
 
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png" download>下載平板直向淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png" download>下載平板直向深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向淺色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向深色版 PNG</a>
 </div>
 
 ***
@@ -76,8 +76,8 @@ toc: true
 </div>
 
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png" download>下載手機淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png" download>下載手機深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機淺色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機深色版 PNG</a>
 </div>
 
 ***

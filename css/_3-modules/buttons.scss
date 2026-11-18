@@ -1,6 +1,14 @@
 /* Button Group */
 .button-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
   margin-bottom: 24px;
+
+  &--center {
+    justify-content: center;
+  }
 
   &:last-child {
     margin-bottom: 0;

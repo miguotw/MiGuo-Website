@@ -16,6 +16,8 @@ toc: true
 
 共有四種版型，每款都有淺色與深色兩種配色，可以依照自己的裝置與喜好挑選。
 
+**下載提醒：本頁圖片皆為壓縮預覽，直接長按或另存圖片會取得預覽版。請使用各版型下方的下載按鈕，取得完整尺寸 PNG。**
+
 ***
 
 ## 電腦橫向
@@ -27,9 +29,11 @@ toc: true
   </div>
 </div>
 
+*上方為壓縮預覽圖，請使用下方按鈕下載完整版 PNG。*
+
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦淺色完整版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載電腦深色完整版 PNG</a>
 </div>
 
 ***
@@ -43,9 +47,11 @@ toc: true
   </div>
 </div>
 
+*上方為壓縮預覽圖，請使用下方按鈕下載完整版 PNG。*
+
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向淺色完整版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板橫向深色完整版 PNG</a>
 </div>
 
 ***
@@ -59,9 +65,11 @@ toc: true
   </div>
 </div>
 
+*上方為壓縮預覽圖，請使用下方按鈕下載完整版 PNG。*
+
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向淺色完整版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載平板直向深色完整版 PNG</a>
 </div>
 
 ***
@@ -75,15 +83,17 @@ toc: true
   </div>
 </div>
 
+*上方為壓縮預覽圖，請使用下方按鈕下載完整版 PNG。*
+
 <div class="button-group">
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機淺色版 PNG</a>
-  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機深色版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機淺色完整版 PNG</a>
+  <a class="button" href="https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png" download><i class="fa-solid fa-circle-down" aria-hidden="true"></i>下載手機深色完整版 PNG</a>
 </div>
 
 ***
 
 ## 下載與設定
 
-點選喜歡的版本，下載 PNG 後，再從裝置的桌布設定選取圖片。若手機瀏覽器先開啟圖片，可長按圖片儲存，或使用瀏覽器的下載功能。
+請使用各版型下方的下載按鈕取得完整版 PNG，再從裝置的桌布設定選取圖片。若點選下載按鈕後，手機瀏覽器先開啟 PNG 原圖，可再長按儲存，或使用瀏覽器的下載功能。
 
 桌布免費提供作為個人裝置桌布使用。喜歡這組桌布的話，也歡迎分享本頁連結，讓大家一起挑選喜歡的版本！(੭ु´ ᐜ `)੭ु⁾⁾

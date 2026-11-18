@@ -130,7 +130,8 @@
     inset: 0;
     z-index: -1;
     border-radius: inherit;
-    clip-path: inset(0 50%);
+    -webkit-mask: linear-gradient(90deg, transparent, #000 22%, #000 78%, transparent) center / 0% 100% no-repeat;
+    mask: linear-gradient(90deg, transparent, #000 22%, #000 78%, transparent) center / 0% 100% no-repeat;
     pointer-events: none;
   }
 }

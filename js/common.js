@@ -21,7 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Sweep grouped-button backgrounds from the center on both enter and leave.
   const buttonSweepReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  if (typeof Element.prototype.animate === "function") {
+  const buttonSweepMaskSize = CSS.supports("mask-image", "linear-gradient(black, transparent)")
+    ? "maskSize" : "webkitMaskSize";
+  if (typeof Element.prototype.animate === "function" &&
+      (CSS.supports("mask-image", "linear-gradient(black, transparent)") ||
+       CSS.supports("-webkit-mask-image", "linear-gradient(black, transparent)"))) {
     document.querySelectorAll(".button-group .button:not(.button--accent):not(.button--loading):not(.cta-button)")
       .forEach(function (button) {
         let hovered = false;
@@ -63,8 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
           button.appendChild(layer);
           layers.push(layer);
           const nextAnimation = layer.animate([
-            { clipPath: "inset(0 50%)" },
-            { clipPath: "inset(0 0%)" }
+            { [buttonSweepMaskSize]: "0% 100%", opacity: 0 },
+            { [buttonSweepMaskSize]: "40% 100%", opacity: 1, offset: 0.2 },
+            { [buttonSweepMaskSize]: "200% 100%", opacity: 1 }
           ], {
             duration: 360,
             easing: "cubic-bezier(0.4, 0, 0.2, 1)",

@@ -181,6 +181,7 @@ rclone lsf cloudflare-r2:miguo-website-cdn --max-depth 1
 
 ## Git 與部署
 
+- Git commit 的標題與說明內文一律使用繁體中文。
 - 遠端：`origin` → `https://github.com/miguotw/MiGuo-Website.git`。
 - 專案使用 `pre-release` 整理變更，`main` 供正式部署；開始工作時仍須確認目前分支，不假設一定在 pre-release。
 - 使用者於 2026-10-09 授權：後續每批 R2 素材遷移／路徑整理驗證完成後，直接建立 commit、推送 main 並部署，不需逐次詢問。確認 Actions 成功與正式網站新連結可用後，再清理仍被上一版使用的舊物件，補上維護紀錄。此持續授權限於素材遷移工作；其他提交、推送與合併仍依當次授權執行。

@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-19",
+  "scope": "zzz-aod-wallpapers-cover",
+  "status": "r2-and-cdn-verified-release-pending",
+  "post_file": "_posts/2026-11-19-zzz-aod-wallpapers.md",
+  "entries": [
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\封面圖.png",
+      "source_png_sha256": "eb5ec796b0316c4c9f6f364a81339a0fc4576dc5d4870804692b4c9996ccddc4",
+      "local_webp_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\cover.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/cover.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/cover.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/cover.webp",
+      "bytes": 192822,
+      "sha256": "72e293ff90208636ceecb0fd301d6eb1bd5e3da8df600bddabb9c918f03ff034",
+      "width": 1273,
+      "height": 716,
+      "content_type": "image/webp",
+      "encoding": {
+        "quality": 85,
+        "method": 6,
+        "lossless": false,
+        "icc_profile_retained": true
+      },
+      "source_retained": true,
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": "full-get-sha256-matched",
+        "http_status": 200,
+        "content_type": "image/webp",
+        "cache_control": "public, max-age=14400"
+      },
+      "r2_metadata": {
+        "atime": "2026-11-19T01:16:27.1949402+08:00",
+        "btime": "2026-11-18T17:16:32Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T01:15:47.1909959+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "references": [
+        {
+          "file": "_posts/2026-11-19-zzz-aod-wallpapers.md",
+          "line": 6
+        },
+        {
+          "file": "_posts/2026-11-19-zzz-aod-wallpapers.md",
+          "line": 13
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "branch": "pre-release",
+    "deployed": false,
+    "intended_url": "https://www.miguo.art/posts/zzz-aod-wallpapers",
+    "note": "依使用者要求，本批變更僅推送至 pre-release；頁面尚未到正式發布時機，不推送 main 或觸發正式部署。"
+  },
+  "dry_run": "passed-no-collision",
+  "post_validation": {
+    "jekyll_build": "passed",
+    "front_matter_image": "updated",
+    "body_cover": "updated",
+    "open_graph_image": "verified-in-build",
+    "twitter_image": "verified-in-build",
+    "other_projects_listing": "verified-in-build",
+    "local_webp_decode": "passed",
+    "maintenance_excluded": true,
+    "git_diff_check": "passed"
+  }
+}

@@ -19,6 +19,80 @@ document.addEventListener("DOMContentLoaded", function() {
     tabContents = document.querySelectorAll('.clients__tabs__item'),
     btnScrollToTop = document.querySelector(".top");
 
+  // Sweep grouped-button backgrounds from the center on both enter and leave.
+  const buttonSweepReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (typeof Element.prototype.animate === "function") {
+    document.querySelectorAll(".button-group .button:not(.button--accent):not(.button--loading):not(.cta-button)")
+      .forEach(function (button) {
+        let hovered = false;
+        let active = false;
+        let animation = null;
+        let layers = [];
+        button.classList.add("button--sweep");
+
+        function background() {
+          return active ? "var(--button-background-hover)" : "var(--button-rest-background)";
+        }
+
+        function finishSweep() {
+          animation = null;
+          button.style.setProperty("--button-sweep-base", background());
+          layers.forEach(function (layer) {
+            layer.getAnimations().forEach(function (running) { running.cancel(); });
+            layer.remove();
+          });
+          layers = [];
+        }
+
+        function updateSweep() {
+          const nextActive = hovered || button.matches(":focus-visible");
+          if (nextActive === active) return;
+          active = nextActive;
+          button.classList.toggle("button--sweep-active", active);
+          if (buttonSweepReducedMotion.matches) {
+            finishSweep();
+            return;
+          }
+
+          // Retain a partially revealed background when the interaction reverses.
+          if (animation) animation.pause();
+          const layer = document.createElement("span");
+          layer.className = "button__sweep";
+          layer.setAttribute("aria-hidden", "true");
+          layer.style.background = background();
+          button.appendChild(layer);
+          layers.push(layer);
+          const nextAnimation = layer.animate([
+            { clipPath: "inset(0 50%)" },
+            { clipPath: "inset(0 0%)" }
+          ], {
+            duration: 360,
+            easing: "cubic-bezier(0.4, 0, 0.2, 1)",
+            fill: "forwards"
+          });
+          animation = nextAnimation;
+          nextAnimation.onfinish = function () {
+            if (animation === nextAnimation) finishSweep();
+          };
+        }
+
+        button.addEventListener("pointerenter", function (event) {
+          if (event.pointerType === "touch") return;
+          hovered = true;
+          updateSweep();
+        });
+        button.addEventListener("pointerleave", function () {
+          hovered = false;
+          updateSweep();
+        });
+        button.addEventListener("focus", updateSweep);
+        button.addEventListener("blur", updateSweep);
+        buttonSweepReducedMotion.addEventListener("change", function () {
+          if (buttonSweepReducedMotion.matches) finishSweep();
+        });
+      });
+  }
+
   /* =======================================================
   // Page Transition Animation
   ======================================================= */

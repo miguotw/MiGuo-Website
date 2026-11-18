@@ -111,3 +111,36 @@
     }
   }
 }
+
+/* Grouped-button interaction backgrounds */
+.button-group .button.button--sweep {
+  --button-rest-background: var(--button-background-color);
+  position: relative;
+  isolation: isolate;
+  color: var(--button-color);
+  background: var(--button-sweep-base, var(--button-rest-background));
+  transition: color 180ms ease;
+
+  &.button--sweep-active {
+    color: var(--button-color-hover);
+  }
+
+  > .button__sweep {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    clip-path: inset(0 50%);
+    pointer-events: none;
+  }
+}
+
+.dark-mode .button-group .button.button--sweep {
+  --button-rest-background: var(--background-alt-color);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button-group .button.button--sweep {
+    transition: none;
+  }
+}

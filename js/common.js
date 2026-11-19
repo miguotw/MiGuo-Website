@@ -19,10 +19,11 @@ document.addEventListener("DOMContentLoaded", function() {
     tabContents = document.querySelectorAll('.clients__tabs__item'),
     btnScrollToTop = document.querySelector(".top");
 
-  // Sweep grouped-button backgrounds from the center on both enter and leave.
+  // Reveal grouped-button backgrounds from the pointer, or center for keyboard focus.
   const buttonSweepReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const buttonSweepMaskSize = CSS.supports("mask-image", "radial-gradient(circle, black, transparent)")
     ? "maskSize" : "webkitMaskSize";
+  const buttonSweepMaskPosition = buttonSweepMaskSize === "maskSize" ? "maskPosition" : "webkitMaskPosition";
   if (typeof Element.prototype.animate === "function" &&
       (CSS.supports("mask-image", "radial-gradient(circle, black, transparent)") ||
        CSS.supports("-webkit-mask-image", "radial-gradient(circle, black, transparent)"))) {
@@ -48,14 +49,35 @@ document.addEventListener("DOMContentLoaded", function() {
           layers = [];
         }
 
-        function updateSweep() {
+        function updateSweep(event) {
           const nextActive = hovered || button.matches(":focus-visible");
           if (nextActive === active) return;
+          const reducedMotion = buttonSweepReducedMotion.matches;
+          // Read geometry once, before changing styles; no pointermove tracking is needed.
+          const bounds = reducedMotion ? null : button.getBoundingClientRect();
           active = nextActive;
           button.classList.toggle("button--sweep-active", active);
-          if (buttonSweepReducedMotion.matches) {
+          if (reducedMotion) {
             finishSweep();
             return;
+          }
+
+          const fromPointer = event && event.type.indexOf("pointer") === 0;
+          const originX = fromPointer ? Math.max(0, Math.min(bounds.width, event.clientX - bounds.left)) : bounds.width / 2;
+          const originY = fromPointer ? Math.max(0, Math.min(bounds.height, event.clientY - bounds.top)) : bounds.height / 2;
+          const reach = Math.hypot(Math.max(originX, bounds.width - originX), Math.max(originY, bounds.height - originY));
+          const spread = reach / Math.hypot(bounds.width / 2, bounds.height / 2);
+
+          function haloFrame(widthPercent, heightPercent, opacity, offset) {
+            const width = bounds.width * widthPercent * spread / 100;
+            const height = bounds.height * heightPercent * spread / 100;
+            const frame = {
+              [buttonSweepMaskSize]: width + "px " + height + "px",
+              [buttonSweepMaskPosition]: (originX - width / 2) + "px " + (originY - height / 2) + "px",
+              opacity
+            };
+            if (offset !== undefined) frame.offset = offset;
+            return frame;
           }
 
           // Retain a partially revealed background when the interaction reverses.
@@ -67,11 +89,11 @@ document.addEventListener("DOMContentLoaded", function() {
           button.appendChild(layer);
           layers.push(layer);
           const nextAnimation = layer.animate([
-            { [buttonSweepMaskSize]: "0% 0%", opacity: 0 },
-            { [buttonSweepMaskSize]: "24% 100%", opacity: 0.25, offset: 0.2 },
-            { [buttonSweepMaskSize]: "90% 180%", opacity: 0.72, offset: 0.5 },
-            { [buttonSweepMaskSize]: "220% 300%", opacity: 1, offset: 0.8 },
-            { [buttonSweepMaskSize]: "400% 400%", opacity: 1 }
+            haloFrame(0, 0, 0),
+            haloFrame(24, 100, 0.25, 0.2),
+            haloFrame(90, 180, 0.72, 0.5),
+            haloFrame(220, 300, 1, 0.8),
+            haloFrame(400, 400, 1)
           ], {
             duration: 250,
             easing: "cubic-bezier(0.42, 0, 0.58, 1)",
@@ -86,11 +108,11 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener("pointerenter", function (event) {
           if (event.pointerType === "touch") return;
           hovered = true;
-          updateSweep();
+          updateSweep(event);
         });
-        button.addEventListener("pointerleave", function () {
+        button.addEventListener("pointerleave", function (event) {
           hovered = false;
-          updateSweep();
+          updateSweep(event);
         });
         button.addEventListener("focus", updateSweep);
         button.addEventListener("blur", updateSweep);

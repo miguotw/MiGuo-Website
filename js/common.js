@@ -661,6 +661,66 @@ document.addEventListener("DOMContentLoaded", function() {
 
   load_posts_button&&load_posts_button.addEventListener("click",function(e){e.preventDefault();var t=load_posts_button.textContent;load_posts_button.classList.add("button--loading"),load_posts_button.dispatchEvent(new Event("button-sweep-reset")),load_posts_button.textContent="載入中";var o=pagination_next_url.split("/page")[0]+"/page/"+pagination_next_page_number+"/";fetch(o).then(function(e){if(e.ok)return e.text()}).then(function(e){var t=document.createElement("div");t.innerHTML=e;for(var o=document.querySelector(".grid"),n=t.querySelectorAll(".grid__post"),a=0;a<n.length;a++)o.appendChild(n.item(a));new LazyLoad({elements_selector:".lazy"}),updateUI(),pagination_next_page_number++,pagination_next_page_number>pagination_available_pages_number&&(load_posts_button.style.display="none",document.querySelector(".load-more-complete").style.display="block")}).finally(function(){load_posts_button.classList.remove("button--loading"),load_posts_button.textContent=t})});
 
+  // Animate the native table of contents while preserving summary keyboard activation.
+  const tocReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  if (typeof Element.prototype.animate === "function") {
+    document.querySelectorAll("details.post__toc, details.page__toc").forEach(function (toc) {
+      const summary = toc.querySelector("summary");
+      if (!summary) return;
+      let expanded = toc.open;
+      let animation = null;
+
+      function finishToc() {
+        toc.open = expanded;
+        if (animation) animation.cancel();
+        animation = null;
+        toc.classList.remove("toc--animating");
+      }
+
+      summary.addEventListener("click", function (event) {
+        event.preventDefault();
+        const startHeight = toc.getBoundingClientRect().height;
+        expanded = !expanded;
+        if (animation) animation.cancel();
+        animation = null;
+        if (tocReducedMotion.matches) {
+          finishToc();
+          return;
+        }
+
+        toc.classList.add("toc--animating");
+        toc.open = true;
+        const style = getComputedStyle(toc);
+        const closedHeight = summary.getBoundingClientRect().height +
+          parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) +
+          parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+        const endHeight = expanded ? toc.getBoundingClientRect().height : closedHeight;
+        const nextAnimation = toc.animate([
+          { height: startHeight + "px" },
+          { height: endHeight + "px" }
+        ], {
+          duration: 300,
+          easing: "cubic-bezier(0.4, 0, 0.2, 1)",
+          fill: "both"
+        });
+        animation = nextAnimation;
+        nextAnimation.onfinish = function () {
+          if (animation === nextAnimation) finishToc();
+        };
+      });
+
+      toc.addEventListener("toggle", function () {
+        if (!animation) expanded = toc.open;
+      });
+      tocReducedMotion.addEventListener("change", function () {
+        if (tocReducedMotion.matches) finishToc();
+      });
+      window.addEventListener("resize", function () {
+        if (animation) finishToc();
+      });
+    });
+  }
+
   // Smooth same-page anchors
   document.querySelectorAll("a[href*='#']").forEach(function (anchor) {
     var href = anchor.getAttribute('href');

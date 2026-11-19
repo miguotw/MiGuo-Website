@@ -172,6 +172,10 @@
   border-radius: 12px;
   background: var(--background-alt-color);
 
+  &.toc--animating {
+    overflow: hidden;
+  }
+
   summary {
     display: flex;
     align-items: center;

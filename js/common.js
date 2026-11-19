@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
             { [buttonSweepMaskSize]: "220% 300%", opacity: 1, offset: 0.8 },
             { [buttonSweepMaskSize]: "400% 400%", opacity: 1 }
           ], {
-            duration: 650,
+            duration: 250,
             easing: "cubic-bezier(0.42, 0, 0.58, 1)",
             fill: "forwards"
           });

@@ -119,7 +119,7 @@
   isolation: isolate;
   color: var(--button-color);
   background: var(--button-sweep-base, var(--button-rest-background));
-  transition: color 420ms ease-in-out;
+  transition: color 160ms ease-in-out;
 
   &.button--sweep-active {
     color: var(--button-color-hover);

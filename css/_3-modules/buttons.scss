@@ -119,7 +119,7 @@
   isolation: isolate;
   color: var(--button-color);
   background: var(--button-sweep-base, var(--button-rest-background));
-  transition: color 180ms ease;
+  transition: color 700ms ease-in-out;
 
   &.button--sweep-active {
     color: var(--button-color-hover);
@@ -130,8 +130,8 @@
     inset: 0;
     z-index: -1;
     border-radius: inherit;
-    -webkit-mask: linear-gradient(90deg, transparent, #000 22%, #000 78%, transparent) center / 0% 100% no-repeat;
-    mask: linear-gradient(90deg, transparent, #000 22%, #000 78%, transparent) center / 0% 100% no-repeat;
+    -webkit-mask: radial-gradient(circle at center, #000 28%, rgba(0, 0, 0, 0.65) 48%, rgba(0, 0, 0, 0.2) 68%, transparent 85%) center / 0% 0% no-repeat;
+    mask: radial-gradient(circle at center, #000 28%, rgba(0, 0, 0, 0.65) 48%, rgba(0, 0, 0, 0.2) 68%, transparent 85%) center / 0% 0% no-repeat;
     pointer-events: none;
   }
 }

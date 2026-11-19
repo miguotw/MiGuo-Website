@@ -197,25 +197,44 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Dropdown Menu
-  document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
-    toggle.addEventListener('click', function(e) {
-      e.preventDefault();
+  const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
 
-      document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
-        if (menu !== toggle.nextElementSibling) {
-          menu.classList.remove('is-visible');
-        }
+  function setDropdownState(toggle, open) {
+    const dropdown = toggle.nextElementSibling;
+    dropdown.classList.toggle("is-visible", open);
+    toggle.setAttribute("aria-expanded", String(open));
+    // On mobile these links are part of the main navigation, not a separate popup.
+    dropdown.inert = !open && getComputedStyle(toggle).display !== "none";
+  }
+
+  dropdownToggles.forEach(function (toggle) {
+    setDropdownState(toggle, false);
+    toggle.addEventListener("click", function (event) {
+      event.preventDefault();
+      dropdownToggles.forEach(function (other) {
+        if (other !== toggle) setDropdownState(other, false);
       });
+      setDropdownState(toggle, !toggle.nextElementSibling.classList.contains("is-visible"));
+    });
+  });
 
-      this.nextElementSibling.classList.toggle('is-visible');
+  window.addEventListener("resize", function () {
+    dropdownToggles.forEach(function (toggle) { setDropdownState(toggle, false); });
+  });
+  document.addEventListener("keydown", function (event) {
+    if (event.key !== "Escape") return;
+    dropdownToggles.forEach(function (toggle) {
+      const dropdown = toggle.nextElementSibling;
+      if (!dropdown.classList.contains("is-visible")) return;
+      const restoreFocus = document.activeElement === toggle || dropdown.contains(document.activeElement);
+      setDropdownState(toggle, false);
+      if (restoreFocus) toggle.focus();
     });
   });
 
   document.addEventListener('click', function(e) {
     if (!e.target.closest('.nav__item')) {
-      document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
-        menu.classList.remove('is-visible');
-      });
+      dropdownToggles.forEach(function (toggle) { setDropdownState(toggle, false); });
     }
 
     const isClickInsideMenu = e.target.closest('.main-nav');
@@ -699,7 +718,7 @@ document.addEventListener("DOMContentLoaded", function() {
           { height: startHeight + "px" },
           { height: endHeight + "px" }
         ], {
-          duration: 300,
+          duration: 250,
           easing: "cubic-bezier(0.4, 0, 0.2, 1)",
           fill: "both"
         });

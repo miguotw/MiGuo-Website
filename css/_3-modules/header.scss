@@ -180,6 +180,9 @@
           padding: 0;
           box-shadow: none;
           background: inherit;
+          transform: none;
+          transition: none;
+          pointer-events: auto;
         }
 
         .nav__link {
@@ -275,7 +278,15 @@
         display: flex;
         align-items: center;
         height: 20px;
+        padding: 0;
+        border: 0;
+        background: transparent;
         cursor: pointer;
+
+        &:focus-visible {
+          outline: 2px solid var(--primary-color);
+          outline-offset: 4px;
+        }
       }
     }
 
@@ -292,6 +303,12 @@
       border-radius: 12px;
       box-shadow: 0 8px 40px -8px rgba(0, 0, 0, .22);
       background: var(--background-color);
+      transform: translateY(-6px);
+      transform-origin: top center;
+      pointer-events: none;
+      transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1),
+        transform 250ms cubic-bezier(0, 0, 0.2, 1),
+        visibility 0s linear 250ms;
 
       &:hover {
         .nav__link {
@@ -310,6 +327,10 @@
       &.is-visible {
         opacity: 1;
         visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0s;
       }
 
       .nav__link {
@@ -476,6 +497,15 @@
     .search-icon {
       height: 22px;
       width: 22px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav__list .nav__item .dropdown-menu {
+    &, &.is-visible {
+      transform: none;
+      transition: none;
     }
   }
 }

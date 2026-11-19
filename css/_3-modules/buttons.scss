@@ -112,17 +112,16 @@
   }
 }
 
-/* Grouped-button interaction backgrounds */
-.button-group .button.button--sweep {
+/* Button interaction backgrounds */
+.button.button--sweep {
   --button-rest-background: var(--button-background-color);
   position: relative;
   isolation: isolate;
-  color: var(--button-color);
-  background: var(--button-sweep-base, var(--button-rest-background));
+  --button-sweep-color: var(--button-color);
   transition: color 160ms ease-in-out;
 
   &.button--sweep-active {
-    color: var(--button-color-hover);
+    --button-sweep-color: var(--button-color-hover);
   }
 
   > .button__sweep {
@@ -136,12 +135,20 @@
   }
 }
 
-.dark-mode .button-group .button.button--sweep {
+.dark-mode .button.button--sweep:not(.cta-button) {
   --button-rest-background: var(--background-alt-color);
 }
 
+.button.button--sweep,
+.dark-mode .button.button--sweep {
+  &, &:hover, &:focus-visible {
+    color: var(--button-sweep-color);
+    background: var(--button-sweep-base, var(--button-rest-background));
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .button-group .button.button--sweep {
+  .button.button--sweep {
     transition: none;
   }
 }

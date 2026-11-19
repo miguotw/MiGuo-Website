@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tabContents = document.querySelectorAll('.clients__tabs__item'),
     btnScrollToTop = document.querySelector(".top");
 
-  // Reveal grouped-button backgrounds from the pointer, or center for keyboard focus.
+  // Reveal button backgrounds from the pointer, or center for keyboard focus.
   const buttonSweepReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const buttonSweepMaskSize = CSS.supports("mask-image", "radial-gradient(circle, black, transparent)")
     ? "maskSize" : "webkitMaskSize";
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (typeof Element.prototype.animate === "function" &&
       (CSS.supports("mask-image", "radial-gradient(circle, black, transparent)") ||
        CSS.supports("-webkit-mask-image", "radial-gradient(circle, black, transparent)"))) {
-    document.querySelectorAll(".button-group .button:not(.button--accent):not(.button--loading):not(.cta-button)")
+    document.querySelectorAll(".button-group .button:not(.button--accent):not(.button--loading), .button.cta-button, .button.load-more-posts")
       .forEach(function (button) {
         let hovered = false;
         let active = false;
@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function() {
         function updateSweep(event) {
           const nextActive = hovered || button.matches(":focus-visible");
           if (nextActive === active) return;
-          const reducedMotion = buttonSweepReducedMotion.matches;
+          const skipAnimation = buttonSweepReducedMotion.matches || button.classList.contains("button--loading");
           // Read geometry once, before changing styles; no pointermove tracking is needed.
-          const bounds = reducedMotion ? null : button.getBoundingClientRect();
+          const bounds = skipAnimation ? null : button.getBoundingClientRect();
           let currentFrame = null;
-          if (!reducedMotion && layer) {
+          if (!skipAnimation && layer) {
             const style = getComputedStyle(layer);
             currentFrame = {
               [buttonSweepMaskSize]: style[buttonSweepMaskSize],
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
           }
           active = nextActive;
           button.classList.toggle("button--sweep-active", active);
-          if (reducedMotion) {
+          if (skipAnimation) {
             finishSweep();
             return;
           }
@@ -138,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         button.addEventListener("focus", updateSweep);
         button.addEventListener("blur", updateSweep);
+        button.addEventListener("button-sweep-reset", finishSweep);
         buttonSweepReducedMotion.addEventListener("change", function () {
           if (buttonSweepReducedMotion.matches) finishSweep();
         });
@@ -658,7 +659,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // =====================
   var load_posts_button = document.querySelector(".load-more-posts");
 
-  load_posts_button&&load_posts_button.addEventListener("click",function(e){e.preventDefault();var t=load_posts_button.textContent;load_posts_button.classList.add("button--loading"),load_posts_button.textContent="載入中";var o=pagination_next_url.split("/page")[0]+"/page/"+pagination_next_page_number+"/";fetch(o).then(function(e){if(e.ok)return e.text()}).then(function(e){var t=document.createElement("div");t.innerHTML=e;for(var o=document.querySelector(".grid"),n=t.querySelectorAll(".grid__post"),a=0;a<n.length;a++)o.appendChild(n.item(a));new LazyLoad({elements_selector:".lazy"}),updateUI(),pagination_next_page_number++,pagination_next_page_number>pagination_available_pages_number&&(load_posts_button.style.display="none",document.querySelector(".load-more-complete").style.display="block")}).finally(function(){load_posts_button.classList.remove("button--loading"),load_posts_button.textContent=t})});
+  load_posts_button&&load_posts_button.addEventListener("click",function(e){e.preventDefault();var t=load_posts_button.textContent;load_posts_button.classList.add("button--loading"),load_posts_button.dispatchEvent(new Event("button-sweep-reset")),load_posts_button.textContent="載入中";var o=pagination_next_url.split("/page")[0]+"/page/"+pagination_next_page_number+"/";fetch(o).then(function(e){if(e.ok)return e.text()}).then(function(e){var t=document.createElement("div");t.innerHTML=e;for(var o=document.querySelector(".grid"),n=t.querySelectorAll(".grid__post"),a=0;a<n.length;a++)o.appendChild(n.item(a));new LazyLoad({elements_selector:".lazy"}),updateUI(),pagination_next_page_number++,pagination_next_page_number>pagination_available_pages_number&&(load_posts_button.style.display="none",document.querySelector(".load-more-complete").style.display="block")}).finally(function(){load_posts_button.classList.remove("button--loading"),load_posts_button.textContent=t})});
 
   // Smooth same-page anchors
   document.querySelectorAll("a[href*='#']").forEach(function (anchor) {

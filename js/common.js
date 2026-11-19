@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let hovered = false;
         let active = false;
         let animation = null;
-        let layers = [];
+        let layer = null;
         button.classList.add("button--sweep");
 
         function background() {
@@ -40,13 +40,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         function finishSweep() {
-          animation = null;
           button.style.setProperty("--button-sweep-base", background());
-          layers.forEach(function (layer) {
-            layer.getAnimations().forEach(function (running) { running.cancel(); });
-            layer.remove();
-          });
-          layers = [];
+          if (animation) animation.cancel();
+          animation = null;
+          if (layer) layer.remove();
+          layer = null;
         }
 
         function updateSweep(event) {
@@ -55,6 +53,15 @@ document.addEventListener("DOMContentLoaded", function() {
           const reducedMotion = buttonSweepReducedMotion.matches;
           // Read geometry once, before changing styles; no pointermove tracking is needed.
           const bounds = reducedMotion ? null : button.getBoundingClientRect();
+          let currentFrame = null;
+          if (!reducedMotion && layer) {
+            const style = getComputedStyle(layer);
+            currentFrame = {
+              [buttonSweepMaskSize]: style[buttonSweepMaskSize],
+              [buttonSweepMaskPosition]: style[buttonSweepMaskPosition],
+              opacity: style.opacity
+            };
+          }
           active = nextActive;
           button.classList.toggle("button--sweep-active", active);
           if (reducedMotion) {
@@ -80,21 +87,36 @@ document.addEventListener("DOMContentLoaded", function() {
             return frame;
           }
 
-          // Retain a partially revealed background when the interaction reverses.
-          if (animation) animation.pause();
-          const layer = document.createElement("span");
-          layer.className = "button__sweep";
-          layer.setAttribute("aria-hidden", "true");
-          layer.style.background = background();
-          button.appendChild(layer);
-          layers.push(layer);
-          const nextAnimation = layer.animate([
+          // Reuse one glow and continue from its current mask on rapid reversals.
+          if (animation) animation.cancel();
+          if (!layer) {
+            layer = document.createElement("span");
+            layer.className = "button__sweep";
+            layer.setAttribute("aria-hidden", "true");
+            layer.style.background = "var(--button-background-hover)";
+            button.appendChild(layer);
+          }
+          const frames = currentFrame ? [
+            currentFrame,
+            active ? haloFrame(400, 400, 1) : haloFrame(0, 0, 0)
+          ] : active ? [
             haloFrame(0, 0, 0),
             haloFrame(24, 100, 0.25, 0.2),
             haloFrame(90, 180, 0.72, 0.5),
             haloFrame(220, 300, 1, 0.8),
             haloFrame(400, 400, 1)
-          ], {
+          ] : [
+            haloFrame(400, 400, 1),
+            haloFrame(220, 300, 1, 0.2),
+            haloFrame(90, 180, 0.72, 0.5),
+            haloFrame(24, 100, 0.25, 0.8),
+            haloFrame(0, 0, 0)
+          ];
+          layer.style[buttonSweepMaskSize] = frames[0][buttonSweepMaskSize];
+          layer.style[buttonSweepMaskPosition] = frames[0][buttonSweepMaskPosition];
+          layer.style.opacity = frames[0].opacity;
+          button.style.setProperty("--button-sweep-base", "var(--button-rest-background)");
+          const nextAnimation = layer.animate(frames, {
             duration: 250,
             easing: "cubic-bezier(0.42, 0, 0.58, 1)",
             fill: "forwards"

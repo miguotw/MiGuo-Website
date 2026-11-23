@@ -1,0 +1,1208 @@
+{
+  "date": "2026-11-19T15:11:59.384929+00:00",
+  "scope": "zzz-aod-wallpapers-new-artwork-refresh",
+  "status": "r2-and-cdn-verified-release-pending",
+  "publication": {
+    "branch": "pre-release",
+    "deployed": false,
+    "note": "本次只更新 R2 素材；貼文仍未正式發布，不推送 main。"
+  },
+  "entries": [
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padh-dark-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padh-dark-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-original.png",
+      "bytes": 10392661,
+      "sha256": "2b56155ff2b431f5b039de84c05e4b970043936b786425fbcb26d9b98d3e9428",
+      "width": 2920,
+      "height": 2064,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "989582492855b177f5f56bc3bb28ce747709a1fef0c3e8d0f301da52b5e22cc3",
+        "bytes": 11153410,
+        "metadata": {
+          "atime": "2026-11-19T00:50:24.6704898+08:00",
+          "btime": "2026-11-18T16:52:50Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-dark-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:35:43.8348025+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padh-dark-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:11:59.3896789+08:00",
+        "btime": "2026-11-19T15:12:02Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-dark-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:48.393258+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 10392661,
+          "sha256": "2b56155ff2b431f5b039de84c05e4b970043936b786425fbcb26d9b98d3e9428",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 10392661,
+          "sha256": "2b56155ff2b431f5b039de84c05e4b970043936b786425fbcb26d9b98d3e9428",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padh-dark-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padh-dark-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-dark-preview.webp",
+      "bytes": 170366,
+      "sha256": "64a504c4f00c2146c3a13ed36f640519f185e43a31f96e4550b9a57b8981a473",
+      "width": 1273,
+      "height": 900,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "3eafbf7f70612505ae84c5248095546f867c612e43652279ecdb9e29f014b9ae",
+        "bytes": 296566,
+        "metadata": {
+          "atime": "2026-11-19T00:50:24.7198036+08:00",
+          "btime": "2026-11-18T16:52:51Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:36.5757098+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padh-dark-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:02.8864996+08:00",
+        "btime": "2026-11-19T15:12:04Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:49.6340556+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 170366,
+          "sha256": "64a504c4f00c2146c3a13ed36f640519f185e43a31f96e4550b9a57b8981a473",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 170366,
+          "sha256": "64a504c4f00c2146c3a13ed36f640519f185e43a31f96e4550b9a57b8981a473",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padh-light-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padh-light-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-original.png",
+      "bytes": 8623100,
+      "sha256": "e188a45c1a34dd8ec7c8d854bcc32c92194f55a50d3445c7405272c79bc7d992",
+      "width": 2920,
+      "height": 2064,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "9d947b4cc8fc97f82d5e5a9ba5cb884a2fe697c3c414cc4bc3e48ad3dbf55802",
+        "bytes": 10029107,
+        "metadata": {
+          "atime": "2026-11-19T00:50:24.8224587+08:00",
+          "btime": "2026-11-18T16:52:54Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-light-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:35:47.3381513+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padh-light-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:04.4510318+08:00",
+        "btime": "2026-11-19T15:12:07Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-light-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:51.5966684+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 8623100,
+          "sha256": "e188a45c1a34dd8ec7c8d854bcc32c92194f55a50d3445c7405272c79bc7d992",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 8623100,
+          "sha256": "e188a45c1a34dd8ec7c8d854bcc32c92194f55a50d3445c7405272c79bc7d992",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padh-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padh-light-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padh-light-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padh-light-preview.webp",
+      "bytes": 105954,
+      "sha256": "9dca08923606102950ee6e0fe70b6bde2a0c199c29a98bde7746dad30052f608",
+      "width": 1273,
+      "height": 900,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "b3339356f59329a031d474d9601263276aa32e2e835ace383c89b9e6292fd506",
+        "bytes": 242938,
+        "metadata": {
+          "atime": "2026-11-19T00:50:24.8667197+08:00",
+          "btime": "2026-11-18T16:52:56Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:37.0992153+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padh-light-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:07.7751735+08:00",
+        "btime": "2026-11-19T15:12:09Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:52.6952615+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 105954,
+          "sha256": "9dca08923606102950ee6e0fe70b6bde2a0c199c29a98bde7746dad30052f608",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 105954,
+          "sha256": "9dca08923606102950ee6e0fe70b6bde2a0c199c29a98bde7746dad30052f608",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padv-dark-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padv-dark-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-original.png",
+      "bytes": 10347843,
+      "sha256": "56c6bbad3a29618df3a78143e94bdf9ab9e3db199cd072be6bfcc8dec8ae4c69",
+      "width": 2064,
+      "height": 2920,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "0249f07b80f6eb2c89651ee2270f31e91b2236d1da75fbd25487b92002b11cf0",
+        "bytes": 11131214,
+        "metadata": {
+          "atime": "2026-11-19T00:50:24.9712127+08:00",
+          "btime": "2026-11-18T16:53:00Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-dark-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:35:12.6935459+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padv-dark-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:09.1163347+08:00",
+        "btime": "2026-11-19T15:12:12Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-dark-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:54.2645155+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 10347843,
+          "sha256": "56c6bbad3a29618df3a78143e94bdf9ab9e3db199cd072be6bfcc8dec8ae4c69",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 10347843,
+          "sha256": "56c6bbad3a29618df3a78143e94bdf9ab9e3db199cd072be6bfcc8dec8ae4c69",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padv-dark-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padv-dark-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-dark-preview.webp",
+      "bytes": 166312,
+      "sha256": "0f2f72522fd6cd86221f11e43e3527f19ac0f50b6b1228e95ebaffdd578e7a8c",
+      "width": 900,
+      "height": 1273,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "7d0d7f2ee0c4f62fd4811ef25a72d472641a59f7a8b93ebeb4a5079dcf571943",
+        "bytes": 294180,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.0188788+08:00",
+          "btime": "2026-11-18T16:53:01Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:37.739947+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padv-dark-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:12.3386254+08:00",
+        "btime": "2026-11-19T15:12:13Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:55.4452574+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 166312,
+          "sha256": "0f2f72522fd6cd86221f11e43e3527f19ac0f50b6b1228e95ebaffdd578e7a8c",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 166312,
+          "sha256": "0f2f72522fd6cd86221f11e43e3527f19ac0f50b6b1228e95ebaffdd578e7a8c",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padv-light-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padv-light-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-original.png",
+      "bytes": 8633798,
+      "sha256": "c93a4bb4d4c731a95f08f22083f1dfcdbad31a64e4e3f844983aec5be5e75dfa",
+      "width": 2064,
+      "height": 2920,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "566cb2f5ae6d111e6767f1365f24eabb9b6c3349113cfa43cf5897a391ee192b",
+        "bytes": 10239280,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.1342342+08:00",
+          "btime": "2026-11-18T16:53:04Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-light-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:35:16.1897757+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padv-light-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:13.550914+08:00",
+        "btime": "2026-11-19T15:12:16Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-light-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:57.5180418+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 8633798,
+          "sha256": "c93a4bb4d4c731a95f08f22083f1dfcdbad31a64e4e3f844983aec5be5e75dfa",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 8633798,
+          "sha256": "c93a4bb4d4c731a95f08f22083f1dfcdbad31a64e4e3f844983aec5be5e75dfa",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-padv-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-padv-light-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-padv-light-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-padv-light-preview.webp",
+      "bytes": 105540,
+      "sha256": "024192eaf819d94e53de855af6610b2b779c1f604bc4cb3c62d6bca1278a8a9e",
+      "width": 900,
+      "height": 1273,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "fc3bfe7b8b948ba0fd29e95b3a4c22e7ade76b714c170c7ecdf89820324fdb33",
+        "bytes": 255176,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.1797822+08:00",
+          "btime": "2026-11-18T16:53:06Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:38.3117714+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-padv-light-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:16.5881953+08:00",
+        "btime": "2026-11-19T15:12:18Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:06:58.9427787+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 105540,
+          "sha256": "024192eaf819d94e53de855af6610b2b779c1f604bc4cb3c62d6bca1278a8a9e",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 105540,
+          "sha256": "024192eaf819d94e53de855af6610b2b779c1f604bc4cb3c62d6bca1278a8a9e",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-pc-dark-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-pc-dark-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-original.png",
+      "bytes": 6357796,
+      "sha256": "8e79642dbc966af61b2f410a98ab22093c5f96bf81762b714c8aa3ca0dd99828",
+      "width": 2560,
+      "height": 1440,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "6055b64141ef8f5e892b630f376e92b71fe8a3758dc259e4dc1c6c48d370286e",
+        "bytes": 7079951,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.2453494+08:00",
+          "btime": "2026-11-18T16:53:08Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-dark-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:33:28.3032541+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-pc-dark-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:18.0543103+08:00",
+        "btime": "2026-11-19T15:12:21Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-dark-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:00.5011734+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 6357796,
+          "sha256": "8e79642dbc966af61b2f410a98ab22093c5f96bf81762b714c8aa3ca0dd99828",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 6357796,
+          "sha256": "8e79642dbc966af61b2f410a98ab22093c5f96bf81762b714c8aa3ca0dd99828",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-pc-dark-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-pc-dark-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-dark-preview.webp",
+      "bytes": 110442,
+      "sha256": "2df50dce71505e7b4f6787237291a1cb9cb66a50dcd1fbb32d81b6554a0f9e2b",
+      "width": 1280,
+      "height": 720,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "fe9511e1db4bf01b028bf4f2c9c52e5557a070c482d982f12bd1f145a2796fb5",
+        "bytes": 253772,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.2840439+08:00",
+          "btime": "2026-11-18T16:53:10Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:38.7757717+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-pc-dark-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:20.8404261+08:00",
+        "btime": "2026-11-19T15:12:23Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:01.6902482+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 110442,
+          "sha256": "2df50dce71505e7b4f6787237291a1cb9cb66a50dcd1fbb32d81b6554a0f9e2b",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 110442,
+          "sha256": "2df50dce71505e7b4f6787237291a1cb9cb66a50dcd1fbb32d81b6554a0f9e2b",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-pc-light-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-pc-light-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-original.png",
+      "bytes": 5337896,
+      "sha256": "1f2c95484c3002a5c3edf3c7f118243b648f9dd4721fa5fc3ce87814c598f372",
+      "width": 2560,
+      "height": 1440,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "bdf45311ce71908999b5559d69b7aaea2f62b8eaf459f7de718a366e83bebcba",
+        "bytes": 6402297,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.3458091+08:00",
+          "btime": "2026-11-18T16:53:13Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-light-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:33:31.4840562+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-pc-light-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:23.0467564+08:00",
+        "btime": "2026-11-19T15:12:25Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-light-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:03.4868709+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 5337896,
+          "sha256": "1f2c95484c3002a5c3edf3c7f118243b648f9dd4721fa5fc3ce87814c598f372",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-light-original.png\"",
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 5337896,
+          "sha256": "1f2c95484c3002a5c3edf3c7f118243b648f9dd4721fa5fc3ce87814c598f372",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-pc-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-pc-light-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-pc-light-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-pc-light-preview.webp",
+      "bytes": 72628,
+      "sha256": "4770fb4ae7fedfc0c86b894bbb79f75f1734ecbf7c4a21f4c77f25ef667fcae8",
+      "width": 1280,
+      "height": 720,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "a5faddfc2564e747cd7a3724816992f4e62c502f9ba6125f97423fcf86de5cb8",
+        "bytes": 213030,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.3823121+08:00",
+          "btime": "2026-11-18T16:53:14Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:39.177952+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-pc-light-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:25.7264334+08:00",
+        "btime": "2026-11-19T15:12:27Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:04.9032864+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 72628,
+          "sha256": "4770fb4ae7fedfc0c86b894bbb79f75f1734ecbf7c4a21f4c77f25ef667fcae8",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 72628,
+          "sha256": "4770fb4ae7fedfc0c86b894bbb79f75f1734ecbf7c4a21f4c77f25ef667fcae8",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-phone-dark-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-phone-dark-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-original.png",
+      "bytes": 6677033,
+      "sha256": "a8e937c180e9dc758167579d218aa8c5302077836ee1a745e9484b6037f00561",
+      "width": 1324,
+      "height": 2868,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "94f6983e266a2814c8477f69f5ab206e90843efdf258d8e7e02ebc200f268f66",
+        "bytes": 7086799,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.4504869+08:00",
+          "btime": "2026-11-18T16:53:16Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-dark-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:36:48.0166029+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-phone-dark-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:27.2803481+08:00",
+        "btime": "2026-11-19T15:12:30Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-dark-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:06.2873782+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 6677033,
+          "sha256": "a8e937c180e9dc758167579d218aa8c5302077836ee1a745e9484b6037f00561",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-dark-original.png\"",
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 6677033,
+          "sha256": "a8e937c180e9dc758167579d218aa8c5302077836ee1a745e9484b6037f00561",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-dark-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-phone-dark-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-phone-dark-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-dark-preview.webp",
+      "bytes": 147008,
+      "sha256": "d2a67a9976de7ed1f08f3f3ade81b394914567b9e433efb934093b1cf486a8ad",
+      "width": 720,
+      "height": 1560,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "de21ddda2da215d1d69f4e44650446bf971d932aca9e67544e049c669ea37747",
+        "bytes": 321458,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.4997707+08:00",
+          "btime": "2026-11-18T16:53:18Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:39.6767416+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-phone-dark-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:30.4629236+08:00",
+        "btime": "2026-11-19T15:12:32Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:07.650915+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 147008,
+          "sha256": "d2a67a9976de7ed1f08f3f3ade81b394914567b9e433efb934093b1cf486a8ad",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 147008,
+          "sha256": "d2a67a9976de7ed1f08f3f3ade81b394914567b9e433efb934093b1cf486a8ad",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-phone-light-original.png",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-phone-light-original.png",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png",
+      "cdn_url": "https://cdn.miguo.art/downloads/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-original.png",
+      "bytes": 5589156,
+      "sha256": "dbaeac249d840c22383f617a719141f3037083d6a67ac9000ea09643443eacca",
+      "width": 1324,
+      "height": 2868,
+      "content_type": "image/png",
+      "source_retained": true,
+      "previous": {
+        "sha256": "6db3c847c80501aab07c8a3ef313d6703ed0c9c6bd9aff16244472641a37642a",
+        "bytes": 6363246,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.5729613+08:00",
+          "btime": "2026-11-18T16:53:20Z",
+          "cache-control": "public, max-age=14400",
+          "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-light-original.png\"",
+          "content-type": "image/png",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:36:42.8615276+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\downloads\\zzz-aod-wallpapers\\zzz-aod-wallpaper-phone-light-original.png"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:31.9585315+08:00",
+        "btime": "2026-11-19T15:12:34Z",
+        "cache-control": "public, max-age=14400",
+        "content-disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-light-original.png\"",
+        "content-type": "image/png",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:09.4314948+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 5589156,
+          "sha256": "dbaeac249d840c22383f617a719141f3037083d6a67ac9000ea09643443eacca",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-light-original.png\"",
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 5589156,
+          "sha256": "dbaeac249d840c22383f617a719141f3037083d6a67ac9000ea09643443eacca",
+          "content_type": "image/png",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": "attachment; filename=\"zzz-aod-wallpaper-phone-light-original.png\"",
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\zzz-aod-wallpaper-phone-light-preview.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/zzz-aod-wallpaper-phone-light-preview.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-preview.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/zzz-aod-wallpaper-phone-light-preview.webp",
+      "bytes": 95182,
+      "sha256": "2ed2800fb81948a6b2025475b2627d4111c57ade1cad06591db4f4b4bdfff252",
+      "width": 720,
+      "height": 1560,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "d9969ef715cbbf132d2ab0e844760b5abe0066b50287bd0e6920b1fd630a3ccc",
+        "bytes": 254910,
+        "metadata": {
+          "atime": "2026-11-19T00:50:25.6220685+08:00",
+          "btime": "2026-11-18T16:53:22Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T00:43:40.1406006+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\zzz-aod-wallpaper-phone-light-preview.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:34.1454406+08:00",
+        "btime": "2026-11-19T15:12:35Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:07:10.4143339+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 95182,
+          "sha256": "2ed2800fb81948a6b2025475b2627d4111c57ade1cad06591db4f4b4bdfff252",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "EXPIRED",
+          "age": null,
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 95182,
+          "sha256": "2ed2800fb81948a6b2025475b2627d4111c57ade1cad06591db4f4b4bdfff252",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    },
+    {
+      "source_path": "D:\\1. 電腦繪圖\\1. 進行中\\0915 妄想天使多插\\桌布\\壓縮\\cover.webp",
+      "source_wsl_path": "/mnt/d/1. 電腦繪圖/1. 進行中/0915 妄想天使多插/桌布/壓縮/cover.webp",
+      "target_bucket": "miguo-website-cdn",
+      "target_key": "articles/zzz-aod-wallpapers/cover.webp",
+      "cdn_url": "https://cdn.miguo.art/articles/zzz-aod-wallpapers/cover.webp",
+      "bytes": 86566,
+      "sha256": "05757d782bf1ea195b26146016c16187670e7be4f84d5fabb9ab5f1daf857ee3",
+      "width": 1273,
+      "height": 716,
+      "content_type": "image/webp",
+      "source_retained": true,
+      "previous": {
+        "sha256": "72e293ff90208636ceecb0fd301d6eb1bd5e3da8df600bddabb9c918f03ff034",
+        "bytes": 192822,
+        "metadata": {
+          "atime": "2026-11-19T01:16:27.1949402+08:00",
+          "btime": "2026-11-18T17:16:32Z",
+          "cache-control": "public, max-age=14400",
+          "content-type": "image/webp",
+          "gid": "1000",
+          "mode": "100777",
+          "mtime": "2026-11-19T01:15:47.1909959+08:00",
+          "tier": "STANDARD",
+          "uid": "1000"
+        },
+        "local_backup": "C:\\Users\\miguo\\.codex\\visualizations\\2026\\11\\18\\01a1ef3c-8905-7143-aaac-7691e79b0d3c\\r2-wallpaper-refresh\\articles\\zzz-aod-wallpapers\\cover.webp"
+      },
+      "dry_run": "passed-exact-object-overwrite",
+      "r2_metadata": {
+        "atime": "2026-11-19T23:12:35.3813714+08:00",
+        "btime": "2026-11-19T15:12:37Z",
+        "cache-control": "public, max-age=14400",
+        "content-type": "image/webp",
+        "gid": "1000",
+        "mode": "100777",
+        "mtime": "2026-11-19T23:10:03.5144944+08:00",
+        "tier": "STANDARD",
+        "uid": "1000"
+      },
+      "verification": {
+        "s3": "full-download-sha256-matched",
+        "cdn": {
+          "http_status": 200,
+          "bytes": 86566,
+          "sha256": "05757d782bf1ea195b26146016c16187670e7be4f84d5fabb9ab5f1daf857ee3",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "HIT",
+          "age": "54",
+          "matches_source": true
+        },
+        "cdn_cache_busted": {
+          "http_status": 200,
+          "bytes": 86566,
+          "sha256": "05757d782bf1ea195b26146016c16187670e7be4f84d5fabb9ab5f1daf857ee3",
+          "content_type": "image/webp",
+          "cache_control": "public, max-age=14400",
+          "content_disposition": null,
+          "cf_cache_status": "MISS",
+          "age": null,
+          "matches_source": true
+        },
+        "initial_windows_cdn_probe": {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      }
+    }
+  ],
+  "total_bytes": 63019281,
+  "verification_summary": {
+    "r2_matched": 17,
+    "cdn_matched": 17,
+    "versioned_cdn_matched": 17
+  },
+  "cdn_verification_method": "WSL curl with official-site Referer; complete response SHA-256 compared, both canonical and unique version query URLs."
+}

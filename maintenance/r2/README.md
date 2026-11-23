@@ -187,3 +187,12 @@
 - 確認無撞名並 dry-run 後上傳至 `articles/zzz-aod-wallpapers/cover.webp`；R2 與 CDN 完整內容 SHA-256、Content-Type 及 Cache-Control 比對通過，未覆寫或刪除舊圖。
 - 貼文 front matter 的 image 與內文首圖均改用新封面，其餘使用者編輯內容及換行保持不變。新封面已上傳，貼文隨本批變更保存於 `pre-release`，正式頁面尚未部署。
 - 詳細來源、壓縮設定與驗證證據見 [2026-11-19-zzz-aod-wallpapers-cover.json](2026-11-19-zzz-aod-wallpapers-cover.json)。
+
+
+### 同日：新版桌布與封面覆寫更新
+
+- 依使用者授權，將重新匯出的 8 張完整版 PNG、8 張預覽 WebP 與 1 張封面 WebP，共 17 個物件、63,019,281 bytes，覆蓋原有 R2 object key；預覽 PNG、JPG 與 PSD 未上傳，本機來源保留。
+- 先保存舊物件與中繼資料至本機備份，逐一 dry-run 後上傳。沿用 `public, max-age=14400`，完整版 PNG 保留 attachment Content-Disposition 與原下載檔名。
+- 17 個物件從 R2 完整下載後的 SHA-256 均與新版來源一致。WSL curl 帶入官網 Referer，原 CDN URL 與獨立版本參數 URL 各 17 個完整 GET 的內容、類型、快取及適用的下載標頭均匹配；已驗證原網址在本次檢查節點回傳新版，未主動清除全球 CDN 或訪客瀏覽器快取。
+- 最初 Windows urllib 的 CDN 探測收到 403，改用上述 WSL curl 後全部通過；未據此推定已稽核或修改 Cloudflare 防火牆設定。
+- 網站路徑與文案未變，貼文仍待正式發布；本次未推送 main、未觸發正式部署。舊批次清單保留歷史內容，新版來源雜湊、舊物件備份、中繼資料與驗證證據見 [2026-11-19-zzz-aod-wallpapers-refresh.json](2026-11-19-zzz-aod-wallpapers-refresh.json)。
